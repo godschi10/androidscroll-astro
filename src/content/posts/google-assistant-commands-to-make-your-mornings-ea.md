@@ -3,7 +3,7 @@ title: "19 Google Assistant commands to make your mornings easier"
 date: 2023-10-30
 draft: false
 description: "19 Google Assistant voice commands that make your morning routine faster and easier. From alarms to news to reminders."
-cover: "https://androidscroll.com/wp-content/uploads/2023/10/19-Google-Assistant-commands-to-make-your-mornings-easie.jpg"
+cover: "/images/19-Google-Assistant-commands-to-make-your-mornings-easie.jpg"
 categories: ["productivity","tips-hidden-features"]
 parentCategory: "tips-hidden-features"
 ---

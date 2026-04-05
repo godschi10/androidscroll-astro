@@ -3,7 +3,7 @@ title: "How to Improve Battery Life on Android (Make It Last All Day)"
 date: 2023-04-13
 draft: false
 description: "Practical settings and habits that make your Android battery last all day. Tested and verified on real devices."
-cover: "https://androidscroll.com/wp-content/uploads/2023/04/improve-android-battery-life-optimization-settings.jpg"
+cover: "/images/improve-android-battery-life-optimization-settings.jpg"
 categories: ["battery-life-hacks","tips-hidden-features"]
 parentCategory: "tips-hidden-features"
 ---

@@ -3,7 +3,7 @@ title: "7 Charging mistakes that are damaging your phone battery"
 date: 2022-03-14
 draft: false
 description: "7 common charging mistakes that are slowly killing your phone battery and what to do instead."
-cover: "https://androidscroll.com/wp-content/uploads/2022/03/android-charging-mistakes-battery-damage-teal.jpg"
+cover: "/images/android-charging-mistakes-battery-damage-teal.jpg"
 categories: ["battery-life-hacks","tips-hidden-features"]
 parentCategory: "tips-hidden-features"
 ---
