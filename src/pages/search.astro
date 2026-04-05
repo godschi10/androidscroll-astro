@@ -5,15 +5,14 @@ import { getCollection } from 'astro:content';
 const posts = (await getCollection('posts', ({ data }) => !data.draft))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
-const searchData = posts.map(post => ({
+const searchData = JSON.stringify(posts.map(post => ({
   id: post.id,
   title: post.data.title,
   description: post.data.description ?? '',
-  categories: post.data.categories?.join(' ') ?? '',
   url: `/posts/${post.id}`,
   cover: post.data.cover ?? '',
   date: post.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
-}));
+})));
 ---
 
 <Layout title="Search">
@@ -28,13 +27,12 @@ const searchData = posts.map(post => ({
       autofocus
     />
 
-    <p id="search-count" class="mt-3 text-sm text-neutral-400 hidden"></p>
-
+    <p id="search-count" class="mt-3 text-sm text-neutral-400"></p>
     <div id="search-results" class="mt-6 flex flex-col gap-4"></div>
 
     <div id="all-posts" class="mt-6 flex flex-col gap-4">
       {posts.map(post => (
-        <a href={`/posts/${post.id}`} class="group flex gap-4 bg-white rounded-xl border border-neutral-200 hover:border-[#00A88F] hover:shadow-md transition-all duration-300 p-4">
+        <a href={`/posts/${post.id}`} class="group flex gap-4 bg-white rounded-xl border border-neutral-200 hover:border-[#00A88F] hover:shadow-md transition-all p-4">
           {post.data.cover && (
             <div class="w-24 h-20 flex-shrink-0 rounded-lg overflow-hidden">
               <img src={post.data.cover} alt={post.data.title} class="w-full h-full object-cover" loading="lazy" />
@@ -52,40 +50,31 @@ const searchData = posts.map(post => ({
   </div>
 </Layout>
 
-<script define:vars={{ searchData }}>
-  import MiniSearch from 'minisearch';
-
-  const miniSearch = new MiniSearch({
-    fields: ['title', 'description', 'categories'],
-    storeFields: ['title', 'description', 'url', 'cover', 'date'],
-    searchOptions: {
-      boost: { title: 2 },
-      fuzzy: 0.2,
-      prefix: true,
-    }
-  });
-
-  miniSearch.addAll(searchData);
+<script type="module" data-posts={searchData}>
+  const raw = document.currentScript.getAttribute('data-posts');
+  const allData = JSON.parse(raw);
 
   const input = document.getElementById('search-input');
   const results = document.getElementById('search-results');
   const allPosts = document.getElementById('all-posts');
   const count = document.getElementById('search-count');
 
-  input.addEventListener('input', () => {
-    const query = input.value.trim();
-
+  function search(query) {
     if (!query) {
       results.innerHTML = '';
       allPosts.style.display = 'flex';
-      count.classList.add('hidden');
+      count.textContent = '';
       return;
     }
 
     allPosts.style.display = 'none';
-    const found = miniSearch.search(query);
+    const q = query.toLowerCase();
+    const found = allData.filter(p =>
+      p.title.toLowerCase().includes(q) ||
+      p.description.toLowerCase().includes(q)
+    );
+
     count.textContent = `${found.length} result${found.length !== 1 ? 's' : ''} for "${query}"`;
-    count.classList.remove('hidden');
 
     if (found.length === 0) {
       results.innerHTML = `<p class="text-neutral-500">No results found for "<strong>${query}</strong>"</p>`;
@@ -93,11 +82,8 @@ const searchData = posts.map(post => ({
     }
 
     results.innerHTML = found.map(r => `
-      <a href="${r.url}" class="group flex gap-4 bg-white rounded-xl border border-neutral-200 hover:border-[#00A88F] hover:shadow-md transition-all duration-300 p-4">
-        ${r.cover ? `
-        <div class="w-24 h-20 flex-shrink-0 rounded-lg overflow-hidden">
-          <img src="${r.cover}" alt="${r.title}" class="w-full h-full object-cover" loading="lazy" />
-        </div>` : ''}
+      <a href="${r.url}" class="group flex gap-4 bg-white rounded-xl border border-neutral-200 hover:border-[#00A88F] hover:shadow-md transition-all p-4">
+        ${r.cover ? `<div class="w-24 h-20 flex-shrink-0 rounded-lg overflow-hidden"><img src="${r.cover}" alt="${r.title}" class="w-full h-full object-cover" loading="lazy"></div>` : ''}
         <div class="flex flex-col justify-center">
           <h2 class="font-bold text-neutral-900 group-hover:text-[#00A88F] transition-colors leading-snug">${r.title}</h2>
           <p class="mt-1 text-xs text-neutral-400">${r.date}</p>
@@ -105,5 +91,7 @@ const searchData = posts.map(post => ({
         </div>
       </a>
     `).join('');
-  });
+  }
+
+  input.addEventListener('input', () => search(input.value.trim()));
 </script>

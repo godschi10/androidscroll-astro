@@ -81,16 +81,57 @@ const canonicalURL = new URL(Astro.url.pathname, siteUrl);
   </style>
 </head>
 <body class="bg-neutral-50 text-neutral-900 antialiased">
-  <header class="bg-white border-b border-neutral-200 sticky top-0 z-50">
-    <nav class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
-      <a href="/" class="font-heading font-bold text-xl text-[#00A88F]">AndroidScroll</a>
-      <ul class="flex items-center gap-6 text-sm font-semibold uppercase tracking-wide">
-        <li><a href="/posts" class="hover:text-[#00A88F] transition-colors">Posts</a></li>
-        <li><a href="/categories" class="hover:text-[#00A88F] transition-colors">Categories</a></li>
-        <li><a href="/search" class="hover:text-[#00A88F] transition-colors">Search</a></li>
-      </ul>
-    </nav>
-  </header>
+
+<header class="bg-white border-b border-neutral-200 sticky top-0 z-50">
+  <nav class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
+    <a href="/" class="font-bold text-xl text-[#00A88F]">AndroidScroll</a>
+
+    <!-- Desktop nav -->
+    <ul class="hidden md:flex items-center gap-6 text-sm font-semibold uppercase tracking-wide">
+      <li><a href="/posts" class="hover:text-[#00A88F] transition-colors">Posts</a></li>
+      <li><a href="/categories" class="hover:text-[#00A88F] transition-colors">Categories</a></li>
+      <li><a href="/search" class="hover:text-[#00A88F] transition-colors">Search</a></li>
+    </ul>
+
+    <!-- Hamburger button -->
+    <button id="menu-toggle" class="md:hidden flex flex-col gap-1.5 p-2" aria-label="Toggle menu">
+      <span class="block w-6 h-0.5 bg-neutral-900 transition-all" id="bar1"></span>
+      <span class="block w-6 h-0.5 bg-neutral-900 transition-all" id="bar2"></span>
+      <span class="block w-6 h-0.5 bg-neutral-900 transition-all" id="bar3"></span>
+    </button>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-neutral-100 px-5 py-4 flex flex-col gap-4">
+    <a href="/posts" class="text-sm font-semibold uppercase tracking-wide hover:text-[#00A88F] transition-colors">Posts</a>
+    <a href="/categories" class="text-sm font-semibold uppercase tracking-wide hover:text-[#00A88F] transition-colors">Categories</a>
+    <a href="/search" class="text-sm font-semibold uppercase tracking-wide hover:text-[#00A88F] transition-colors">Search</a>
+  </div>
+</header>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  const bar1 = document.getElementById('bar1');
+  const bar2 = document.getElementById('bar2');
+  const bar3 = document.getElementById('bar3');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+    bar1.classList.toggle('rotate-45');
+    bar1.classList.toggle('translate-y-2');
+    bar2.classList.toggle('opacity-0');
+    bar3.classList.toggle('-rotate-45');
+    bar3.classList.toggle('-translate-y-2');
+  });
+
+  // Close menu on link click
+  menu.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      menu.classList.add('hidden');
+    });
+  });
+</script>
 
   <main class="max-w-6xl mx-auto px-5 py-10">
     <slot />
