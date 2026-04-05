@@ -86,19 +86,37 @@ const canonicalURL = new URL(Astro.url.pathname, siteUrl);
   <nav class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
     <a href="/" class="font-bold text-xl text-[#00A88F]">AndroidScroll</a>
 
-    <!-- Desktop nav -->
-    <ul class="hidden md:flex items-center gap-6 text-sm font-semibold uppercase tracking-wide">
-      <li><a href="/posts" class="hover:text-[#00A88F] transition-colors">Posts</a></li>
-      <li><a href="/categories" class="hover:text-[#00A88F] transition-colors">Categories</a></li>
-      <li><a href="/search" class="hover:text-[#00A88F] transition-colors">Search</a></li>
-    </ul>
+    <div class="flex items-center gap-4">
+      <!-- Search bar (hidden by default) -->
+      <div id="search-bar" class="hidden items-center gap-2">
+        <input
+          id="nav-search"
+          type="text"
+          placeholder="Search..."
+          class="w-48 px-3 py-1.5 text-sm rounded-lg border border-neutral-200 focus:border-[#00A88F] focus:outline-none"
+        />
+      </div>
 
-    <!-- Hamburger button -->
-    <button id="menu-toggle" class="md:hidden flex flex-col gap-1.5 p-2" aria-label="Toggle menu">
-      <span class="block w-6 h-0.5 bg-neutral-900 transition-all" id="bar1"></span>
-      <span class="block w-6 h-0.5 bg-neutral-900 transition-all" id="bar2"></span>
-      <span class="block w-6 h-0.5 bg-neutral-900 transition-all" id="bar3"></span>
-    </button>
+      <!-- Search icon -->
+      <button id="search-toggle" aria-label="Search" class="text-neutral-600 hover:text-[#00A88F] transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+      </button>
+
+      <!-- Desktop nav -->
+      <ul class="hidden md:flex items-center gap-6 text-sm font-semibold uppercase tracking-wide">
+        <li><a href="/posts" class="hover:text-[#00A88F] transition-colors">Posts</a></li>
+        <li><a href="/categories" class="hover:text-[#00A88F] transition-colors">Categories</a></li>
+      </ul>
+
+      <!-- Hamburger -->
+      <button id="menu-toggle" class="md:hidden flex flex-col gap-1.5 p-2" aria-label="Toggle menu">
+        <span class="block w-6 h-0.5 bg-neutral-900 transition-all" id="bar1"></span>
+        <span class="block w-6 h-0.5 bg-neutral-900 transition-all" id="bar2"></span>
+        <span class="block w-6 h-0.5 bg-neutral-900 transition-all" id="bar3"></span>
+      </button>
+    </div>
   </nav>
 
   <!-- Mobile menu -->
@@ -110,6 +128,7 @@ const canonicalURL = new URL(Astro.url.pathname, siteUrl);
 </header>
 
 <script>
+  // Hamburger
   const toggle = document.getElementById('menu-toggle');
   const menu = document.getElementById('mobile-menu');
   const bar1 = document.getElementById('bar1');
@@ -125,11 +144,31 @@ const canonicalURL = new URL(Astro.url.pathname, siteUrl);
     bar3.classList.toggle('-translate-y-2');
   });
 
-  // Close menu on link click
   menu.querySelectorAll('a').forEach(a => {
-    a.addEventListener('click', () => {
-      menu.classList.add('hidden');
-    });
+    a.addEventListener('click', () => menu.classList.add('hidden'));
+  });
+
+  // Search toggle
+  const searchToggle = document.getElementById('search-toggle');
+  const searchBar = document.getElementById('search-bar');
+  const navSearch = document.getElementById('nav-search');
+
+  searchToggle.addEventListener('click', () => {
+    searchBar.classList.toggle('hidden');
+    searchBar.classList.toggle('flex');
+    if (!searchBar.classList.contains('hidden')) {
+      navSearch.focus();
+    }
+  });
+
+  navSearch.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && navSearch.value.trim()) {
+      window.location.href = `/search?q=${encodeURIComponent(navSearch.value.trim())}`;
+    }
+    if (e.key === 'Escape') {
+      searchBar.classList.add('hidden');
+      searchBar.classList.remove('flex');
+    }
   });
 </script>
 
