@@ -1,0 +1,64 @@
+---
+import '../styles/global.css';
+
+const { title, description } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description ?? "Android tips, tricks and guides"} />
+  <title>{title ? `${title} | AndroidScroll` : 'AndroidScroll'}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <style>
+    @font-face {
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url('/fonts/space-grotesk-v22-latin-700.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url('/fonts/space-grotesk-v22-latin-600.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url('/fonts/inter-v20-latin-regular.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url('/fonts/inter-v20-latin-600.woff2') format('woff2');
+    }
+  </style>
+</head>
+<body class="bg-neutral-50 text-neutral-900 font-body antialiased">
+  <header class="bg-white border-b border-neutral-200 sticky top-0 z-50">
+    <nav class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
+      <a href="/" class="font-heading font-bold text-xl text-[#00A88F]">AndroidScroll</a>
+      <ul class="flex items-center gap-6 text-sm font-semibold uppercase tracking-wide">
+        <li><a href="/posts" class="hover:text-[#00A88F] transition-colors">Posts</a></li>
+        <li><a href="/categories" class="hover:text-[#00A88F] transition-colors">Categories</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-5 py-10">
+    <slot />
+  </main>
+
+  <footer class="border-t-4 border-[#00A88F] mt-16 py-8 text-center text-sm text-neutral-500">
+    © {new Date().getFullYear()} AndroidScroll
+  </footer>
+</body>
+</html>

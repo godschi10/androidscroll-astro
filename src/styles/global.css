@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --brand: #00A88F;
+  --brand-hover: #008c72;
+}
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', Arial, sans-serif;
+  letter-spacing: -0.03em;
+}

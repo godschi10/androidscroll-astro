@@ -1,0 +1,69 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const categories = [
+  {
+    name: "Guides & How-tos",
+    slug: "guides-how-tos",
+    children: [
+      { name: "Basics & Setup", slug: "basics-setup" },
+      { name: "Customization", slug: "customization" },
+      { name: "Data Transfer & Backup", slug: "data-transfer-backup" },
+      { name: "Privacy & Security", slug: "privacy-security" },
+    ]
+  },
+  {
+    name: "Tips & Hidden Features",
+    slug: "tips-hidden-features",
+    children: [
+      { name: "Battery Life Hacks", slug: "battery-life-hacks" },
+      { name: "Camera Tricks", slug: "camera-tricks" },
+      { name: "Manufacturer Tips", slug: "manufacturer-tips" },
+      { name: "Productivity", slug: "productivity" },
+      { name: "Shortcuts & Settings", slug: "shortcuts-settings" },
+    ]
+  },
+  {
+    name: "Buying Guides & Recommendations",
+    slug: "buying-guides",
+    children: [
+      { name: "Best Accessories", slug: "best-accessories" },
+      { name: "Best Apps", slug: "best-apps" },
+      { name: "Best Games", slug: "best-games" },
+      { name: "Best Phones", slug: "best-phones" },
+      { name: "Comparisons", slug: "comparisons" },
+      { name: "Reviews", slug: "reviews" },
+    ]
+  },
+  {
+    name: "Troubleshooting & Fixes",
+    slug: "troubleshooting-fixes",
+    children: []
+  },
+];
+---
+
+<Layout title="Categories">
+  <h1 class="text-3xl font-bold mb-10">Categories</h1>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    {categories.map(cat => (
+      <div class="bg-white rounded-xl border border-neutral-200 overflow-hidden">
+        <a href={`/categories/${cat.slug}`} class="block bg-[#00A88F] px-6 py-4 hover:bg-[#008c72] transition-colors">
+          <h2 class="text-white font-bold text-lg">{cat.name}</h2>
+        </a>
+        {cat.children.length > 0 && (
+          <ul class="p-4 flex flex-col gap-2">
+            {cat.children.map(child => (
+              <li>
+                <a href={`/categories/${cat.slug}/${child.slug}`} class="flex items-center gap-2 text-neutral-700 hover:text-[#00A88F] transition-colors text-sm font-medium">
+                  <span class="text-[#00A88F]">→</span>
+                  {child.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    ))}
+  </div>
+</Layout>

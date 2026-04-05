@@ -1,0 +1,74 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const subcategories = [
+    { parent: "guides-how-tos", slug: "basics-setup", name: "Basics & Setup" },
+    { parent: "guides-how-tos", slug: "customization", name: "Customization" },
+    { parent: "guides-how-tos", slug: "data-transfer-backup", name: "Data Transfer & Backup" },
+    { parent: "guides-how-tos", slug: "privacy-security", name: "Privacy & Security" },
+    { parent: "tips-hidden-features", slug: "battery-life-hacks", name: "Battery Life Hacks" },
+    { parent: "tips-hidden-features", slug: "camera-tricks", name: "Camera Tricks" },
+    { parent: "tips-hidden-features", slug: "manufacturer-tips", name: "Manufacturer Tips" },
+    { parent: "tips-hidden-features", slug: "productivity", name: "Productivity" },
+    { parent: "tips-hidden-features", slug: "shortcuts-settings", name: "Shortcuts & Settings" },
+    { parent: "buying-guides", slug: "best-accessories", name: "Best Accessories" },
+    { parent: "buying-guides", slug: "best-apps", name: "Best Apps" },
+    { parent: "buying-guides", slug: "best-games", name: "Best Games" },
+    { parent: "buying-guides", slug: "best-phones", name: "Best Phones" },
+    { parent: "buying-guides", slug: "comparisons", name: "Comparisons" },
+    { parent: "buying-guides", slug: "reviews", name: "Reviews" },
+  ];
+
+  return subcategories.map(sub => ({
+    params: { category: sub.parent, subcategory: sub.slug },
+    props: { sub },
+  }));
+}
+
+const { sub } = Astro.props;
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const posts = allPosts
+  .filter(p => p.data.categories?.includes(sub.slug))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<Layout title={sub.name}>
+  <div class="mb-8">
+    <a href="/categories" class="text-sm text-[#00A88F] hover:underline">← All Categories</a>
+    <span class="text-neutral-400 mx-2">·</span>
+    <a href={`/categories/${sub.parent}`} class="text-sm text-[#00A88F] hover:underline">← {sub.parent.replace(/-/g, ' ')}</a>
+    <h1 class="text-3xl font-bold mt-2">{sub.name}</h1>
+    <p class="text-neutral-500 mt-1">{posts.length} articles</p>
+  </div>
+
+  {posts.length === 0 ? (
+    <p class="text-neutral-500">No posts in this category yet.</p>
+  ) : (
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {posts.map(post => (
+        <a href={`/posts/${post.id}`} class="group flex flex-col rounded-xl overflow-hidden bg-white border border-neutral-200 hover:border-[#00A88F] hover:shadow-md transition-all duration-300">
+          {post.data.cover ? (
+            <div class="w-full h-44 overflow-hidden">
+              <img src={post.data.cover} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+            </div>
+          ) : (
+            <div class="w-full h-2 bg-gradient-to-r from-[#00A88F] to-[#008c72]"></div>
+          )}
+          <div class="p-5 flex flex-col flex-1">
+            <h2 class="font-bold text-neutral-900 group-hover:text-[#00A88F] transition-colors leading-snug">
+              {post.data.title}
+            </h2>
+            <p class="mt-1 text-xs text-neutral-400">
+              {post.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+            </p>
+            {post.data.description && (
+              <p class="mt-2 text-sm text-neutral-600 line-clamp-2 flex-1">{post.data.description}</p>
+            )}
+          </div>
+        </a>
+      ))}
+    </div>
+  )}
+</Layout>
