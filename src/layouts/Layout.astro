@@ -149,27 +149,34 @@ const canonicalURL = new URL(Astro.url.pathname, siteUrl);
   });
 
   // Search toggle
-  const searchToggle = document.getElementById('search-toggle');
-  const searchBar = document.getElementById('search-bar');
-  const navSearch = document.getElementById('nav-search');
+const searchToggle = document.getElementById('search-toggle');
+const searchBar = document.getElementById('search-bar');
+const navSearch = document.getElementById('nav-search');
 
-  searchToggle.addEventListener('click', () => {
-    searchBar.classList.toggle('hidden');
-    searchBar.classList.toggle('flex');
-    if (!searchBar.classList.contains('hidden')) {
-      navSearch.focus();
-    }
-  });
+searchToggle.addEventListener('click', () => {
+  const isHidden = searchBar.classList.contains('hidden');
+  searchBar.classList.toggle('hidden');
+  searchBar.classList.toggle('flex');
+  if (isHidden) navSearch.focus();
+});
 
-  navSearch.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter' && navSearch.value.trim()) {
-      window.location.href = `/search?q=${encodeURIComponent(navSearch.value.trim())}`;
-    }
-    if (e.key === 'Escape') {
-      searchBar.classList.add('hidden');
-      searchBar.classList.remove('flex');
-    }
-  });
+// Close on click outside
+document.addEventListener('click', (e) => {
+  if (!searchBar.contains(e.target) && !searchToggle.contains(e.target)) {
+    searchBar.classList.add('hidden');
+    searchBar.classList.remove('flex');
+  }
+});
+
+navSearch.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && navSearch.value.trim()) {
+    window.location.href = `/search?q=${encodeURIComponent(navSearch.value.trim())}`;
+  }
+  if (e.key === 'Escape') {
+    searchBar.classList.add('hidden');
+    searchBar.classList.remove('flex');
+  }
+});
 </script>
 
   <main class="max-w-6xl mx-auto px-5 py-10">
