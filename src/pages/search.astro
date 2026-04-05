@@ -94,4 +94,12 @@ const searchData = JSON.stringify(posts.map(post => ({
   }
 
   input.addEventListener('input', () => search(input.value.trim()));
+
+// Auto-search from URL param
+const params = new URLSearchParams(window.location.search);
+const q = params.get('q');
+if (q) {
+  input.value = q;
+  search(q);
+}
 </script>
