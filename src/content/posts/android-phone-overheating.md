@@ -2,6 +2,8 @@
 title: "Android Phone Overheating? Causes and Fixes (2026)"
 date: 2026-04-01
 draft: false
+description: "Find out why your Android phone is overheating and how to fix it fast. Covers background apps, charging habits, and settings to cool your device down."
+cover: "https://androidscroll.com/wp-content/uploads/2026/04/android-phone-overheating-temperature-warning-teal-768x384.jpg"
 categories: ["troubleshooting-fixes"]
 parentCategory: "troubleshooting-fixes"
 ---

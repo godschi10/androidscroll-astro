@@ -2,6 +2,8 @@
 title: "How to Read Deleted WhatsApp Messages (Even After They’re Gone)"
 date: 2019-07-12
 draft: false
+description: "How to read deleted WhatsApp messages on Android even after they have been deleted by the sender."
+cover: "https://androidscroll.com/wp-content/uploads/2019/07/read-deleted-whatsapp-messages-android.jpg"
 categories: ["productivity","tips-hidden-features"]
 parentCategory: "tips-hidden-features"
 ---
