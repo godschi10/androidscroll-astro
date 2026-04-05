@@ -3,7 +3,7 @@ title: "How to Increase Storage Space on Android (9 Easy Ways to Free Up Memory)
 date: 2023-10-20
 draft: false
 description: "9 easy ways to free up storage space on your Android phone without buying a new device or losing your files."
-cover: "/images/increase-android-storage-space-full-vs-clean.jpg"
+cover: "https://images.androidscroll.com/increase-android-storage-space-full-vs-clean.jpg"
 categories: ["basics-setup","guides-how-tos"]
 parentCategory: "guides-how-tos"
 ---

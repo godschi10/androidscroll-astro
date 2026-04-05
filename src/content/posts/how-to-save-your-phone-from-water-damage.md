@@ -3,7 +3,7 @@ title: "Dropped Your Phone in Water? Do This Immediately to Save It"
 date: 2019-05-19
 draft: false
 description: "Dropped your phone in water? Do these steps immediately to save it before the damage becomes permanent."
-cover: "/images/save-phone-from-water-damage-android.jpg"
+cover: "https://images.androidscroll.com/save-phone-from-water-damage-android.jpg"
 categories: ["troubleshooting-fixes"]
 parentCategory: "troubleshooting-fixes"
 ---

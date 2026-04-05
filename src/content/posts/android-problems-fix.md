@@ -3,7 +3,7 @@ title: "Android Problems: The Complete Fix Guide (2026)"
 date: 2026-03-31
 draft: false
 description: "The complete guide to fixing the most common Android problems in 2026. Covers overheating, battery drain, storage, Wi-Fi drops, and app crashes."
-cover: "/images/android-problems-fix-guide-768x384.jpg"
+cover: "https://images.androidscroll.com/android-problems-fix-guide-768x384.jpg"
 categories: ["troubleshooting-fixes"]
 parentCategory: "troubleshooting-fixes"
 ---

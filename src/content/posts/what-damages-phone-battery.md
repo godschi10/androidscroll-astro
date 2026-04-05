@@ -3,7 +3,7 @@ title: "What damages phone battery? Top 5 reasons and how to avoid them"
 date: 2023-07-15
 draft: false
 description: "The top 5 things that damage your phone battery and how to avoid them to make your battery last longer."
-cover: "/images/what-damages-phone-battery.jpg"
+cover: "https://images.androidscroll.com/what-damages-phone-battery.jpg"
 categories: ["troubleshooting-fixes"]
 parentCategory: "troubleshooting-fixes"
 ---

@@ -3,7 +3,7 @@ title: "How to Test a New Android Phone (Complete Checklist Before You Use It)"
 date: 2023-08-17
 draft: false
 description: "Complete checklist for testing a new Android phone before you use it. Covers display, battery, sensors, cameras, and connectivity."
-cover: "/images/test-android-phone-checklist-diagnostics.jpg"
+cover: "https://images.androidscroll.com/test-android-phone-checklist-diagnostics.jpg"
 categories: ["basics-setup","guides-how-tos"]
 parentCategory: "guides-how-tos"
 ---
