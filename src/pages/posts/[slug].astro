@@ -14,7 +14,13 @@ const { post } = Astro.props;
 const { Content } = await render(post);
 ---
 
-<Layout title={post.data.title} description={post.data.description}>
+<Layout 
+  title={post.data.title} 
+  description={post.data.description}
+  cover={post.data.cover}
+  coverAlt={post.data.coverAlt}
+  type="article"
+>
   <article class="max-w-prose mx-auto">
 
     {post.data.cover && (
