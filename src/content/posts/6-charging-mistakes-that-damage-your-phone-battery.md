@@ -7,7 +7,7 @@ parentCategory: "tips-hidden-features"
 ---
 
 <!-- wp:paragraph -->
-<p>Have you ever wondered why your phone battery seems to die so quickly, even after a full charge?</p>
+<p>Have you ever wondered why your phone battery seems to always die so quickly, even after a full charge?</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
