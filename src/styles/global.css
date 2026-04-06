@@ -148,7 +148,7 @@ layout{margin-top:30px !important}
 /* Custom unordered lists */
 .post-content ul {
   list-style-type: none;
-  padding-left: 0;
+  padding-left: 30px;
   margin-bottom: 1.5em;
 }
 .post-content ul li {
@@ -172,7 +172,7 @@ layout{margin-top:30px !important}
 .post-content ol {
   list-style: none;
   counter-reset: custom-step-counter;
-  padding-left: 0;
+  padding-left: 30px;
   margin-bottom: 1.5em;
 }
 .post-content ol li {
@@ -352,6 +352,7 @@ p.first-p { margin-top: -22.5px !important; }
   -ms-overflow-style: none;
   font-size: 0.8em;
   color: var(--text-muted);
+  padding-right:30px;
 }
 .scrollable-meta::-webkit-scrollbar { display: none; }
 .scrollable-meta span { white-space: nowrap; flex-shrink: 0; }
