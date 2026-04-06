@@ -1,5 +1,10 @@
 ---
 import '../styles/global.css';
+import SearchOverlay from '../components/SearchOverlay.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('posts', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
 const {
   title,
@@ -19,6 +24,9 @@ const metaDescription = description ?? defaultDescription;
 const metaImage = cover ?? defaultCover;
 const metaImageAlt = coverAlt ?? metaTitle;
 const canonicalURL = new URL(Astro.url.pathname, siteUrl);
+
+const { pathname } = Astro.url;
+const isSinglePost = pathname.startsWith('/posts/') && pathname.split('/').filter(Boolean).length > 1;
 ---
 
 <!DOCTYPE html>
@@ -86,9 +94,7 @@ const canonicalURL = new URL(Astro.url.pathname, siteUrl);
         </div>
 
         <!-- Search icon -->
-        <button id="search-toggle" aria-label="Search" style="border:none; background:transparent; cursor:pointer; color:var(--text-muted); display:flex; align-items:center; padding:4px;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-        </button>
+<SearchOverlay posts={posts} />
 
         <!-- Desktop nav -->
         <ul style="display:none; list-style:none; margin:0; padding:0; gap:24px; font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:0.05em;" class="desktop-nav">
@@ -113,7 +119,7 @@ const canonicalURL = new URL(Astro.url.pathname, siteUrl);
     </div>
   </header>
 
-<main style={Astro.url.pathname.includes('/posts') ? "" : "padding:5px var(--container-side-padding)"}>
+<main style={isSinglePost ? "" : "padding:5px var(--container-side-padding)"}>
   <slot />
 </main>
 
@@ -122,10 +128,10 @@ const canonicalURL = new URL(Astro.url.pathname, siteUrl);
     <p style="margin:0;">© 2019–{new Date().getFullYear()} AndroidScroll.com</p>
   </footer>
 
-  <!-- Back to top -->
+  <!-- Back to top --
   <button id="as-back-to-top" aria-label="Back to top">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6"/></svg>
-  </button>
+  </button> -->
 
   <!-- Sticky footer ad -->
   <div class="as-sticky-footer" id="asStickyFooter">
@@ -164,29 +170,6 @@ const canonicalURL = new URL(Astro.url.pathname, siteUrl);
       a.addEventListener('click', () => { mobileMenu.style.display = 'none'; });
     });
 
-    // Search toggle
-    const searchToggle = document.getElementById('search-toggle');
-    const searchBar = document.getElementById('search-bar');
-    const navSearch = document.getElementById('nav-search');
-
-    searchToggle.addEventListener('click', () => {
-      const hidden = searchBar.style.display === 'none' || !searchBar.style.display;
-      searchBar.style.display = hidden ? 'flex' : 'none';
-      if (hidden) navSearch.focus();
-    });
-
-    document.addEventListener('click', (e) => {
-      if (!searchBar.contains(e.target) && !searchToggle.contains(e.target)) {
-        searchBar.style.display = 'none';
-      }
-    });
-
-    navSearch.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' && navSearch.value.trim()) {
-        window.location.href = `/search?q=${encodeURIComponent(navSearch.value.trim())}`;
-      }
-      if (e.key === 'Escape') searchBar.style.display = 'none';
-    });
 
     // Reading progress
     const progressBar = document.getElementById('as-progress-bar');
