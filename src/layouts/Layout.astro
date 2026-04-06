@@ -113,9 +113,10 @@ const canonicalURL = new URL(Astro.url.pathname, siteUrl);
     </div>
   </header>
 
-  <main style="max-width:1180px; margin:auto; padding:40px var(--container-side-padding);">
-    <slot />
-  </main>
+<main style={Astro.url.pathname.includes('/posts') ? "" : "padding:5px var(--container-side-padding)"}>
+  <slot />
+</main>
+
 
   <footer style="background:var(--text-dark); border-top:20px solid var(--brand-primary); padding:30px var(--container-side-padding); text-align:center; color:#fff; font-size:14px;">
     <p style="margin:0;">© 2019–{new Date().getFullYear()} AndroidScroll.com</p>
