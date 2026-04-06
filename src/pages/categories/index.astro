@@ -50,7 +50,7 @@ const categories = [
     {categories.map(cat => (
       <div class="bg-surface-2 rounded-xl border border-neutral-200 dark:border-neutral-700 overflow-hidden shadow-sm">
         <a href={`/categories/${cat.slug}`} class="block bg-[#00A88F] px-6 py-4 hover:bg-[#008c72] transition-colors">
-          <h2 class="text-white font-bold text-lg">{cat.name}</h2>
+          <h2 class="font-bold" style="color:#fff !important">{cat.name}</h2>
         </a>
         
         {cat.children.length > 0 ? (

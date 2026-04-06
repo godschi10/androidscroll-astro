@@ -116,12 +116,12 @@ const isSinglePost = pathname.startsWith('/posts/') && pathname.split('/').filte
     </div>
   </header>
 
-<main style={isSinglePost ? "" : "padding:5px var(--container-side-padding);margin: 30px 0"}>
+<main style={isSinglePost ? "" : "padding:5px var(--container-side-padding);margin: 40px 0"}>
   <slot />
 </main>
 
 
-  <footer style="background:var (--bg-footer); border-top:20px solid var(--brand-primary); padding:30px var(--container-side-padding); text-align:center; color:#fff; font-size:14px;">
+  <footer style="background:var(--bg-footer) !important; border-top:20px solid var(--brand-primary); padding:30px var(--container-side-padding); text-align:center; color:#fff; font-size:14px;">
     <p style="margin:0;">© 2019–{new Date().getFullYear()} AndroidScroll.com</p>
   </footer>
 
