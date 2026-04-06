@@ -102,19 +102,29 @@ parentCategory: "tips-hidden-features"
 
 <h3>Turning off vibrations</h3>
 
+<ul>
 <li>Go to <strong>Settings</strong> &gt; <strong>Sound</strong></li>
+</ul>
 
+<ul>
 <li>Tap on <strong>Vibrate for calls</strong> to toggle it off</li>
+</ul>
 
 <figure class="wp-block-image size-large is-resized"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Turn-off-vibrate-for-calls-461x1024.jpg" alt="" class="wp-image-8827" style="width:344px;height:764px"/></figure>
 
 <h3>Turning off haptic feedback</h3>
 
+<ul>
 <li>Go to <strong>Settings</strong> &gt; <strong>Accessibility</strong></li>
+</ul>
 
+<ul>
 <li>Tap on <strong>Vibration &amp; haptic strength</strong> and drag the sliders to the left for <strong>Touch feedback</strong> and <strong>Ring Vibration</strong>.</li>
+</ul>
 
+<ul>
 <li>If you use Gboard as your keyboard app, go to <strong>Settings</strong> &gt; <strong>System</strong> &gt; <strong>Languages &amp; input</strong> &gt; <strong>Virtual keyboard</strong> &gt; <strong>Gboard</strong> &gt; <strong>Preferences</strong> and toggle off <strong>Haptic feedback on keypress</strong></li>
+</ul>
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Vibration-haptic-strength-461x1024.jpg" alt="" class="wp-image-8828"/><figcaption class="wp-element-caption">Vibration &amp; haptic strength</figcaption></figure>
 
@@ -138,15 +148,25 @@ parentCategory: "tips-hidden-features"
 
 <p>To close them using Recent Apps, you can follow these steps:</p>
 
+<ul>
 <li>Access Recent Apps by tapping the square button at the bottom of your screen to access Recent Apps.</li>
+</ul>
 
+<ul>
 <li>Swipe left or right to view the list of apps.</li>
+</ul>
 
+<ul>
 <li>Swipe up or press <strong>X</strong> on the app you want to close to remove it from the list.</li>
+</ul>
 
+<ul>
 <li>Repeat these steps for any other apps you want to close.</li>
+</ul>
 
+<ul>
 <li>You can remove all at once by pressing the clear all button</li>
+</ul>
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Click-square-to-open-Recent-Apps-461x1024.jpg" alt="" class="wp-image-8834"/></figure>
 
@@ -162,25 +182,41 @@ parentCategory: "tips-hidden-features"
 
 <p>When you activate battery saver mode, your device will:</p>
 
+<ul>
 <li>Limit background activity and data usage of apps</li>
+</ul>
 
+<ul>
 <li>Turn off location services and Bluetooth</li>
+</ul>
 
+<ul>
 <li>Reduce screen brightness and timeout</li>
+</ul>
 
+<ul>
 <li>Disable animations and vibrations</li>
+</ul>
 
 <p>By using battery saver mode, you can extend your battery life by up to 15% or more, depending on your device and usage.</p>
 
 <p>To activate battery saver mode, follow these steps:</p>
 
+<ul>
 <li>Swipe down from the top of your screen to access the notification panel</li>
+</ul>
 
+<ul>
 <li>Press and hold the battery icon to open the battery settings</li>
+</ul>
 
+<ul>
 <li>Tap on the battery saver option and toggle it on</li>
+</ul>
 
+<ul>
 <li>You can also set a schedule for battery saver mode to turn on automatically when your battery level reaches a certain percentage</li>
+</ul>
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-Battery-Saver-Quick-Access-461x1024.jpg" alt="" class="wp-image-8836"/></figure>
 
@@ -192,13 +228,21 @@ parentCategory: "tips-hidden-features"
 
 <p>To do this:</p>
 
+<ul>
 <li>Swipe down from the top of your screen twice to expand the quick settings panel</li>
+</ul>
 
+<ul>
 <li>Tap on the pencil icon to edit the panel</li>
+</ul>
 
+<ul>
 <li>Drag and drop the battery saver icon to your desired position</li>
+</ul>
 
+<ul>
 <li>Tap on the back button to save your changes</li>
+</ul>
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Click-Pencil-icon-to-add-quick-settings-461x1024.jpg" alt="" class="wp-image-8839"/></figure>
 
@@ -218,11 +262,17 @@ parentCategory: "tips-hidden-features"
 
 <p>To turn off auto-sync, follow these steps:</p>
 
+<ul>
 <li>Go to <strong>Settings</strong> &gt; <strong>Accounts</strong>.</li>
+</ul>
 
+<ul>
 <li>Scroll to the bottom.</li>
+</ul>
 
+<ul>
 <li>Tap on the slider to disable auto-sync.</li>
+</ul>
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-Auto-sync-Accounts-461x1024.jpg" alt="" class="wp-image-8843"/></figure>
 
@@ -242,13 +292,21 @@ parentCategory: "tips-hidden-features"
 
 <p>Here's how to do it in a few easy steps:</p>
 
+<ul>
 <li>Go to <strong>Settings</strong> &gt; <strong>Apps &amp; notifications</strong> &gt; <strong>SEE ALL XX APPS</strong>.</li>
+</ul>
 
+<ul>
 <li>Find the app that you want to delete and tap on it.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Uninstall</strong> and then <strong>OK</strong> to confirm.</li>
+</ul>
 
+<ul>
 <li>Do this for any other apps that you don't use.</li>
+</ul>
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-Apps-and-Notifications-461x1024.jpg" alt="" class="wp-image-8851"/></figure>
 
@@ -272,11 +330,17 @@ parentCategory: "tips-hidden-features"
 
 <p>Here's how to turn it on:</p>
 
+<ul>
 <li>Go to <strong>Settings</strong> &gt; <strong>Display</strong> &gt; <strong>Dark theme</strong>.</li>
+</ul>
 
+<ul>
 <li>Slide the switch to the right to enable dark mode.</li>
+</ul>
 
+<ul>
 <li>Enjoy your new appearance and longer battery life.</li>
+</ul>
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Activate-Darkmode-Android-461x1024.jpg" alt="" class="wp-image-8856"/></figure>
 
@@ -298,11 +362,17 @@ parentCategory: "tips-hidden-features"
 
 <p>Here's how:</p>
 
+<ul>
 <li>Swipe down from the top of your screen to open the Quick Settings panel.</li>
+</ul>
 
+<ul>
 <li>Look for the Wi-Fi and Bluetooth icons.</li>
+</ul>
 
+<ul>
 <li>Tap on each icon to turn them off.</li>
+</ul>
 
 <p>That's it!</p>
 
@@ -322,15 +392,25 @@ parentCategory: "tips-hidden-features"
 
 <p>To set a black wallpaper on your Android device, follow these steps:</p>
 
+<ul>
 <li>Open the Settings app on your device.</li>
+</ul>
 
+<ul>
 <li>Tap on <strong>Display</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap on <strong>Wallpaper</strong>.</li>
+</ul>
 
+<ul>
 <li>Select a black wallpaper from the available options or download one from the internet.</li>
+</ul>
 
+<ul>
 <li>Tap on Set Wallpaper to apply the change.</li>
+</ul>
 
 <p>By using a black wallpaper on an AMOLED screen, you can reduce the power consumption of your device and extend its battery life.</p>
 
@@ -342,13 +422,21 @@ parentCategory: "tips-hidden-features"
 
 <p>Here's how to update your Android software:</p>
 
+<ul>
 <li>Open the <strong>Settings</strong> app on your phone.</li>
+</ul>
 
+<ul>
 <li>Scroll down and tap on <strong>System</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap on <strong>System update</strong>.</li>
+</ul>
 
+<ul>
 <li>If there's an update available, follow the instructions to download and install it.</li>
+</ul>
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-System-Settings-461x1024.jpg" alt="" class="wp-image-8863"/></figure>
 

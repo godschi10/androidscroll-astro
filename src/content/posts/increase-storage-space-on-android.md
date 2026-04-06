@@ -14,11 +14,17 @@ parentCategory: "guides-how-tos"
 
 <p><strong>Quick Summary: How to Free Up Space Fast</strong></p>
 
+<ul>
 <li><strong>Clear cached files:</strong> Go to Settings → Storage → Cached Data, then remove temporary files that apps no longer need.</li>
+</ul>
 
+<ul>
 <li><strong>Delete large files and old downloads:</strong> Open Files / My Files → Downloads and remove videos, APKs, and large documents you no longer use.</li>
+</ul>
 
+<ul>
 <li><strong>Empty the trash in apps like Google Photos:</strong> Deleted photos remain in the Trash/Bin for 30 days unless you permanently delete them.</li>
+</ul>
 
 <h2>1. Use the <strong>Files by Google</strong> App (The Fastest Method)</h2>
 
@@ -28,13 +34,21 @@ parentCategory: "guides-how-tos"
 
 <h3>Steps to Free Up Space Using Files by Google</h3>
 
+<ul>
 <li>Open <strong>Files by Google</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap the <strong>Clean</strong> tab at the bottom of the screen.</li>
+</ul>
 
+<ul>
 <li>Review suggestions like <strong>Junk files</strong>, <strong>Large files</strong>, and <strong>Duplicate files</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Free up</strong> next to the category you want to clean.</li>
+</ul>
 
 <p>The app will safely remove temporary files, unused app data, and other clutter that builds up over time. This can instantly <strong>clear Android memory</strong> and recover several hundred megabytes, or even gigabytes of storage.</p>
 
@@ -46,13 +60,21 @@ parentCategory: "guides-how-tos"
 
 <h3>Steps to Free Up Space Using Google Photos</h3>
 
+<ul>
 <li>Open <strong>Google Photos</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap your <strong>profile picture</strong> in the top-right corner.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Free up space</strong>.</li>
+</ul>
 
+<ul>
 <li>Confirm when the app asks to remove backed-up photos and videos.</li>
+</ul>
 
 <p>Google Photos will automatically <strong>delete the files stored on your phone while keeping them safely backed up in your Google account</strong>. This means you can still view, download, or share them anytime from the cloud.</p>
 
@@ -64,27 +86,45 @@ parentCategory: "guides-how-tos"
 
 <p>Here’s the difference:</p>
 
+<ul>
 <li><strong>Cache:</strong> Temporary files and junk data apps store for speed. Safe to delete.</li>
+</ul>
 
+<ul>
 <li><strong>Data:</strong> Your login info, settings, and saved preferences. Deleting this resets the app.</li>
+</ul>
 
 <p>Removing cached files helps <strong>clear Android memory</strong> and can fix slow or buggy apps at the same time.</p>
 
 <h3>Steps to Clear App Cache</h3>
 
+<ul>
 <li>Open <strong>Settings</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Apps</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>See all apps</strong>.</li>
+</ul>
 
+<ul>
 <li>Sort the apps by <strong>Size</strong> to find the biggest ones.</li>
+</ul>
 
+<ul>
 <li>Tap the app you want to clean.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Storage &amp; cache</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Clear cache</strong>.</li>
+</ul>
 
 <p>Repeat this for apps that tend to store large caches, such as browsers, social media apps, or streaming apps.</p>
 
@@ -98,15 +138,25 @@ parentCategory: "guides-how-tos"
 
 <h3>Steps to Uninstall Apps</h3>
 
+<ul>
 <li>Open <strong>Settings</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Apps</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>See all apps</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap the app you want to remove.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Uninstall</strong>.</li>
+</ul>
 
 <p>You can also quickly uninstall apps by <strong>long-pressing the app icon on your home screen</strong> and tapping <strong>Uninstall</strong>.</p>
 
@@ -120,15 +170,25 @@ parentCategory: "guides-how-tos"
 
 <h3>Steps to Disable Bloatware Apps</h3>
 
+<ul>
 <li>Open <strong>Settings</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Apps</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>See all apps</strong>.</li>
+</ul>
 
+<ul>
 <li>Select the app you want to disable.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Disable</strong>.</li>
+</ul>
 
 <p>Once disabled, the app will no longer run or update, which can help <strong>free up space on Android</strong> and improve performance.</p>
 
@@ -144,19 +204,33 @@ parentCategory: "guides-how-tos"
 
 <p><strong>Steps:</strong></p>
 
+<ul>
 <li>Open <strong>WhatsApp</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap the <strong>three-dot menu</strong> in the top-right corner.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Settings</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Storage and data</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Manage storage</strong>.</li>
+</ul>
 
+<ul>
 <li>Review sections like <strong>Larger than 5 MB</strong> and <strong>Forwarded many times</strong>.</li>
+</ul>
 
+<ul>
 <li>Select the files you want to remove and tap <strong>Delete</strong>.</li>
+</ul>
 
 <p>Deleting large videos and old forwarded media is one of the fastest ways to <strong>clear Android memory</strong>.</p>
 
@@ -166,17 +240,29 @@ parentCategory: "guides-how-tos"
 
 <p><strong>Steps:</strong></p>
 
+<ul>
 <li>Open <strong>Telegram</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Settings</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Data and Storage</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Storage Usage</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Clear Telegram Cache</strong>.</li>
+</ul>
 
+<ul>
 <li>Select which media types to remove and confirm.</li>
+</ul>
 
 <p>This will delete temporary files stored on your phone while keeping them accessible in the cloud.</p>
 
@@ -186,15 +272,25 @@ parentCategory: "guides-how-tos"
 
 <p><strong>Steps:</strong></p>
 
+<ul>
 <li>Open <strong>Telegram</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Settings</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Data and Storage</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Storage Usage</strong>.</li>
+</ul>
 
+<ul>
 <li>Under <strong>Keep Media</strong>, choose <strong>3 days</strong>, <strong>1 week</strong>, or <strong>1 month</strong>.</li>
+</ul>
 
 <p>This feature automatically clears old files so your phone doesn’t run into <strong>Android storage full</strong> issues again.</p>
 
@@ -210,15 +306,25 @@ parentCategory: "guides-how-tos"
 
 <p><strong>Steps:</strong></p>
 
+<ul>
 <li>Open <strong>Google Maps</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap your <strong>profile picture</strong> in the top-right corner.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Offline maps</strong>.</li>
+</ul>
 
+<ul>
 <li>Select a downloaded map.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Delete</strong>.</li>
+</ul>
 
 <p>Removing maps you no longer need helps <strong>increase storage space on Android</strong> quickly.</p>
 
@@ -228,15 +334,25 @@ parentCategory: "guides-how-tos"
 
 <p><strong>Steps:</strong></p>
 
+<ul>
 <li>Open <strong>Spotify</strong>.</li>
+</ul>
 
+<ul>
 <li>Go to <strong>Your Library</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Downloaded</strong> to see offline content.</li>
+</ul>
 
+<ul>
 <li>Open a downloaded playlist or album.</li>
+</ul>
 
+<ul>
 <li>Toggle <strong>Download</strong> off to remove it from your device.</li>
+</ul>
 
 <p>The music will still be available for streaming when you’re online.</p>
 
@@ -246,27 +362,47 @@ parentCategory: "guides-how-tos"
 
 <p><strong>Netflix Steps:</strong></p>
 
+<ul>
 <li>Open <strong>Netflix</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Downloads</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap the <strong>pencil/edit icon</strong>.</li>
+</ul>
 
+<ul>
 <li>Select videos you want to remove.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Delete</strong>.</li>
+</ul>
 
 <p><strong>YouTube Steps:</strong></p>
 
+<ul>
 <li>Open <strong>YouTube</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Library</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Downloads</strong>.</li>
+</ul>
 
+<ul>
 <li>Select a video.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Delete from downloads</strong>.</li>
+</ul>
 
 <p>Removing offline videos can instantly <strong>clear Android memory</strong> and solve the <strong>Android storage full</strong> problem.</p>
 
@@ -282,17 +418,29 @@ parentCategory: "guides-how-tos"
 
 <p><strong>Steps:</strong></p>
 
+<ul>
 <li>Open <strong>Google Photos</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Library</strong> at the bottom.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Trash</strong> (or <strong>Bin</strong>).</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Select</strong>.</li>
+</ul>
 
+<ul>
 <li>Choose the items you want to delete permanently.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Delete permanently</strong>.</li>
+</ul>
 
 <p>You can also tap <strong>Empty Trash</strong> to remove everything at once.</p>
 
@@ -302,15 +450,25 @@ parentCategory: "guides-how-tos"
 
 <p><strong>Steps:</strong></p>
 
+<ul>
 <li>Open <strong>Files by Google</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap the <strong>three-line menu</strong> (top left).</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Trash</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Empty Trash</strong>.</li>
+</ul>
 
+<ul>
 <li>Confirm the deletion.</li>
+</ul>
 
 <p>Once the trash is emptied, the files are <strong>permanently removed</strong>, which can immediately <strong>free up space on Android</strong>.</p>
 
@@ -328,13 +486,21 @@ parentCategory: "guides-how-tos"
 
 <p><strong>Steps:</strong></p>
 
+<ul>
 <li>Open your <strong>Camera app</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Settings</strong>.</li>
+</ul>
 
+<ul>
 <li>Find <strong>Storage location</strong>.</li>
+</ul>
 
+<ul>
 <li>Select <strong>SD card</strong>.</li>
+</ul>
 
 <p>New photos and videos will now be stored on the card instead of internal storage.</p>
 
@@ -344,17 +510,29 @@ parentCategory: "guides-how-tos"
 
 <p><strong>Steps:</strong></p>
 
+<ul>
 <li>Open <strong>Settings</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Apps</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>See all apps</strong>.</li>
+</ul>
 
+<ul>
 <li>Select an app.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Storage</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Change</strong> → <strong>SD card</strong>.</li>
+</ul>
 
 <p>Not every app supports this feature, but moving larger apps can help <strong>free up space on Android</strong> quickly.</p>
 
@@ -368,15 +546,25 @@ parentCategory: "guides-how-tos"
 
 <h3>Steps to Factory Reset Your Android Phone</h3>
 
+<ul>
 <li>Open <strong>Settings</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>System</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Reset options</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Erase all data (factory reset)</strong>.</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Reset phone</strong> and confirm.</li>
+</ul>
 
 <p>Your phone will restart and begin the reset process. After setup, you can restore your data from your backup.</p>
 

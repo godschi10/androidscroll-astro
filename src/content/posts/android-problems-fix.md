@@ -14,37 +14,69 @@ parentCategory: "troubleshooting-fixes"
 
 <p>Quick Summary: 16 Android Problems and the Fastest Fix for Each</p>
 
+<ul>
 <li><strong>Overheating</strong>: Close background apps. Remove the case.[<a href="https://androidscroll.com/android-phone-overheating/" data-type="post" data-id="10593">Full guide→</a>]</li>
+</ul>
 
+<ul>
 <li><strong>Battery draining fast</strong>: Settings &gt; Battery &gt; Battery Usage &gt; restrict culprit app.[<a href="https://androidscroll.com/android-battery-draining-fast/" data-type="post" data-id="10630">Full guide→</a>]</li>
+</ul>
 
+<ul>
 <li><strong>Storage full after deleting</strong>: App cache, WhatsApp hidden media, and ghost files are the real cause.[<a href="https://androidscroll.com/android-storage-full-after-deleting-files/">Full guide→</a>]</li>
+</ul>
 
+<ul>
 <li><strong>Lagging after update</strong>: Normal for 24 to 72 hours. ART cache rebuild is running.</li>
+</ul>
 
+<ul>
 <li><strong>Wi-Fi keeps disconnecting</strong>: Disable Adaptive Connectivity. Check DNS and band settings.</li>
+</ul>
 
+<ul>
 <li><strong>Apps crashing</strong>: Clear app cache and data. Boot Safe Mode to isolate the culprit.</li>
+</ul>
 
+<ul>
 <li><strong>Mobile data draining</strong>: Settings &gt; Network &gt; Data Usage &gt; restrict background data per app.</li>
+</ul>
 
+<ul>
 <li><strong>Phone slow after update</strong>: Wipe cache partition. Reduce animation speed in Developer Options.</li>
+</ul>
 
+<ul>
 <li><strong>Bluetooth not connecting</strong>: Clear Bluetooth cache. Forget and re-pair the device.</li>
+</ul>
 
+<ul>
 <li><strong>Touchscreen not responding</strong>: Remove the screen protector first. Check the Touch Sensitivity setting.</li>
+</ul>
 
+<ul>
 <li><strong>Stuck in boot loop</strong>: Boot into Safe Mode, then wipe the cache partition, and then perform a factory reset as a last resort.</li>
+</ul>
 
+<ul>
 <li><strong>GPS not accurate</strong>: Enable High Accuracy mode. Refresh A-GPS data.</li>
+</ul>
 
+<ul>
 <li>Hotspot not working: Check carrier plan. Switch to LTE-only network mode.</li>
+</ul>
 
+<ul>
 <li><strong>Microphone not working</strong>: Multi-app permission test. Check the mic port for debris.</li>
+</ul>
 
+<ul>
 <li><strong>Speaker crackling or no sound</strong>: Toggle Bluetooth off. Test in Safe Mode.</li>
+</ul>
 
+<ul>
 <li><strong>Notifications not showing</strong>: Settings &gt; Apps &gt; Battery &gt; remove app from optimization list.</li>
+</ul>
 
 <h2><strong>What Actually Causes Android Problems?</strong></h2>
 
@@ -87,11 +119,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>Check Settings &gt; Battery &gt; Battery Usage. Look for any app with high background usage while the screen was off.</li>
+</ul>
 
+<ul>
 <li>Close all background apps and restart the phone.</li>
+</ul>
 
+<ul>
 <li>Remove your phone case. It traps heat and stops the back panel from dissipating it.</li>
+</ul>
 
 <p><strong>Key fact:  </strong>At 45 degrees Celsius, battery cells begin to break down at 3 times the normal rate. Sustained overheating causes permanent capacity loss.
 </p>
@@ -109,11 +147,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>Settings &gt; Battery &gt; Battery Usage &gt; find the top background offender &gt; tap it &gt; Battery &gt; Restricted.</li>
+</ul>
 
+<ul>
 <li>Settings &gt; Network and Internet &gt; SIM &gt; Preferred Network Type &gt; switch to LTE if 5G coverage is weak in your area.</li>
+</ul>
 
+<ul>
 <li>Enable Adaptive Battery: Settings &gt; Battery &gt; Adaptive Battery &gt; On.</li>
+</ul>
 
 <p><strong>Key fact:  </strong>A healthy overnight drain is 3 to 5 percent. Over 10 percent overnight means something is actively running while your screen is off.
 </p>
@@ -131,11 +175,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>Open Files by Google &gt; tap Clean &gt; review Junk Files total before deleting anything.<br></li>
+</ul>
 
+<ul>
 <li>WhatsApp &gt; Settings &gt; Storage and Data &gt; Manage Storage &gt; delete forwarded media.<br></li>
+</ul>
 
+<ul>
 <li>Empty the Trash in Google Photos and Samsung Gallery. Deleted files count against storage until the bin is emptied.<br></li>
+</ul>
 
 <p><strong>Key fact:  </strong>Android performance degrades when free storage drops below 10 to 15 percent of total capacity.
 </p>
@@ -153,11 +203,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>Charge fully overnight. Background processes run faster when the phone is plugged in.</li>
+</ul>
 
+<ul>
 <li>Update all apps in the Play Store immediately after the OS update.</li>
+</ul>
 
+<ul>
 <li>If lag persists beyond 72 hours: Developer Options &gt; set all three animation scales to 0.5x.</li>
+</ul>
 
 <p><strong>Key fact:  </strong>Most post-update lag resolves completely on its own within 3 days. Do not factory reset within the first 72 hours.
 </p>
@@ -176,11 +232,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>Settings &gt; Network and Internet &gt; Adaptive Connectivity &gt; toggle Off.</li>
+</ul>
 
+<ul>
 <li>Samsung: Settings &gt; Connections &gt; Wi-Fi &gt; three-dot menu &gt; Intelligent Wi-Fi &gt; disable Switch to mobile data.</li>
+</ul>
 
+<ul>
 <li>Forget the network and reconnect: tap the network &gt; Forget &gt; reconnect fresh.</li>
+</ul>
 
 <p><strong>Key fact:  </strong>Android 16 QPR3 (early 2026) splits Adaptive Connectivity into two separate toggles. Pixel users on the beta can now disable just the auto-switch component.
 </p>
@@ -199,11 +261,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>One app crashing: Settings &gt; Apps &gt; [App] &gt; Storage &gt; Clear Cache, then Clear Data.</li>
+</ul>
 
+<ul>
 <li>Multiple apps crashing: boot Safe Mode by holding Power, long-pressing Power Off, then tapping Safe Mode. If stable in Safe Mode, a third-party app is causing it.</li>
+</ul>
 
+<ul>
 <li>Update all apps in the Play Store. Crashes often start when an app has not been updated to match a new Android version.</li>
+</ul>
 
 <p><strong>Key fact:  </strong>If the phone is stable in Safe Mode, the crash is caused by a third-party app, not hardware. This narrows the problem down to whatever you installed recently.
 </p>
@@ -222,11 +290,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>Settings &gt; Network and Internet &gt; Data Usage &gt; App Data Usage. Sort by highest and check the background column.</li>
+</ul>
 
+<ul>
 <li>Tap any offending app &gt; Background Data &gt; toggle Off.</li>
+</ul>
 
+<ul>
 <li>Enable Data Saver: Settings &gt; Network and Internet &gt; Data Saver &gt; On.</li>
+</ul>
 
 <p><strong>Key fact:  </strong>Set a monthly data usage warning in Settings &gt; Network and Internet &gt; Data Usage. Android alerts you before you exceed your limit.
 </p>
@@ -245,11 +319,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>Wipe the cache partition. This removes temporary system files without deleting personal data. Steps vary by brand. See the full guide.</li>
+</ul>
 
+<ul>
 <li>Developer Options &gt; Window, Transition, and Animator Duration Scale &gt; set all three to 0.5x.</li>
+</ul>
 
+<ul>
 <li>Settings &gt; Storage. If below 15 percent free, clearing storage alone often restores normal speed.</li>
+</ul>
 
 <p><strong>Key fact:  </strong>Reducing animation speed from 1x to 0.5x in Developer Options makes every phone feel faster. You are reducing the time Android makes you wait for animations, not changing hardware speed.
 </p>
@@ -268,11 +348,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>Clear Bluetooth cache: Settings &gt; Apps &gt; three-dot menu &gt; Show system apps &gt; Bluetooth &gt; Storage &gt; Clear Cache.</li>
+</ul>
 
+<ul>
 <li>Forget the device and re-pair: Settings &gt; Connected Devices &gt; [device] &gt; Forget &gt; pair again from scratch.</li>
+</ul>
 
+<ul>
 <li>For audio issues: Settings &gt; Developer Options &gt; Bluetooth Audio Codec &gt; try forcing SBC as a fallback.</li>
+</ul>
 
 <p><strong>Key fact:  </strong>Samsung tip: if Bluetooth pairing repeatedly fails on a Galaxy device, a full network settings reset often resolves it faster than clearing the Bluetooth cache individually.
 </p>
@@ -291,11 +377,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>Remove the screen protector temporarily and test. Thick protectors frequently reduce touch sensitivity.</li>
+</ul>
 
+<ul>
 <li>Settings &gt; Display &gt; Touch Sensitivity or Touch Sensitivity Mode. Toggle it if available on your device.</li>
+</ul>
 
+<ul>
 <li>Restart the phone to clear any frozen UI process.</li>
+</ul>
 
 <p><strong>Key fact:  </strong>Partial unresponsiveness that works in some areas but not others is almost always physical digitizer damage. Full unresponsiveness on a phone that is on is almost always software.
 </p>
@@ -314,11 +406,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>Safe Mode boot: hold Volume Down while the phone reboots. If it boots successfully, a third-party app caused the loop.</li>
+</ul>
 
+<ul>
 <li>If Safe Mode fails: boot Recovery Mode &gt; Wipe Cache Partition. This does NOT delete personal data.</li>
+</ul>
 
+<ul>
 <li>Factory reset is the last resort. It wipes all data. Back up via Google Account first if you can reach any screen.</li>
+</ul>
 
 <p><strong>Key fact:  </strong>Do not mistake a boot loop for a dead phone. A loop that shows the manufacturer logo repeating is recoverable in most cases.
 </p>
@@ -337,11 +435,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>Settings &gt; Location &gt; Mode &gt; High Accuracy, or select 'Use GPS, Wi-Fi, and mobile networks'.</li>
+</ul>
 
+<ul>
 <li>Disable location, wait 10 seconds, then re-enable. This triggers a fresh A-GPS data download.</li>
+</ul>
 
+<ul>
 <li>Test with the phone case removed. Metal cases and magnetic mounts can interfere with the GPS antenna.</li>
+</ul>
 
 <p><strong>Key fact:  </strong>The figure-8 calibration motion prompted by Google Maps updates the compass and improves location accuracy. Most users have never done this.
 </p>
@@ -360,11 +464,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>Check your carrier plan. Call support to confirm hotspot is included.</li>
+</ul>
 
+<ul>
 <li>Settings &gt; Network &gt; SIM &gt; Preferred Network Type &gt; switch to LTE only, then test the hotspot.</li>
+</ul>
 
+<ul>
 <li>Reset hotspot: turn it off, toggle Airplane Mode on and off, then turn hotspot back on with a fresh password.</li>
+</ul>
 
 <p><strong>Key fact:  </strong>Pixel tip: if connected devices show no internet despite joining the hotspot, incorrect APN settings are the cause. Go to Settings &gt; Network and Internet &gt; SIMs &gt; Access Point Names.
 </p>
@@ -383,11 +493,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>Settings &gt; Privacy &gt; Permission Manager &gt; Microphone. Check which apps have been denied access.</li>
+</ul>
 
+<ul>
 <li>Physically inspect the bottom of the phone. The mic sits near the USB-C port. Look for lint or debris.</li>
+</ul>
 
+<ul>
 <li>Test with the case removed. Some cases partially cover the microphone opening.</li>
+</ul>
 
 <p><strong>Key fact:  </strong>The microphone on most Android phones is at the bottom of the device, next to the USB-C port. A case that covers this area even partially is a surprisingly common cause of muffled calls.
 </p>
@@ -406,11 +522,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>Toggle Bluetooth off completely. Wait 10 seconds. Test the speaker.</li>
+</ul>
 
+<ul>
 <li>Check that media volume is turned up, not just call volume. Press the volume button &gt; tap the expand arrow &gt; check media separately.</li>
+</ul>
 
+<ul>
 <li>Boot Safe Mode and test. If speaker is fine in Safe Mode, a third-party audio app is the cause.</li>
+</ul>
 
 <p><strong>Key fact:  </strong>Crackling at maximum volume is normal for most smartphone speakers. They distort above 80 to 85 percent volume. Crackling at mid-volume is the sign of a real software or hardware issue.
 </p>
@@ -429,11 +551,17 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Quick fixes:</strong>
 </p>
 
+<ul>
 <li>Settings &gt; Apps &gt; [App] &gt; Battery &gt; Don't Restrict. On Xiaomi, select No Restrictions.</li>
+</ul>
 
+<ul>
 <li>Samsung: Settings &gt; Device Care &gt; Battery &gt; Background Usage Limits &gt; remove the app from the Sleeping Apps list.</li>
+</ul>
 
+<ul>
 <li>Settings &gt; Sound &gt; Do Not Disturb &gt; Schedules. Check if DND is triggering at the times notifications go missing.</li>
+</ul>
 
 <p><strong>Key fact:  </strong>Notification channels let apps have multiple categories. Check Settings &gt; Apps &gt; [App] &gt; Notifications. A specific channel may be disabled even if the main toggle is on.
 </p>
@@ -506,13 +634,21 @@ parentCategory: "troubleshooting-fixes"
   Most Android problems are software and fixable at home for free. But some are hardware. Here is how to tell the difference.
 </p>
 
+<ul>
 <li><strong>The problem persists after a factory reset. </strong>A factory reset wipes all software. If the problem survives a clean install, it is physical.</li>
+</ul>
 
+<ul>
 <li><strong>The battery is visibly swollen. </strong>The back panel bulges or the screen lifts from inside. Stop using the phone immediately. A swollen battery is a safety hazard.</li>
+</ul>
 
+<ul>
 <li><strong>Specific physical damage is visible. </strong>Look for a cracked screen, bent frame, or a triggered water damage indicator. This is usually a red dot inside the SIM tray slot.</li>
+</ul>
 
+<ul>
 <li><strong>The phone overheats at idle. </strong>Screen off, nothing running, not charging but still getting hot. This indicates an internal hardware failure.</li>
+</ul>
 
 <p>Find an authorised service centre: <a href="https://support.google.com/pixelphone/announcements/16443575">Googled Pixel repair</a> or <a href="https://www.samsung.com/us/support/service/">Samsung Service Locator</a></p>
 

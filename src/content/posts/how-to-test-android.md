@@ -18,23 +18,41 @@ parentCategory: "guides-how-tos"
 
 <p>If you're in a hurry, test these first:</p>
 
+<ul>
 <li>Screen &amp; touch response</li>
+</ul>
 
+<ul>
 <li>Buttons &amp; fingerprint sensor</li>
+</ul>
 
+<ul>
 <li>Verify IMEI number with *#06#</li>
+</ul>
 
+<ul>
 <li>SIM card detection &amp; mobile network</li>
+</ul>
 
+<ul>
 <li>Speaker, mic &amp; call quality</li>
+</ul>
 
+<ul>
 <li>Wi-Fi, Bluetooth &amp; GPS</li>
+</ul>
 
+<ul>
 <li>Camera</li>
+</ul>
 
+<ul>
 <li>Battery drain &amp; charging</li>
+</ul>
 
+<ul>
 <li>Test app compatibility</li>
+</ul>
 
 <p class="first-p">If any of these fail, stop the setup and return the phone.</p>
 
@@ -126,29 +144,49 @@ parentCategory: "guides-how-tos"
 
 <h4>Option 1: Use a Screen Test App</h4>
 
+<ul>
 <li>Open the Play Store.</li>
+</ul>
 
+<ul>
 <li>Search for “<strong>screen test</strong>” or “<strong>dead pixel test.</strong>”</li>
+</ul>
 
+<ul>
 <li>Install a simple display test app.</li>
+</ul>
 
+<ul>
 <li>Cycle through solid colors like <strong>white, black, red, green, and blue.</strong></li>
+</ul>
 
 <h4>Option 2: Use a YouTube Video</h4>
 
+<ul>
 <li>Open YouTube.</li>
+</ul>
 
+<ul>
 <li>Search for “<strong>dead pixel test full screen.</strong>”</li>
+</ul>
 
+<ul>
 <li>Play the video and switch to <strong>full-screen mode</strong>.</li>
+</ul>
 
 <p>While the colors change, carefully scan the display for:</p>
 
+<ul>
 <li><strong>Dead pixels</strong> (tiny black dots that never light up)</li>
+</ul>
 
+<ul>
 <li><strong>Stuck pixels</strong> (pixels stuck on a single color)</li>
+</ul>
 
+<ul>
 <li><strong>Uneven brightness or discoloration</strong></li>
+</ul>
 
 <h3>Step 2: Check for Screen Bleeding</h3>
 
@@ -162,11 +200,17 @@ parentCategory: "guides-how-tos"
 
 <p>Next, test the touchscreen to ensure there are <strong>no dead zones or laggy areas</strong>.</p>
 
+<ul>
 <li>Long-press any app icon on the home screen.</li>
+</ul>
 
+<ul>
 <li>Slowly drag the icon across <strong>every edge and corner</strong> of the display.</li>
+</ul>
 
+<ul>
 <li>Move it along the <strong>top edge, the bottom edge, and all four corners</strong>.</li>
+</ul>
 
 <p>If the icon drops unexpectedly or stops moving, the phone may have a <strong>touchscreen detection problem</strong>.</p>
 
@@ -214,11 +258,17 @@ parentCategory: "guides-how-tos"
 
 <p>Listen carefully for:</p>
 
+<ul>
 <li>Rattling sounds in the phone’s chassis</li>
+</ul>
 
+<ul>
 <li>Crackling during high notes</li>
+</ul>
 
+<ul>
 <li>Weak bass response</li>
+</ul>
 
 <p>If your phone has <strong>dual speakers</strong>, cover the bottom speaker with your thumb. You should still hear sound from the <strong>top earpiece speaker</strong>, confirming proper stereo output.</p>
 
@@ -268,9 +318,13 @@ parentCategory: "guides-how-tos"
 
 <p>Open the <strong>Recorder app</strong> and record yourself speaking:</p>
 
+<ul>
 <li>First in a <strong>whisper</strong></li>
+</ul>
 
+<ul>
 <li>Then, at a <strong>normal speaking volume</strong></li>
+</ul>
 
 <p>Playback should sound clear and balanced without distortion.</p>
 
@@ -358,11 +412,17 @@ parentCategory: "guides-how-tos"
 
 <p>Install a demanding mobile game such as:</p>
 
+<ul>
 <li>Genshin Impact</li>
+</ul>
 
+<ul>
 <li>Honkai: Star Rail</li>
+</ul>
 
+<ul>
 <li>Arena Breakout</li>
+</ul>
 
 <p>These games use advanced graphics and heavy processing, making them ideal for stress testing.</p>
 
@@ -382,9 +442,13 @@ parentCategory: "guides-how-tos"
 
 <p>After 15 minutes, check your battery percentage.</p>
 
+<ul>
 <li><strong>Normal:</strong> 3–5% battery drop</li>
+</ul>
 
+<ul>
 <li><strong>Suspicious:</strong> More than 10% drop in just 15 minutes</li>
+</ul>
 
 <p>Large drops may indicate a <strong>battery capacity defect</strong> or poor power management.</p>
 
@@ -414,9 +478,13 @@ parentCategory: "guides-how-tos"
 
 <p>Some manufacturers include battery health diagnostics:</p>
 
+<ul>
 <li>On Samsung phones, open the <strong>Samsung Members</strong> app and check the <strong>Battery Status</strong> section.</li>
+</ul>
 
+<ul>
 <li>On Google Pixel devices, battery health information may appear in the <strong>Battery settings panel</strong>.</li>
+</ul>
 
 <p>If the status shows anything other than <strong>“Normal”</strong> or <strong>“Good”</strong> on a brand-new device, it’s a strong signal to <strong>request a replacement immediately</strong>.</p>
 
@@ -442,11 +510,17 @@ parentCategory: "guides-how-tos"
 
 <p>If you have a modern router and the phone only connects to <strong>Wi-Fi 5 or 2.4GHz</strong>, it could indicate:</p>
 
+<ul>
 <li>A firmware bug</li>
+</ul>
 
+<ul>
 <li>A disabled feature</li>
+</ul>
 
+<ul>
 <li>A defective antenna</li>
+</ul>
 
 <p>Modern flagship phones should support <strong>Wi‑Fi 7</strong> or at least <strong>Wi‑Fi 6E</strong>.</p>
 
@@ -470,11 +544,17 @@ parentCategory: "guides-how-tos"
 
 <p>Insert your SIM card and check the following:</p>
 
+<ul>
 <li><strong>Network detection</strong>: The phone should detect the carrier within a few seconds.</li>
+</ul>
 
+<ul>
 <li><strong>Call test</strong>: Make a quick phone call to confirm clear audio and a stable connection.</li>
+</ul>
 
+<ul>
 <li><strong>Mobile data test</strong>: Turn on mobile data and load a webpage or run a speed test.</li>
+</ul>
 
 <p>If the SIM frequently disconnects or shows <strong>“No Service”</strong> in areas where other phones have signal, the <strong>modem or antenna may be defective</strong>.</p>
 
@@ -484,11 +564,17 @@ parentCategory: "guides-how-tos"
 
 <p>Confirm that:</p>
 
+<ul>
 <li>Both SIMs appear in <strong>SIM Manager</strong></li>
+</ul>
 
+<ul>
 <li>You can switch the <strong>default data and calling SIMs</strong></li>
+</ul>
 
+<ul>
 <li>Both lines receive calls</li>
+</ul>
 
 <h4>eSIM Activation Test</h4>
 
@@ -496,11 +582,17 @@ parentCategory: "guides-how-tos"
 
 <p>To test eSIM functionality:</p>
 
+<ul>
 <li>Go to <strong>Settings → Network → SIM Manager</strong></li>
+</ul>
 
+<ul>
 <li>Tap <strong>Add eSIM</strong></li>
+</ul>
 
+<ul>
 <li>Scan your carrier’s QR code or try the <strong>test eSIM setup option</strong> if available.</li>
+</ul>
 
 <p>If the phone <strong>fails to detect or activate the eSIM</strong>, it may indicate a firmware issue or a defective modem chip.</p>
 
@@ -524,9 +616,13 @@ parentCategory: "guides-how-tos"
 
 <p>These apps show whether your phone connects to:</p>
 
+<ul>
 <li><strong>5G Standalone</strong></li>
+</ul>
 
+<ul>
 <li><strong>5G Non‑Standalone</strong></li>
+</ul>
 
 <p>In regions like Nigeria, modern networks commonly use bands such as <strong>n78</strong> and <strong>n28</strong>. Confirming band support ensures your phone’s <strong>modem and antenna are functioning correctly</strong>.</p>
 
@@ -558,9 +654,13 @@ parentCategory: "guides-how-tos"
 
 <p>Possible fix:</p>
 
+<ul>
 <li>Install <strong>System Updates</strong></li>
+</ul>
 
+<ul>
 <li>Install <strong>Google Play System Updates</strong></li>
+</ul>
 
 <p>These sometimes download silently and occupy storage until installed.</p>
 
@@ -584,71 +684,117 @@ parentCategory: "guides-how-tos"
 
 <h4>Step 1: Register Fingerprints</h4>
 
+<ul>
 <li>Go to <strong>Settings → Security → Fingerprint</strong> (or Biometrics).</li>
+</ul>
 
+<ul>
 <li>Register your <strong>primary finger</strong>, ideally your index finger, on your dominant hand.</li>
+</ul>
 
+<ul>
 <li>Add <strong>2–3 additional fingers</strong> for convenience.</li>
+</ul>
 
 <h4>Step 2: Multi-Angle Unlock Test</h4>
 
+<ul>
 <li>Place your registered finger on the sensor <strong>from different angles</strong>: straight, slightly tilted, or rotated.</li>
+</ul>
 
+<ul>
 <li>Repeat <strong>10–15 unlock attempts</strong> for each angle.</li>
+</ul>
 
 <h4>Step 3: Speed and Accuracy Check</h4>
 
+<ul>
 <li>Observe the unlock <strong>speed</strong> (should be near-instant on modern Androids).</li>
+</ul>
 
+<ul>
 <li>Note any <strong>false rejections</strong> or repeated failures.</li>
+</ul>
 
+<ul>
 <li>If the sensor struggles with slight misalignment, it may indicate <strong>a low-quality or misaligned fingerprint module</strong>.</li>
+</ul>
 
 <h4>Step 4: Wet/Dry Test (Optional)</h4>
 
+<ul>
 <li>Lightly dampen your fingertip and try unlocking again.</li>
+</ul>
 
+<ul>
 <li>A premium sensor should still recognize your fingerprint reliably; failure may indicate a <strong>budget-grade scanner</strong>.</li>
+</ul>
 
 <h3>2. Face Unlock Test</h3>
 
 <h4>Step 1: Register Your Face</h4>
 
+<ul>
 <li>Go to <strong>Settings → Security → Face Unlock</strong> (or Biometrics).</li>
+</ul>
 
+<ul>
 <li>Position your face in <strong>good, even lighting</strong> and follow the on-screen registration.</li>
+</ul>
 
+<ul>
 <li>Some phones allow an <strong>alternate appearance</strong>. Use it if you wear glasses or masks regularly.</li>
+</ul>
 
 <h4>Step 2: Light Condition Verification</h4>
 
+<ul>
 <li>Test face unlock in <strong>bright daylight</strong>, <strong>indoor lighting</strong>, and <strong>low-light conditions</strong>.</li>
+</ul>
 
+<ul>
 <li>Modern sensors should recognize your face quickly and consistently in all common scenarios.</li>
+</ul>
 
 <h4>Step 3: Angle &amp; Distance Variation</h4>
 
+<ul>
 <li>Try unlocking at <strong>slightly different angles</strong> (tilted head, looking down, looking up) and from a <strong>20–50 cm distance</strong>.</li>
+</ul>
 
+<ul>
 <li>The unlock should succeed without requiring perfect alignment.</li>
+</ul>
 
 <h4>Step 4: Speed and Reliability Assessment</h4>
 
+<ul>
 <li>Record any <strong>delays or failed unlock attempts</strong>.</li>
+</ul>
 
+<ul>
 <li>Premium devices unlock in <strong>&lt;1 second</strong>.</li>
+</ul>
 
+<ul>
 <li>Multiple failed attempts or slow recognition could indicate <strong>hardware miscalibration or software issues</strong>.</li>
+</ul>
 
 <h3>Final Result</h3>
 
 <p>Your phone <strong>passes the biometric phase</strong> if:</p>
 
+<ul>
 <li>Fingerprint scanner works <strong>consistently from multiple angles</strong>, with near-instant unlocks and minimal false rejections.</li>
+</ul>
 
+<ul>
 <li>Face unlock is <strong>fast, accurate, and reliable</strong> in <strong>varied lighting conditions and angles</strong>.</li>
+</ul>
 
+<ul>
 <li>No hardware anomalies (slow unlocks, repeated failures, or inability to register fingerprints/faces).</li>
+</ul>
 
 <p>This ensures that both <strong>primary biometric security methods</strong> are fully functional and ready for daily use.</p>
 

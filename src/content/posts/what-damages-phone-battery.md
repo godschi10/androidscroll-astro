@@ -30,17 +30,29 @@ parentCategory: "troubleshooting-fixes"
 
 <p>Some of the consequences of phone overheating are:</p>
 
+<ul>
 <li>Reduced battery capacity and efficiency</li>
+</ul>
 
+<ul>
 <li>Increased risk of battery swelling or explosion</li>
+</ul>
 
+<ul>
 <li>Slower performance and lagging</li>
+</ul>
 
+<ul>
 <li>Screen damage or discoloration</li>
+</ul>
 
+<ul>
 <li>Data loss or corruption</li>
+</ul>
 
+<ul>
 <li>Hardware failure or malfunction</li>
+</ul>
 
 <h3>How to prevent your phone from overheating</h3>
 
@@ -48,25 +60,45 @@ parentCategory: "troubleshooting-fixes"
 
 <p>Here are some tips:</p>
 
+<ul>
 <li>Avoid using your phone while it is charging</li>
+</ul>
 
+<ul>
 <li>Use a certified charger and cable that are compatible with your device</li>
+</ul>
 
+<ul>
 <li>Turn off unnecessary features such as Bluetooth, GPS, Wi-Fi, or mobile data when not in use</li>
+</ul>
 
+<ul>
 <li>Lower the screen brightness and timeout settings</li>
+</ul>
 
+<ul>
 <li>Close background apps that are not in use or consuming too much power</li>
+</ul>
 
+<ul>
 <li>Update your apps and software regularly to fix any bugs or glitches- Delete any apps that you don't use or that cause overheating</li>
+</ul>
 
+<ul>
 <li>Scan your phone for viruses or malware using antivirus software.</li>
+</ul>
 
+<ul>
 <li>Avoid exposing your phone to extreme temperatures or direct sunlight</li>
+</ul>
 
+<ul>
 <li>Use a cooling pad or fan to dissipate the heat from your phone</li>
+</ul>
 
+<ul>
 <li>Remove any case or cover that may trap heat inside your phone</li>
+</ul>
 
 <p>By following these tips, you can prevent your phone from overheating and extend its battery life.</p>
 
@@ -82,31 +114,53 @@ parentCategory: "troubleshooting-fixes"
 
 <p>The following apps are known to drain battery:</p>
 
+<ul>
 <li><strong>Social media apps</strong> such as Facebook, Instagram, LinkedIn, Snapchat, YouTube, and WhatsApp. These apps use multiple features such as camera, microphone, GPS, Wi-Fi, mobile data, and push notifications. They also tend to keep you hooked on your screen for long periods of time.</li>
+</ul>
 
+<ul>
 <li><strong>Dating apps</strong> such as Bumble, Grindr, and Tinder. These apps also use location services, notifications, and mobile data to match you with potential partners. They can also be addictive and time-consuming.</li>
+</ul>
 
+<ul>
 <li><strong>Google apps</strong> such as Google Maps, Chrome, Gmail, Google Pay, Google Photos, Google Assistant, and Google Home. These apps require the use of GPS, internet connection, and sync services to provide you with information and convenience. Especially those that require the use of GPS, like Google Maps.</li>
+</ul>
 
+<ul>
 <li><strong>Streaming apps</strong> such as Netflix, Spotify, TikTok, and Twitch. These apps use a lot of bandwidth and processing power to deliver high-quality video and audio content. They also keep your screen on for long durations.</li>
+</ul>
 
+<ul>
 <li><strong>Other apps</strong> such as Uber, Amazon Alexa, Waze, Fitbit, Skype, and Verizon. These apps use various features such as location services, voice recognition, Bluetooth, Wi-Fi, mobile data, and notifications to offer you different services and functions.</li>
+</ul>
 
 <h3>How to reduce battery drain from apps</h3>
 
 <p>There are some simple steps you can take to reduce battery drain from apps and extend your phone's battery life. Here are some tips:</p>
 
+<ul>
 <li>Check your battery usage statistics in your phone's settings to see which apps are consuming the most power. You can also use third-party apps such as <a href="https://play.google.com/store/apps/details?id=com.digibites.accubattery">AccuBattery</a> to monitor your battery health and performance.</li>
+</ul>
 
+<ul>
 <li>Uninstall or disable any apps that you don't use or need. You can also force stop or clear cache for any apps that are running in the background unnecessarily.</li>
+</ul>
 
+<ul>
 <li>Adjust your app settings to limit their access to certain features such as location services, notifications, sync services, or background data. You can also turn on battery saver mode or dark mode for some apps to reduce their power consumption.</li>
+</ul>
 
+<ul>
 <li>Update your apps regularly to fix any bugs or glitches that may cause battery drain. You can also check for app reviews or ratings to see if other users have reported any issues with battery drain.</li>
+</ul>
 
+<ul>
 <li>Use Wi-Fi instead of mobile data whenever possible to save battery. You can also turn off Wi-Fi when not in use or switch to airplane mode when you don't need any connectivity.</li>
+</ul>
 
+<ul>
 <li>Avoid using your phone while it is charging or use a certified charger and cable that are compatible with your device. You can also avoid fast charging or wireless charging if they cause your phone to overheat.</li>
+</ul>
 
 <p>By following these tips, you can reduce battery drain from apps and extend your phone's battery life.</p>
 
@@ -120,11 +174,17 @@ parentCategory: "troubleshooting-fixes"
 
 <p>There are several ways to damage your phone battery physically:</p>
 
+<ul>
 <li><strong>Using cheap or damaged cables with your phone</strong>: These can cause short circuits, power surges, or overheating that can harm your battery or your phone's charging port.</li>
+</ul>
 
+<ul>
 <li><strong>Subjecting the phone to extreme heat: </strong>This can cause the battery to swell, leak, or explode. Heat can also damage other parts of the phone, such as the screen, the processor, or the camera.</li>
+</ul>
 
+<ul>
 <li><strong>Dropping your phone on a hard surface:</strong> This can cause physical damage to the battery or the phone's casing, affecting its functionality and safety .</li>
+</ul>
 
 <h3>How to prevent physical damage to your phone battery</h3>
 
@@ -132,13 +192,21 @@ parentCategory: "troubleshooting-fixes"
 
 <p>Here are some tips:</p>
 
+<ul>
 <li>Use a protective case or cover for your phone that can absorb shocks and prevent scratches. Also, avoid putting your phone in your pocket with keys, coins, or other sharp objects that may damage it.</li>
+</ul>
 
+<ul>
 <li>Handle your phone with care and avoid dropping it or throwing it around. If you notice any signs of physical damage, such as cracks, dents, bulges, or leaks, take your phone to a professional repair service as soon as possible.</li>
+</ul>
 
+<ul>
 <li>Avoid exposing your phone to extreme temperatures or direct sunlight. Keep your phone in a cool and dry place and avoid leaving it in a car, near a heater, or under direct sunlight for long periods.</li>
+</ul>
 
+<ul>
 <li>Use a certified charger and cable that are compatible with your device. Avoid using cheap or damaged accessories that may not meet the safety standards of your phone.</li>
+</ul>
 
 <p>By following these tips, you can prevent physical damage to your phone battery and extend its lifespan.</p>
 
@@ -162,13 +230,21 @@ parentCategory: "troubleshooting-fixes"
 
 <p>There are some simple steps you can take to keep your phone's screen brightness at a lower setting and save your battery life. Here are some tips:</p>
 
+<ul>
 <li>Adjust your screen brightness manually according to the ambient light. You can do this by swiping down from the top of the screen and using the brightness slider. Try to keep it as low as possible while still being comfortable for your eyes.</li>
+</ul>
 
+<ul>
 <li>Turn off the adaptive brightness feature if you have it on. This feature automatically adjusts the screen brightness based on the amount of light detected. While this feature is designed to help save battery power, it can also make your screen too bright in some situations. You can turn it off by going to Settings &gt; Display &gt; Adaptive Brightness and toggling it off.</li>
+</ul>
 
+<ul>
 <li>Use dark mode or night mode for some apps or websites that support it. This will reduce the amount of light emitted by the screen and save battery power. You can enable dark mode or night mode by going to Settings &gt; Display &gt; Dark Mode or Night Mode and toggling it on. You can also use third-party apps or extensions that can force dark mode or night mode on any app or website.</li>
+</ul>
 
+<ul>
 <li>Reduce the screen timeout or use smart lock features to turn off the screen when not in use. The longer the screen stays on, the more power it consumes. You can reduce the screen timeout by going to Settings &gt; Display &gt; Screen Timeout and choosing a shorter duration. You can also use smart lock features such as face unlock, fingerprint unlock, or trusted devices to unlock your phone without turning on the screen.</li>
+</ul>
 
 <p>By following these tips, you can keep your phone's screen brightness at a lower setting and protect your battery from damage.</p>
 
@@ -184,11 +260,17 @@ parentCategory: "troubleshooting-fixes"
 
 <p>To increase the lifespan of your cell phone battery, you should follow these best charging practices:</p>
 
+<ul>
 <li>Store and charge your phone at moderate temperatures. Avoid exposing your phone to extreme heat or cold, as this can cause the battery to swell, leak, or explode. Heat can also damage other parts of the phone, such as the screen, the processor, or the camera.</li>
+</ul>
 
+<ul>
 <li>Turn off your device or allow it to idle while charging. Avoid using your phone while it is charging, especially for intensive tasks such as gaming, streaming, or browsing. This can cause your phone to overheat and reduce your battery life.</li>
+</ul>
 
+<ul>
 <li>Use a certified charger and cable that are compatible with your device. Avoid using cheap or damaged accessories that may not meet the safety standards of your phone. These can cause short circuits, power surges, or overheating that can harm your battery or your phone's charging port.</li>
+</ul>
 
 <p>For the complete list of how to charge your phone battery properly and avoid common mistakes that can damage it, check out my post on <a href="https://androidscroll.com/6-charging-mistakes-that-damage-your-phone-battery/">7 Charging Mistakes that Damage Phone Battery</a> .</p>
 
@@ -202,15 +284,25 @@ parentCategory: "troubleshooting-fixes"
 
 <p>In this post, we discussed what damages phone battery and how to avoid them. These are:</p>
 
+<ul>
 <li>Overheating</li>
+</ul>
 
+<ul>
 <li>Using apps that drain the battery</li>
+</ul>
 
+<ul>
 <li>Physical damage</li>
+</ul>
 
+<ul>
 <li>Keeping your phone's screen brightness too high</li>
+</ul>
 
+<ul>
 <li>Not following the best charging practices</li>
+</ul>
 
 <p>By following the tips and best practices I have shared, you can prevent these factors from harming your phone battery and extend its lifespan.</p>
 
@@ -218,8 +310,12 @@ parentCategory: "troubleshooting-fixes"
 
 <p>Also, don't forget to check out other related topics below:</p>
 
+<ul>
 <li><a href="https://androidscroll.com/6-charging-mistakes-that-damage-your-phone-battery/">7 Charging Mistakes that Damage Phone Battery</a></li>
+</ul>
 
+<ul>
 <li><a href="https://androidscroll.com/how-to-improve-battery-life-on-android-devices/">15 Unexpected Ways to Improve Battery Life on Android Devices</a></li>
+</ul>
 
 <p>Thanks for reading and stay tuned for more!</p>

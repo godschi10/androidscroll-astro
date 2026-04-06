@@ -17,17 +17,29 @@ parentCategory: "troubleshooting-fixes"
 
 <p>Quick Summary: Android Phone Overheating</p>
 
+<ul>
 <li>Check Settings &gt; Battery &gt; Battery Usage first. Find the culprit app.</li>
+</ul>
 
+<ul>
 <li>Software fix (most cases): restrict or uninstall the offending background app.</li>
+</ul>
 
+<ul>
 <li>Remove your phone case. It traps heat and slows natural cooling.</li>
+</ul>
 
+<ul>
 <li>Weak signal means hot phone. Switch to LTE only if 5G coverage is poor.</li>
+</ul>
 
+<ul>
 <li><strong>Danger threshold:</strong> 45 degrees Celsius. Above this, battery degradation accelerates.</li>
+</ul>
 
+<ul>
 <li><strong>Seek repair if:</strong> the phone is hot while completely idle with nothing running. </li>
+</ul>
 
 <h2><strong>Is Your Phone Actually Overheating?</strong></h2>
 
@@ -54,15 +66,25 @@ parentCategory: "troubleshooting-fixes"
   A background app stuck in a processing loop is the single most common cause. Here is how to find it.
 </p>
 
+<ul>
 <li>Go to <strong>Settings &gt; Battery &gt; Battery Usage</strong>.</li>
+</ul>
 
+<ul>
 <li>Look at the background column or the 'while screen was off' label, not just total usage.</li>
+</ul>
 
+<ul>
 <li>Any app showing significant usage while the screen was off is suspicious. Social media apps and recently installed apps are the most common offenders.</li>
+</ul>
 
+<ul>
 <li>Tap the app &gt; <strong>Battery &gt; Restricted</strong>.</li>
+</ul>
 
+<ul>
 <li>Wait 30 minutes and check the temperature.</li>
+</ul>
 
 <p><strong>What is suspicious:  </strong>Normal: Screen at 20 to 40 percent. System apps under 5 percent. Suspicious: any social media or new app showing 10 percent or more in the background.
 </p>
@@ -71,11 +93,17 @@ parentCategory: "troubleshooting-fixes"
 
 <p>A restart clears all running processes including any stuck loops that are generating heat. </p>
 
+<ul>
 <li>Hold Power &gt; tap <strong>Restart</strong> (not Power Off. Restart is more thorough.).</li>
+</ul>
 
+<ul>
 <li>Leave the phone alone for 5 minutes after it reboots.</li>
+</ul>
 
+<ul>
 <li>Check the temperature. If it has cooled, a stuck process was the cause.</li>
+</ul>
 
 <h3><strong>Fix 3: Remove the Phone Case</strong></h3>
 
@@ -83,11 +111,17 @@ parentCategory: "troubleshooting-fixes"
   Most phone cases trap heat against the back panel and prevent it from dissipating naturally. This makes existing overheating significantly worse.
 </p>
 
+<ul>
 <li>Remove the case completely.</li>
+</ul>
 
+<ul>
 <li>Place the phone on a flat, hard surface. Soft surfaces like beds also trap heat.</li>
+</ul>
 
+<ul>
 <li>If the phone cools within 10 minutes, the case is contributing to the problem.</li>
+</ul>
 
 <h3><strong>Fix 4: Switch to LTE if 5G Coverage Is Weak</strong></h3>
 
@@ -98,13 +132,21 @@ parentCategory: "troubleshooting-fixes"
 <p><strong>Only use this fix if:  </strong>Your signal bar frequently shows one bar, or it switches between 4G and 5G often. In areas with strong stable 5G, switching to LTE will not help.
 </p>
 
+<ul>
 <li>Settings &gt; Network and Internet &gt; SIMs (or Mobile Network).</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Preferred Network Type</strong>.</li>
+</ul>
 
+<ul>
 <li>Select <strong>LTE (4G) only</strong>.</li>
+</ul>
 
+<ul>
 <li>Test for 30 minutes. If the phone cools, weak 5G was the cause.</li>
+</ul>
 
 <h3><strong>Fix 5: Update All Apps and System Software</strong></h3>
 
@@ -112,9 +154,13 @@ parentCategory: "troubleshooting-fixes"
   A buggy or outdated app can get stuck in a CPU loop, generating heat with no visible activity on screen.
 </p>
 
+<ul>
 <li>Google Play Store &gt; tap your profile icon &gt; <strong>Manage Apps and Device &gt; Update All</strong>.</li>
+</ul>
 
+<ul>
 <li>Settings &gt; System &gt; Software Update &gt; check for any pending system update.</li>
+</ul>
 
 <h2>PART 2: HARDWARE CAUSES (If software fixes did not resolve it)</h2>
 
@@ -124,13 +170,21 @@ parentCategory: "troubleshooting-fixes"
   Charging generates heat on its own. Charging while gaming or streaming is when it becomes a problem.
 </p>
 
+<ul>
 <li>Stop using the phone while charging, or close any games and streaming apps.</li>
+</ul>
 
+<ul>
 <li>Remove the phone case while charging.</li>
+</ul>
 
+<ul>
 <li>Charge on a flat, hard surface, not a pillow or sofa.</li>
+</ul>
 
+<ul>
 <li>Use the original charger or a certified replacement. Off-brand chargers deliver inconsistent power and generate more heat.</li>
+</ul>
 
 <p><em>[Add link to Post #68 when live: anchor text 'phone getting hot while charging' &gt; /phone-getting-hot-while-charging-is-it-dangerous/]</em>
 </p>
@@ -141,11 +195,17 @@ parentCategory: "troubleshooting-fixes"
   3D games push the CPU and GPU to maximum load at the same time. This generates more heat than any other normal use.
 </p>
 
+<ul>
 <li>Take a break after 30 to 45 minutes of gaming. Let the phone cool for 10 minutes.</li>
+</ul>
 
+<ul>
 <li>Lower in-game graphics settings. Resolution, frame rate, and shadow quality are the biggest heat generators.</li>
+</ul>
 
+<ul>
 <li>Remove the phone case during gaming sessions.</li>
+</ul>
 
 <p><em>[Add link to Post #66 when live: anchor text 'android phone overheating while gaming hardware fixes' &gt; /android-phone-overheating-while-gaming-hardware-fixes/]</em>
 </p>
@@ -156,11 +216,17 @@ parentCategory: "troubleshooting-fixes"
   A battery below 80 percent health generates more internal resistance. That resistance produces heat, even during normal use.
 </p>
 
+<ul>
 <li>Install <strong>AccuBattery</strong> (free on Google Play) &gt; check the Health tab after a few charge cycles.</li>
+</ul>
 
+<ul>
 <li>Samsung: Settings &gt; Device Care &gt; Battery &gt; Battery Health. Check the percentage directly.</li>
+</ul>
 
+<ul>
 <li>If health is below 80 percent, the battery is the heat source. Replacement resolves it.</li>
+</ul>
 
 <p>A degraded battery also causes fast battery drain. The two problems usually appear together. See our <a href="https://androidscroll.com/android-battery-draining-fast-real-solutions/">android battery draining fast</a> guide for the full diagnostic.</p>
 
@@ -184,13 +250,21 @@ parentCategory: "troubleshooting-fixes"
   Software fixes cover the majority of Android overheating cases. These four signs mean the problem is hardware.
 </p>
 
+<ul>
 <li>The phone is hot while completely idle. Screen off, no apps running, Wi-Fi off. Something is wrong with a hardware component.</li>
+</ul>
 
+<ul>
 <li>The back of the phone feels raised or the screen presses outward. The battery is swelling. Stop using the phone immediately.</li>
+</ul>
 
+<ul>
 <li>The phone shuts down automatically at normal temperatures. This is the thermal protection triggering prematurely due to a faulty sensor or battery.</li>
+</ul>
 
+<ul>
 <li>Every software fix has been applied and the phone still runs hot after a full factory reset. A clean reset eliminates all software as the cause.</li>
+</ul>
 
 <p>Find an authorised repair centre: <a href="https://support.google.com/pixelphone/announcements/16443575">Google Pixel repair</a> or <a href="https://www.samsung.com/us/support/service/">Samsung Service Locator</a>.</p>
 

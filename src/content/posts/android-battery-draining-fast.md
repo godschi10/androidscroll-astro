@@ -28,17 +28,29 @@ parentCategory: "troubleshooting-fixes"
 
 <h3>Common causes of fast battery drain:</h3>
 
+<ul>
 <li>Apps running constantly in the background</li>
+</ul>
 
+<ul>
 <li>High screen brightness and long screen-on time</li>
+</ul>
 
+<ul>
 <li>Weak network signal (mobile data or Wi-Fi)</li>
+</ul>
 
+<ul>
 <li>Battery-heavy features like location, Bluetooth, and 5G</li>
+</ul>
 
+<ul>
 <li>Old or degraded battery hardware</li>
+</ul>
 
+<ul>
 <li>Poorly optimized apps or recent updates</li>
+</ul>
 
 <p>Once you identify the cause, the fix becomes easy.</p>
 
@@ -48,13 +60,21 @@ parentCategory: "troubleshooting-fixes"
 
 <h3>How to check battery usage:</h3>
 
+<ul>
 <li>Open <strong>Settings</strong></li>
+</ul>
 
+<ul>
 <li>Go to <strong>Battery</strong> → <strong>Battery usage</strong></li>
+</ul>
 
+<ul>
 <li>Apps using the most power</li>
+</ul>
 
+<ul>
 <li>System items like Screen, Mobile Network, or Android System</li>
+</ul>
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2026/02/75510-461x1024.jpg" alt="" class="wp-image-10650"/></figure>
 
@@ -68,13 +88,21 @@ parentCategory: "troubleshooting-fixes"
 
 <h3>What to do:</h3>
 
+<ul>
 <li>Go to <strong>Settings → Apps</strong></li>
+</ul>
 
+<ul>
 <li>Open heavy apps (Facebook, Instagram, TikTok, Google Maps, games)</li>
+</ul>
 
+<ul>
 <li>Tap <strong>Battery</strong></li>
+</ul>
 
+<ul>
 <li>Set them to <strong>Restricted</strong> or <strong>Optimized</strong></li>
+</ul>
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2026/02/75521-461x1024.jpg" alt="" class="wp-image-10653"/></figure>
 
@@ -88,9 +116,13 @@ parentCategory: "troubleshooting-fixes"
 
 <h3>Also do this:</h3>
 
+<ul>
 <li>Disable <strong>background data</strong> for apps you don’t need always online</li>
+</ul>
 
+<ul>
 <li>Uninstall apps you haven’t used in months</li>
+</ul>
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2026/02/75535-461x1024.jpg" alt="" class="wp-image-10658"/></figure>
 
@@ -104,13 +136,21 @@ parentCategory: "troubleshooting-fixes"
 
 <h3>Smart fixes:</h3>
 
+<ul>
 <li>Lower brightness manually (don’t rely only on auto-brightness) </li>
+</ul>
 
+<ul>
 <li>Enable <strong>Dark Mode</strong> (especially on AMOLED phones)</li>
+</ul>
 
+<ul>
 <li>Reduce <strong>screen timeout</strong> to 30–60 seconds</li>
+</ul>
 
+<ul>
 <li>Disable unnecessary animations (Developer Options → Animation scale)</li>
+</ul>
 
 <p><strong>To lower brightness manually:</strong></p>
 
@@ -158,13 +198,21 @@ parentCategory: "troubleshooting-fixes"
 
 <h3>What to turn off when not needed:</h3>
 
+<ul>
 <li><strong>Location (GPS)</strong> – switch to “While using app”</li>
+</ul>
 
+<ul>
 <li><strong>Bluetooth</strong> – off unless connected</li>
+</ul>
 
+<ul>
 <li><strong>Nearby device scanning</strong></li>
+</ul>
 
+<ul>
 <li><strong>Wi-Fi &amp; Bluetooth scanning</strong> (in Location settings)</li>
+</ul>
 
 <p>To Switch Location to "While Using App":</p>
 
@@ -206,9 +254,13 @@ parentCategory: "troubleshooting-fixes"
 
 <p>If your signal is weak, your phone uses MORE power trying to stay connected.<br>In poor signal areas:</p>
 
+<ul>
 <li>Switch to <strong>Airplane mode</strong></li>
+</ul>
 
+<ul>
 <li>Or force <strong>4G instead of 5G</strong></li>
+</ul>
 
 <h2>Stop Battery Drain From Google Services</h2>
 
@@ -216,19 +268,29 @@ parentCategory: "troubleshooting-fixes"
 
 <h3>Optimize Google battery usage:</h3>
 
+<ul>
 <li>Go to <strong>Settings → Apps → Google</strong></li>
+</ul>
 
+<ul>
 <li>Restrict background activity</li>
+</ul>
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2026/02/75591-461x1024.jpg" alt="" class="wp-image-10701"/></figure>
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2026/02/75592-461x1024.jpg" alt="" class="wp-image-10700"/></figure>
 
+<ul>
 <li>Location Accuracy</li>
+</ul>
 
+<ul>
 <li>Usage &amp; Diagnostics</li>
+</ul>
 
+<ul>
 <li>Continuous voice detection (“Hey Google”)</li>
+</ul>
 
 <p>To turn off <strong>Location Accuracy</strong> and <strong>Usage &amp; Diagnostics</strong>:</p>
 
@@ -266,9 +328,13 @@ parentCategory: "troubleshooting-fixes"
 
 <h3>Best settings:</h3>
 
+<ul>
 <li>Enable <strong>Battery Saver</strong></li>
+</ul>
 
+<ul>
 <li>Turn on <strong>Battery Saver</strong> at 20–30%</li>
+</ul>
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2026/02/75617-461x1024.jpg" alt="" class="wp-image-10721"/></figure>
 
@@ -276,7 +342,9 @@ parentCategory: "troubleshooting-fixes"
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2026/02/75615-461x1024.jpg" alt="" class="wp-image-10722"/></figure>
 
+<ul>
 <li>Disable “<strong>Always-on display</strong>” when Battery Saver is on</li>
+</ul>
 
 <figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2026/02/75618-461x1024.jpg" alt="" class="wp-image-10724"/></figure>
 
@@ -292,13 +360,21 @@ parentCategory: "troubleshooting-fixes"
 
 <h3>What helps:</h3>
 
+<ul>
 <li>Restart your phone (simple but effective)</li>
+</ul>
 
+<ul>
 <li><a href="https://androidscroll.com/android-phone-overheating/#clear-cache-partition">Clear cache partition</a> (if supported)</li>
+</ul>
 
+<ul>
 <li>Let the phone settle for 1–3 days</li>
+</ul>
 
+<ul>
 <li>Check for app updates in Play Store</li>
+</ul>
 
 <p>If one app started draining battery after an update, uninstall or downgrade it.</p>
 
@@ -308,13 +384,21 @@ parentCategory: "troubleshooting-fixes"
 
 <h3>Signs of a dying battery:</h3>
 
+<ul>
 <li>Battery drops fast below 30%</li>
+</ul>
 
+<ul>
 <li>Phone shuts down at 20–40%</li>
+</ul>
 
+<ul>
 <li>Phone heats up while charging</li>
+</ul>
 
+<ul>
 <li>Battery life suddenly much worse than before</li>
+</ul>
 
 <p>If your phone is <strong>2+ years old</strong>, battery degradation is normal.</p>
 
@@ -326,13 +410,21 @@ parentCategory: "troubleshooting-fixes"
 
 <h3>Do this instead:</h3>
 
+<ul>
 <li>Keep battery between <strong>20% – 80%</strong></li>
+</ul>
 
+<ul>
 <li>Avoid charging overnight daily</li>
+</ul>
 
+<ul>
 <li>Use <a href="https://androidscroll.com/offer/get-high-quality-charger-on-amazon/" rel="sponsored nofollow">original or certified chargers</a></li>
+</ul>
 
+<ul>
 <li>Avoid heavy usage while charging</li>
+</ul>
 
 <p>Heat + overcharging = faster battery damage.</p>
 
@@ -344,13 +436,21 @@ parentCategory: "troubleshooting-fixes"
 
 <p>Most of the time, the problem comes from:</p>
 
+<ul>
 <li>Background apps</li>
+</ul>
 
+<ul>
 <li>Screen settings</li>
+</ul>
 
+<ul>
 <li>Network issues</li>
+</ul>
 
+<ul>
 <li>Poor app optimization</li>
+</ul>
 
 <p>Fix those, and your phone will easily last longer each day.</p>
 
