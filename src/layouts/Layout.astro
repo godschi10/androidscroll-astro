@@ -1,9 +1,9 @@
 ---
 import '../styles/global.css';
 
-const { 
-  title, 
-  description, 
+const {
+  title,
+  description,
   cover,
   coverAlt,
   type = 'website'
@@ -20,19 +20,19 @@ const metaImage = cover ?? defaultCover;
 const metaImageAlt = coverAlt ?? metaTitle;
 const canonicalURL = new URL(Astro.url.pathname, siteUrl);
 ---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="canonical" href={canonicalURL} />
-
-  <!-- Primary -->
   <title>{metaTitle}</title>
   <meta name="description" content={metaDescription} />
-  <meta name="theme-color" content="#00A88F" />
-
-  <!-- Open Graph -->
+  <meta name="theme-color" content="#008f79" />
+  <meta name="msapplication-navbutton-color" content="#008f79" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta property="og:type" content={type} />
   <meta property="og:url" content={canonicalURL} />
   <meta property="og:site_name" content={siteName} />
@@ -40,151 +40,182 @@ const canonicalURL = new URL(Astro.url.pathname, siteUrl);
   <meta property="og:description" content={metaDescription} />
   <meta property="og:image" content={metaImage} />
   <meta property="og:image:alt" content={metaImageAlt} />
-
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={metaTitle} />
   <meta name="twitter:description" content={metaDescription} />
   <meta name="twitter:image" content={metaImage} />
   <meta name="twitter:image:alt" content={metaImageAlt} />
-
-  <!-- Fonts -->
   <style>
-    @font-face {
-      font-family: 'Space Grotesk';
-      font-style: normal;
-      font-weight: 700;
-      font-display: swap;
-      src: url('/fonts/space-grotesk-v22-latin-700.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'Space Grotesk';
-      font-style: normal;
-      font-weight: 600;
-      font-display: swap;
-      src: url('/fonts/space-grotesk-v22-latin-600.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 400;
-      font-display: swap;
-      src: url('/fonts/inter-v20-latin-regular.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 600;
-      font-display: swap;
-      src: url('/fonts/inter-v20-latin-600.woff2') format('woff2');
-    }
+    @font-face { font-family: 'Space Grotesk'; font-style: normal; font-weight: 700; font-display: swap; src: url('/fonts/space-grotesk-v22-latin-700.woff2') format('woff2'); }
+    @font-face { font-family: 'Space Grotesk'; font-style: normal; font-weight: 600; font-display: swap; src: url('/fonts/space-grotesk-v22-latin-600.woff2') format('woff2'); }
+    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/inter-v20-latin-regular.woff2') format('woff2'); }
+    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url('/fonts/inter-v20-latin-600.woff2') format('woff2'); }
   </style>
+  <!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    _paq.push(["setExcludedReferrers", ["androidscroll.com","analytics.androidscroll.com"]]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    _paq.push(['enableHeartBeatTimer', 5]);
+    (function() {
+      var u="//analytics.androidscroll.com/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
 </head>
-<body class="bg-neutral-50 text-neutral-900 antialiased">
 
-<header class="bg-white border-b border-neutral-200 sticky top-0 z-50">
-  <nav class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
-    <a href="/" class="font-bold text-xl text-[#00A88F]">AndroidScroll</a>
-
-    <div class="flex items-center gap-4">
-      <!-- Search bar (hidden by default) -->
-      <div id="search-bar" class="hidden items-center gap-2">
-        <input
-          id="nav-search"
-          type="text"
-          placeholder="Search..."
-          class="w-48 px-3 py-1.5 text-sm rounded-lg border border-neutral-200 focus:border-[#00A88F] focus:outline-none"
-        />
-      </div>
-
-      <!-- Search icon -->
-      <button id="search-toggle" aria-label="Search" class="text-neutral-600 hover:text-[#00A88F] transition-colors">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-        </svg>
-      </button>
-
-      <!-- Desktop nav -->
-      <ul class="hidden md:flex items-center gap-6 text-sm font-semibold uppercase tracking-wide">
-        <li><a href="/posts" class="hover:text-[#00A88F] transition-colors">Posts</a></li>
-        <li><a href="/categories" class="hover:text-[#00A88F] transition-colors">Categories</a></li>
-      </ul>
-
-      <!-- Hamburger -->
-      <button id="menu-toggle" class="md:hidden flex flex-col gap-1.5 p-2" aria-label="Toggle menu">
-        <span class="block w-6 h-0.5 bg-neutral-900 transition-all" id="bar1"></span>
-        <span class="block w-6 h-0.5 bg-neutral-900 transition-all" id="bar2"></span>
-        <span class="block w-6 h-0.5 bg-neutral-900 transition-all" id="bar3"></span>
-      </button>
-    </div>
-  </nav>
-
-  <!-- Mobile menu -->
-  <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-neutral-100 px-5 py-4 flex flex-col gap-4">
-    <a href="/posts" class="text-sm font-semibold uppercase tracking-wide hover:text-[#00A88F] transition-colors">Posts</a>
-    <a href="/categories" class="text-sm font-semibold uppercase tracking-wide hover:text-[#00A88F] transition-colors">Categories</a>
-    <a href="/search" class="text-sm font-semibold uppercase tracking-wide hover:text-[#00A88F] transition-colors">Search</a>
+<body>
+  <!-- Reading Progress -->
+  <div class="as-progress-container">
+    <div class="as-progress-bar" id="as-progress-bar"></div>
   </div>
-</header>
 
-<script>
-  // Hamburger
-  const toggle = document.getElementById('menu-toggle');
-  const menu = document.getElementById('mobile-menu');
-  const bar1 = document.getElementById('bar1');
-  const bar2 = document.getElementById('bar2');
-  const bar3 = document.getElementById('bar3');
+  <!-- Header -->
+  <header style="background:var(--bg-header); border-bottom:1px solid var(--border-light); position:sticky; top:0; z-index:50;">
+    <nav style="max-width:1180px; margin:auto; padding:0 var(--container-side-padding); height:56px; display:flex; align-items:center; justify-content:space-between;">
+      <a href="/" style="font-family:var(--font-heading); font-weight:700; font-size:1.2rem; color:var(--brand-primary); text-decoration:none;">AndroidScroll</a>
 
-  toggle.addEventListener('click', () => {
-    menu.classList.toggle('hidden');
-    bar1.classList.toggle('rotate-45');
-    bar1.classList.toggle('translate-y-2');
-    bar2.classList.toggle('opacity-0');
-    bar3.classList.toggle('-rotate-45');
-    bar3.classList.toggle('-translate-y-2');
-  });
+      <div style="display:flex; align-items:center; gap:16px;">
+        <!-- Search bar -->
+        <div id="search-bar" style="display:none; align-items:center; gap:8px;">
+          <input id="nav-search" type="text" placeholder="Search..." style="width:180px; padding:6px 12px; font-size:14px; border-radius:var(--radius-main); border:1px solid var(--border-light); background:var(--bg-surface); color:var(--text-main); font-family:var(--font-body);" />
+        </div>
 
-  menu.querySelectorAll('a').forEach(a => {
-    a.addEventListener('click', () => menu.classList.add('hidden'));
-  });
+        <!-- Search icon -->
+        <button id="search-toggle" aria-label="Search" style="border:none; background:transparent; cursor:pointer; color:var(--text-muted); display:flex; align-items:center; padding:4px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </button>
 
-  // Search toggle
-const searchToggle = document.getElementById('search-toggle');
-const searchBar = document.getElementById('search-bar');
-const navSearch = document.getElementById('nav-search');
+        <!-- Desktop nav -->
+        <ul style="display:none; list-style:none; margin:0; padding:0; gap:24px; font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:0.05em;" class="desktop-nav">
+          <li><a href="/posts" style="color:var(--text-main); text-decoration:none;">Posts</a></li>
+          <li><a href="/categories" style="color:var(--text-main); text-decoration:none;">Categories</a></li>
+        </ul>
 
-searchToggle.addEventListener('click', () => {
-  const isHidden = searchBar.classList.contains('hidden');
-  searchBar.classList.toggle('hidden');
-  searchBar.classList.toggle('flex');
-  if (isHidden) navSearch.focus();
-});
+        <!-- Hamburger -->
+        <button id="menu-toggle" aria-label="Toggle menu" style="border:none; background:transparent; cursor:pointer; display:flex; flex-direction:column; gap:5px; padding:4px;">
+          <span id="bar1" style="display:block; width:22px; height:2px; background:var(--text-main); transition:all 0.3s;"></span>
+          <span id="bar2" style="display:block; width:22px; height:2px; background:var(--text-main); transition:all 0.3s;"></span>
+          <span id="bar3" style="display:block; width:22px; height:2px; background:var(--text-main); transition:all 0.3s;"></span>
+        </button>
+      </div>
+    </nav>
 
-// Close on click outside
-document.addEventListener('click', (e) => {
-  if (!searchBar.contains(e.target) && !searchToggle.contains(e.target)) {
-    searchBar.classList.add('hidden');
-    searchBar.classList.remove('flex');
-  }
-});
+    <!-- Mobile menu -->
+    <div id="mobile-menu" style="display:none; flex-direction:column; gap:0; background:var(--bg-surface); border-top:1px solid var(--border-light);">
+      <a href="/posts" style="padding:14px var(--container-side-padding); font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-main); text-decoration:none; border-bottom:1px solid var(--border-light);">Posts</a>
+      <a href="/categories" style="padding:14px var(--container-side-padding); font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-main); text-decoration:none; border-bottom:1px solid var(--border-light);">Categories</a>
+      <a href="/search" style="padding:14px var(--container-side-padding); font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-main); text-decoration:none;">Search</a>
+    </div>
+  </header>
 
-navSearch.addEventListener('keydown', (e) => {
-  if (e.key === 'Enter' && navSearch.value.trim()) {
-    window.location.href = `/search?q=${encodeURIComponent(navSearch.value.trim())}`;
-  }
-  if (e.key === 'Escape') {
-    searchBar.classList.add('hidden');
-    searchBar.classList.remove('flex');
-  }
-});
-</script>
-
-  <main class="max-w-6xl mx-auto px-5 py-10">
+  <main style="max-width:1180px; margin:auto; padding:40px var(--container-side-padding);">
     <slot />
   </main>
 
-  <footer class="border-t-4 border-[#00A88F] mt-16 py-8 text-center text-sm text-neutral-500">
-    © {new Date().getFullYear()} AndroidScroll
+  <footer style="background:var(--text-dark); border-top:20px solid var(--brand-primary); padding:30px var(--container-side-padding); text-align:center; color:#fff; font-size:14px;">
+    <p style="margin:0;">© 2019–{new Date().getFullYear()} AndroidScroll.com</p>
   </footer>
+
+  <!-- Back to top -->
+  <button id="as-back-to-top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- Sticky footer ad -->
+  <div class="as-sticky-footer" id="asStickyFooter">
+    <button class="as-sf-close" id="asSfClose" aria-label="Close">✕</button>
+    <a href="https://androidscroll.com/offer/anker-chargers/" class="as-sf-inner" target="_blank" rel="noopener sponsored">
+      <div class="as-sf-img">
+        <img src="https://images.androidscroll.com/anker-logo.jpg" alt="Anker Charger" loading="lazy" />
+      </div>
+      <div class="as-sf-body">
+        <span class="as-sf-label">Sponsored</span>
+        <p class="as-sf-headline">Anker Chargers — Top Rated</p>
+        <span class="as-sf-sub">Fast charging for any Android phone</span>
+      </div>
+      <span class="as-sf-cta">Shop Now</span>
+    </a>
+  </div>
+
+  <script>
+    // Desktop nav show on md+
+    const desktopNav = document.querySelector('.desktop-nav');
+    if (window.innerWidth >= 768) desktopNav.style.display = 'flex';
+
+    // Hamburger
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const bar1 = document.getElementById('bar1');
+    const bar2 = document.getElementById('bar2');
+    const bar3 = document.getElementById('bar3');
+
+    menuToggle.addEventListener('click', () => {
+      const open = mobileMenu.style.display === 'flex';
+      mobileMenu.style.display = open ? 'none' : 'flex';
+    });
+
+    mobileMenu.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => { mobileMenu.style.display = 'none'; });
+    });
+
+    // Search toggle
+    const searchToggle = document.getElementById('search-toggle');
+    const searchBar = document.getElementById('search-bar');
+    const navSearch = document.getElementById('nav-search');
+
+    searchToggle.addEventListener('click', () => {
+      const hidden = searchBar.style.display === 'none' || !searchBar.style.display;
+      searchBar.style.display = hidden ? 'flex' : 'none';
+      if (hidden) navSearch.focus();
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!searchBar.contains(e.target) && !searchToggle.contains(e.target)) {
+        searchBar.style.display = 'none';
+      }
+    });
+
+    navSearch.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && navSearch.value.trim()) {
+        window.location.href = `/search?q=${encodeURIComponent(navSearch.value.trim())}`;
+      }
+      if (e.key === 'Escape') searchBar.style.display = 'none';
+    });
+
+    // Reading progress
+    const progressBar = document.getElementById('as-progress-bar');
+    if (progressBar) {
+      window.addEventListener('scroll', () => {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+        progressBar.style.width = pct + '%';
+      });
+    }
+
+    // Back to top
+    const backToTop = document.getElementById('as-back-to-top');
+    if (backToTop) {
+      window.addEventListener('scroll', () => {
+        backToTop.classList.toggle('show', window.scrollY > 600);
+      });
+      backToTop.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+
+    // Sticky footer ad
+    const stickyFooter = document.getElementById('asStickyFooter');
+    const sfClose = document.getElementById('asSfClose');
+    if (stickyFooter) {
+      setTimeout(() => stickyFooter.classList.add('as-sf--show'), 3000);
+      sfClose?.addEventListener('click', () => stickyFooter.classList.remove('as-sf--show'));
+    }
+  </script>
 </body>
 </html>

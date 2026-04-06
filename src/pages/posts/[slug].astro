@@ -11,33 +11,206 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
+
+// Reading time
+const wordCount = post.body?.split(/\s+/).length ?? 0;
+const readingTime = Math.max(1, Math.ceil(wordCount / 238));
+
+// H2 headings for TOC
+const tocHeadings = headings.filter(h => h.depth === 2);
+
+// Related posts (same category)
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const related = allPosts
+  .filter(p => p.id !== post.id && p.data.categories?.some(c => post.data.categories?.includes(c)))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
 ---
 
-<Layout 
-  title={post.data.title} 
+<Layout
+  title={post.data.title}
   description={post.data.description}
   cover={post.data.cover}
   coverAlt={post.data.coverAlt}
   type="article"
 >
-  <article class="max-w-prose mx-auto">
+  <article style="max-width:780px; margin:auto; background:var(--bg-surface); padding:30px var(--container-side-padding);">
 
-    {post.data.cover && (
-      <div class="w-full h-64 md:h-96 overflow-hidden rounded-xl mb-8">
-        <img src={post.data.cover} alt={post.data.coverAlt ?? post.data.title} class="w-full h-full object-cover" />
+    <!-- Breadcrumbs -->
+    <div class="bread_ish">
+      <a href="/">Home</a>
+      <span class="sep"> › </span>
+      {post.data.parentCategory && (
+        <a href={`/categories/${post.data.parentCategory}`}>
+          {post.data.parentCategory.replace(/-/g, ' ')}
+        </a>
+      )}
+      {post.data.categories?.[0] && post.data.categories[0] !== post.data.parentCategory && (
+        <>
+          <span class="sep"> › </span>
+          <a href={`/categories/${post.data.parentCategory}/${post.data.categories[0]}`}>
+            {post.data.categories[0].replace(/-/g, ' ')}
+          </a>
+        </>
+      )}
+    </div>
+
+    <!-- Category badge -->
+    {post.data.categories && (
+      <div class="category_meta">
+        {post.data.categories.map(cat => (
+          <a href={`/categories/${post.data.parentCategory}/${cat}`}>
+            {cat.replace(/-/g, ' ')}
+          </a>
+        ))}
       </div>
     )}
 
-    <h1 class="text-3xl md:text-4xl font-bold leading-tight mb-4">{post.data.title}</h1>
+    <!-- Title -->
+    <h1 style="margin-bottom:0.25em;">{post.data.title}</h1>
 
-    <p class="text-sm text-neutral-400 mb-8">
-      {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-    </p>
+    <!-- Post meta -->
+    <div class="meta-scroll-wrapper">
+      <div class="scrollable-meta">
+        <span class="meta-author-wrapper">
+          <a href="/about">
+            <img src="https://images.androidscroll.com/gwill-avatar.jpg" alt="Gwill Chijioke" width="28" height="28" />
+            <span>Gwill Chijioke</span>
+          </a>
+        </span>
+        <span class="meta-sep">•</span>
+        <span class="meta-date-wrapper">
+          {post.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+        </span>
+        <span class="meta-sep">•</span>
+        <span class="meta-read-time">{readingTime} min read</span>
+      </div>
+    </div>
 
-    <div class="prose prose-neutral max-w-none">
+    <!-- Cover image -->
+    {post.data.cover && (
+      <div style="margin:20px 0 30px; border-radius:var(--radius-main); overflow:hidden;">
+        <img
+          src={post.data.cover}
+          alt={post.data.coverAlt ?? post.data.title}
+          style="width:100%; height:auto; border-radius:var(--radius-main); box-shadow:var(--shadow-soft);"
+        />
+      </div>
+    )}
+
+    <!-- TOC -->
+    {tocHeadings.length > 2 && (
+      <div class="android-scroll-toc" id="as-toc">
+        <div class="toc-header" id="toc-header">
+          <span class="toc-title">📋 Table of Contents</span>
+          <span class="toc-toggle" id="toc-toggle"></span>
+        </div>
+        <ul class="toc-list" id="toc-list">
+          {tocHeadings.map(h => (
+            <li>
+              <a href={`#${h.slug}`}>{h.text}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    <!-- Content -->
+    <div class="post-content">
       <Content />
     </div>
 
+    <!-- Native share -->
+    <button class="native-share-trigger" id="native-share-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="18" cy="5" r="3"></circle>
+        <circle cx="6" cy="12" r="3"></circle>
+        <circle cx="18" cy="19" r="3"></circle>
+        <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+        <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+      </svg>
+      Share this post
+    </button>
+
+    <!-- Author box -->
+    <div class="custom-author-box">
+      <div class="cab-inner">
+        <div class="cab-avatar-wrapper">
+          <img class="cab-avatar-img" src="https://images.androidscroll.com/gwill-avatar.jpg" alt="Gwill Chijioke" />
+        </div>
+        <div class="cab-content">
+          <div class="cab-header">
+            <span class="cab-label">Written by</span>
+            <h3 class="cab-name">Gwill Chijioke</h3>
+          </div>
+          <p class="cab-bio">Android enthusiast sharing tips, tricks and guides to help you get the most from your Android phone.</p>
+          <div class="cab-footer">
+            <a href="/about" class="cab-more-link">More posts →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Related posts -->
+    {related.length > 0 && (
+      <div class="related-posts-section">
+        <h3>Related Posts</h3>
+        <div class="related-grid">
+          {related.map(r => (
+            <div class="related-card">
+              <a href={`/posts/${r.id}`}>
+                {r.data.cover && (
+                  <div class="related-thumb">
+                    <img src={r.data.cover} alt={r.data.title} loading="lazy" />
+                  </div>
+                )}
+                <p class="related-meta">
+                  {r.data.categories?.[0]?.replace(/-/g, ' ')}
+                </p>
+                <p class="related-title">{r.data.title}</p>
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
   </article>
 </Layout>
+
+<script>
+  // TOC toggle
+  const toc = document.getElementById('as-toc');
+  const tocHeader = document.getElementById('toc-header');
+  if (toc && tocHeader) {
+    tocHeader.addEventListener('click', () => {
+      toc.classList.toggle('toc-collapsed');
+    });
+  }
+
+  // TOC active link on scroll
+  const tocLinks = document.querySelectorAll('.toc-list a');
+  const headingEls = document.querySelectorAll('.post-content h2[id]');
+  if (tocLinks.length && headingEls.length) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          tocLinks.forEach(l => l.classList.remove('toc-active'));
+          const active = document.querySelector(`.toc-list a[href="#${entry.target.id}"]`);
+          active?.classList.add('toc-active');
+        }
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+    headingEls.forEach(h => observer.observe(h));
+  }
+
+  // Native share
+  const shareBtn = document.getElementById('native-share-btn');
+  if (shareBtn && navigator.share) {
+    shareBtn.style.display = 'inline-flex';
+    shareBtn.addEventListener('click', () => {
+      navigator.share({ title: document.title, url: window.location.href });
+    });
+  }
+</script>
