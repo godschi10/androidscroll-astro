@@ -44,24 +44,35 @@ const categories = [
 ---
 
 <Layout title="Categories">
-  <h1 class="text-3xl font-bold mb-10">Categories</h1>
+  <h1 class="text-3xl font-bold mb-10 text-neutral-900 dark:text-neutral-100">Categories</h1>
+  
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
     {categories.map(cat => (
-      <div class="bg-white rounded-xl border border-neutral-200 overflow-hidden">
+      <div class="bg-surface-2 rounded-xl border border-neutral-200 dark:border-neutral-700 overflow-hidden shadow-sm">
         <a href={`/categories/${cat.slug}`} class="block bg-[#00A88F] px-6 py-4 hover:bg-[#008c72] transition-colors">
           <h2 class="text-white font-bold text-lg">{cat.name}</h2>
         </a>
-        {cat.children.length > 0 && (
+        
+        {cat.children.length > 0 ? (
           <ul class="p-4 flex flex-col gap-2">
             {cat.children.map(child => (
               <li>
-                <a href={`/categories/${cat.slug}/${child.slug}`} class="flex items-center gap-2 text-neutral-700 hover:text-[#00A88F] transition-colors text-sm font-medium">
-                  <span class="text-[#00A88F]">→</span>
+                <a 
+                  href={`/categories/${cat.slug}/${child.slug}`} 
+                  class="flex items-center gap-2 text-neutral-700 dark:text-neutral-300 hover:text-[#00A88F] dark:hover:text-[#00A88F] transition-colors text-sm font-medium group"
+                >
+                  <span class="text-[#00A88F] group-hover:translate-x-1 transition-transform">→</span>
                   {child.name}
                 </a>
               </li>
             ))}
           </ul>
+        ) : (
+          <div class="p-6">
+            <p class="text-sm text-neutral-500 dark:text-neutral-400 italic">
+              Explore all troubleshooting guides and technical fixes.
+            </p>
+          </div>
         )}
       </div>
     ))}

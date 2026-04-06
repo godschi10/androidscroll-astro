@@ -8,512 +8,542 @@ categories: ["battery-life-hacks","tips-hidden-features"]
 parentCategory: "tips-hidden-features"
 ---
 
-<p>Do you ever find yourself running out of battery power on your Android device? You're not alone. In fact, battery life is one of the most common complaints among Android users.</p>
+Do you ever find yourself running out of battery power on your Android device? You're not alone. In fact, battery life is one of the most common complaints among Android users.
 
-<p>But there are a few things you can do to improve battery life on your Android device, even if you're not a tech expert.</p>
+But there are a few things you can do to improve battery life on your Android device, even if you're not a tech expert.
 
-<p>In this blog post, I'll share 15 unexpected ways to improve battery life on your Android device</p>
+In this blog post, I'll share 15 unexpected ways to improve battery life on your Android device
 
-<p>Some of these tips may be new to you, while others may be things you've heard before but never tried. Either way, I hope you find something that helps you get more out of your phone's battery.</p>
+Some of these tips may be new to you, while others may be things you've heard before but never tried. Either way, I hope you find something that helps you get more out of your phone's battery.
 
-<p>So without further ado, let's get started!</p>
+So without further ado, let's get started!
 
-<h2>1. Lower screen brightness</h2>
+## 1. Lower screen brightness
 
-<p>One of the easiest ways to improve your device's battery life is to lower the screen brightness.</p>
+One of the easiest ways to improve your device's battery life is to lower the screen brightness.
 
-<p>The display is one of the most power-hungry components of any device, and reducing the amount of power it consumes can make a big difference in how long your battery lasts.</p>
+The display is one of the most power-hungry components of any device, and reducing the amount of power it consumes can make a big difference in how long your battery lasts.
 
-<p>Here are three ways for adjusting the screen brightness on most Android devices:</p>
+Here are three ways for adjusting the screen brightness on most Android devices:
 
-<h3>i. Lower brightness from Quick Settings</h3>
+### i. Lower brightness from Quick Settings
 
-<p>Swipe down from the top of the screen to access the Quick Settings menu.</p>
+Swipe down from the top of the screen to access the Quick Settings menu.
 
-<p>Look for the brightness slider, which should be represented by a sun or a similar icon.</p>
+Look for the brightness slider, which should be represented by a sun or a similar icon.
 
-<figure class="wp-block-image size-large is-resized"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-Brightness-Slider-461x1024.jpg" alt="" class="wp-image-8820" style="width:344px;height:764px"/></figure>
 
-<p>Drag the brightness slider left or right to adjust the screen brightness to your desired level.</p>
 
-<h3>ii. Adjust brightness inside Settings</h3>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Android-Brightness-Slider-461x1024.jpg)
 
-<p>Alternatively, you can access the brightness settings by going to the "<strong>Settings</strong>" app.</p>
 
-<p>Click on "<strong>Display</strong>", select "<strong>Brightness Level</strong>", then adjust the brightness slider to your desired level.</p>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-Display-Settings-461x1024.jpg" alt="" class="wp-image-8826"/></figure>
+Drag the brightness slider left or right to adjust the screen brightness to your desired level.
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Adjust-Brightness-461x1024.jpg" alt="" class="wp-image-8821"/></figure>
+### ii. Adjust brightness inside Settings
 
-<h3>iii. Turn on adaptive brightness</h3>
+Alternatively, you can access the brightness settings by going to the "**Settings**" app.
 
-<p>Some devices have a feature called adaptive brightness, which automatically adjusts the screen brightness based on the lighting conditions in your environment.</p>
+Click on "**Display**", select "**Brightness Level**", then adjust the brightness slider to your desired level.
 
-<p>This is usually found in the same display or brightness settings menu, and can be turned on or off depending on your preferences.</p>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Adaptive-Brightness-461x1024.jpg" alt="" class="wp-image-8822"/></figure>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Turn-on-Adaptive-Brightness-461x1024.jpg" alt="" class="wp-image-8823"/></figure>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Android-Display-Settings-461x1024.jpg)
 
-<h2>2. Disable Location Services</h2>
 
-<p>Having location services enabled on your device can prove to be quite beneficial for various apps.</p>
 
-<p>Bear in mind that these services can also have significant impacts on your device's battery life.</p>
 
-<p>So to avoid draining your battery, it's highly recommended that you disable location services when you're not actively using them.</p>
 
-<p>By turning off location services when you're not using them, you'll be able to extend your device's battery life significantly.</p>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Adjust-Brightness-461x1024.jpg)
 
-<p>Here are the step-by-step instructions for disabling location services on your Android device:</p>
 
-<h3>i. Access your device's settings menu</h3>
 
-<p>You can find this by tapping on the gear icon or swiping down from the top of the screen and tapping on the settings icon.</p>
+### iii. Turn on adaptive brightness
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-Settings-App-Icon-461x1024.jpg" alt="" class="wp-image-8875"/></figure>
+Some devices have a feature called adaptive brightness, which automatically adjusts the screen brightness based on the lighting conditions in your environment.
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-Settings-quick-access-461x1024.jpg" alt="" class="wp-image-8876"/></figure>
+This is usually found in the same display or brightness settings menu, and can be turned on or off depending on your preferences.
 
-<h3>ii. Locate the Location Services option</h3>
 
-<p>You can find this within the settings menu.</p>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Location-Service-in-Settings-461x1024.jpg" alt="" class="wp-image-8824"/></figure>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Adaptive-Brightness-461x1024.jpg)
 
-<h3>iii. Turn off location services</h3>
 
-<p>Tapping on the Location option will bring up the location settings, where you can toggle the switch to turn off location services for all apps or select specific apps that do not need location data.</p>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Turn-off-Location-Services-461x1024.jpg" alt="" class="wp-image-8825"/></figure>
 
-<h3>Consider using location services only when needed</h3>
 
-<p>Many devices now offer the option to use location services only when the app is in use. Activating this option for apps that need location data can also help conserve battery life.</p>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Turn-on-Adaptive-Brightness-461x1024.jpg)
 
-<h2>3. Turning off vibrations and haptic feedback</h2>
 
-<p>Vibrations and haptic feedback are features that make your phone vibrate when you receive a notification, a call, or when you touch certain parts of the screen.</p>
 
-<p>They can be useful for alerting you or giving you touch feedback, but they also consume battery power every time they are activated.</p>
+## 2. Disable Location Services
 
-<p>If you want to save some battery life on your android device, you can turn off vibrations and haptic feedback in the settings. Here's how to do it:</p>
+Having location services enabled on your device can prove to be quite beneficial for various apps.
 
-<h3>Turning off vibrations</h3>
+Bear in mind that these services can also have significant impacts on your device's battery life.
 
-<ul>
-<li>Go to <strong>Settings</strong> &gt; <strong>Sound</strong></li>
-</ul>
+So to avoid draining your battery, it's highly recommended that you disable location services when you're not actively using them.
 
-<ul>
-<li>Tap on <strong>Vibrate for calls</strong> to toggle it off</li>
-</ul>
+By turning off location services when you're not using them, you'll be able to extend your device's battery life significantly.
 
-<figure class="wp-block-image size-large is-resized"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Turn-off-vibrate-for-calls-461x1024.jpg" alt="" class="wp-image-8827" style="width:344px;height:764px"/></figure>
+Here are the step-by-step instructions for disabling location services on your Android device:
 
-<h3>Turning off haptic feedback</h3>
+### i. Access your device's settings menu
 
-<ul>
-<li>Go to <strong>Settings</strong> &gt; <strong>Accessibility</strong></li>
-</ul>
+You can find this by tapping on the gear icon or swiping down from the top of the screen and tapping on the settings icon.
 
-<ul>
-<li>Tap on <strong>Vibration &amp; haptic strength</strong> and drag the sliders to the left for <strong>Touch feedback</strong> and <strong>Ring Vibration</strong>.</li>
-</ul>
 
-<ul>
-<li>If you use Gboard as your keyboard app, go to <strong>Settings</strong> &gt; <strong>System</strong> &gt; <strong>Languages &amp; input</strong> &gt; <strong>Virtual keyboard</strong> &gt; <strong>Gboard</strong> &gt; <strong>Preferences</strong> and toggle off <strong>Haptic feedback on keypress</strong></li>
-</ul>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Vibration-haptic-strength-461x1024.jpg" alt="" class="wp-image-8828"/><figcaption class="wp-element-caption">Vibration &amp; haptic strength</figcaption></figure>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Android-Settings-App-Icon-461x1024.jpg)
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Turn-off-Haptic-feedback-for-Gboard-461x1024.jpg" alt="" class="wp-image-8829"/><figcaption class="wp-element-caption">Haptic feedback on keypress for Gboard</figcaption></figure>
 
-<p>By turning off vibrations and haptic feedback, you can reduce the amount of power your phone uses to vibrate the motor.</p>
 
-<p>This can help you extend your battery life and enjoy your android device longer.</p>
 
-<h2>4. Close Background Apps</h2>
 
-<p>When it comes to optimizing your Android phone's battery life, closing background apps is an effective way to reduce unnecessary drain on your device's battery.</p>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Android-Settings-quick-access-461x1024.jpg)
 
-<p>Background apps can continue running even when not in use, using up CPU cycles and consuming power, which can lead to a shorter battery life.</p>
 
-<p>The most straight-forward way to close background apps on an Android device is to use the Recent Apps feature.</p>
 
-<p>This feature displays a list of apps that have been recently used and allows you to switch between them quickly.</p>
+### ii. Locate the Location Services option
 
-<p>However, these apps can continue to run in the background, consuming resources and draining your battery.</p>
+You can find this within the settings menu.
 
-<p>To close them using Recent Apps, you can follow these steps:</p>
 
-<ul>
-<li>Access Recent Apps by tapping the square button at the bottom of your screen to access Recent Apps.</li>
-</ul>
 
-<ul>
-<li>Swipe left or right to view the list of apps.</li>
-</ul>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Location-Service-in-Settings-461x1024.jpg)
 
-<ul>
-<li>Swipe up or press <strong>X</strong> on the app you want to close to remove it from the list.</li>
-</ul>
 
-<ul>
-<li>Repeat these steps for any other apps you want to close.</li>
-</ul>
 
-<ul>
-<li>You can remove all at once by pressing the clear all button</li>
-</ul>
+### iii. Turn off location services
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Click-square-to-open-Recent-Apps-461x1024.jpg" alt="" class="wp-image-8834"/></figure>
+Tapping on the Location option will bring up the location settings, where you can toggle the switch to turn off location services for all apps or select specific apps that do not need location data.
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-Recent-Apps-461x1024.jpg" alt="" class="wp-image-8835"/></figure>
 
-<p>By following these steps, you can easily close background apps and free up system resources, which can help improve your device's performance and battery life.</p>
 
-<h2>5. Use Battery Saver Mode</h2>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Turn-off-Location-Services-461x1024.jpg)
 
-<p>One of the many easy and most effective ways to increase battery life on your Android device is to use the built-in battery saver mode.</p>
 
-<p>Battery Saver reduces the performance and functionality of your device to conserve power when you need it most.</p>
 
-<p>When you activate battery saver mode, your device will:</p>
+### Consider using location services only when needed
 
-<ul>
-<li>Limit background activity and data usage of apps</li>
-</ul>
+Many devices now offer the option to use location services only when the app is in use. Activating this option for apps that need location data can also help conserve battery life.
 
-<ul>
-<li>Turn off location services and Bluetooth</li>
-</ul>
+## 3. Turning off vibrations and haptic feedback
 
-<ul>
-<li>Reduce screen brightness and timeout</li>
-</ul>
+Vibrations and haptic feedback are features that make your phone vibrate when you receive a notification, a call, or when you touch certain parts of the screen.
 
-<ul>
-<li>Disable animations and vibrations</li>
-</ul>
+They can be useful for alerting you or giving you touch feedback, but they also consume battery power every time they are activated.
 
-<p>By using battery saver mode, you can extend your battery life by up to 15% or more, depending on your device and usage.</p>
+If you want to save some battery life on your android device, you can turn off vibrations and haptic feedback in the settings. Here's how to do it:
 
-<p>To activate battery saver mode, follow these steps:</p>
+### Turning off vibrations
 
-<ul>
-<li>Swipe down from the top of your screen to access the notification panel</li>
-</ul>
+- Go to **Settings** > **Sound**
+- Tap on **Vibrate for calls** to toggle it off
 
-<ul>
-<li>Press and hold the battery icon to open the battery settings</li>
-</ul>
 
-<ul>
-<li>Tap on the battery saver option and toggle it on</li>
-</ul>
 
-<ul>
-<li>You can also set a schedule for battery saver mode to turn on automatically when your battery level reaches a certain percentage</li>
-</ul>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Turn-off-vibrate-for-calls-461x1024.jpg)
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-Battery-Saver-Quick-Access-461x1024.jpg" alt="" class="wp-image-8836"/></figure>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-Battery-Saver-461x1024.jpg" alt="" class="wp-image-8837"/></figure>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Turn-on-Battery-Saver-461x1024.jpg" alt="" class="wp-image-8838"/></figure>
+### Turning off haptic feedback
 
-<p>Alternatively, you can add a battery saver shortcut to your quick settings panel for easier access.</p>
+- Go to **Settings** > **Accessibility**
+- Tap on **Vibration & haptic strength** and drag the sliders to the left for **Touch feedback** and **Ring Vibration**.
+- If you use Gboard as your keyboard app, go to **Settings** > **System** > **Languages & input** > **Virtual keyboard** > **Gboard** > **Preferences** and toggle off **Haptic feedback on keypress**
 
-<p>To do this:</p>
 
-<ul>
-<li>Swipe down from the top of your screen twice to expand the quick settings panel</li>
-</ul>
 
-<ul>
-<li>Tap on the pencil icon to edit the panel</li>
-</ul>
+![Vibration & haptic strength](https://androidscroll.com/wp-content/uploads/2023/05/Vibration-haptic-strength-461x1024.jpg)
 
-<ul>
-<li>Drag and drop the battery saver icon to your desired position</li>
-</ul>
 
-<ul>
-<li>Tap on the back button to save your changes</li>
-</ul>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Click-Pencil-icon-to-add-quick-settings-461x1024.jpg" alt="" class="wp-image-8839"/></figure>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Add-quick-settings-461x1024.jpg" alt="" class="wp-image-8840"/></figure>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-Battery-Saver-Quick-Access-461x1024.jpg" alt="" class="wp-image-8836"/></figure>
+![Haptic feedback on keypress for Gboard](https://androidscroll.com/wp-content/uploads/2023/05/Turn-off-Haptic-feedback-for-Gboard-461x1024.jpg)
 
-<p>Now you can turn on battery saver mode with a single tap whenever you need it.</p>
 
-<h2>6. Turn Off Auto-Sync</h2>
 
-<p>Auto-sync is a feature that automatically synchronizes your data and settings across your android devices.</p>
+By turning off vibrations and haptic feedback, you can reduce the amount of power your phone uses to vibrate the motor.
 
-<p>While this can be convenient, it can also drain your battery life by constantly running in the background.</p>
+This can help you extend your battery life and enjoy your android device longer.
 
-<p>If you don't need to sync your data frequently, you can turn off auto-sync and save some juice.</p>
+## 4. Close Background Apps
 
-<p>To turn off auto-sync, follow these steps:</p>
+When it comes to optimizing your Android phone's battery life, closing background apps is an effective way to reduce unnecessary drain on your device's battery.
 
-<ul>
-<li>Go to <strong>Settings</strong> &gt; <strong>Accounts</strong>.</li>
-</ul>
+Background apps can continue running even when not in use, using up CPU cycles and consuming power, which can lead to a shorter battery life.
 
-<ul>
-<li>Scroll to the bottom.</li>
-</ul>
+The most straight-forward way to close background apps on an Android device is to use the Recent Apps feature.
 
-<ul>
-<li>Tap on the slider to disable auto-sync.</li>
-</ul>
+This feature displays a list of apps that have been recently used and allows you to switch between them quickly.
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-Auto-sync-Accounts-461x1024.jpg" alt="" class="wp-image-8843"/></figure>
+However, these apps can continue to run in the background, consuming resources and draining your battery.
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Turning-off-Android-Auto-Sync-461x1024.jpg" alt="" class="wp-image-8847"/></figure>
+To close them using Recent Apps, you can follow these steps:
 
-<p>By turning off auto-sync, you can reduce the battery consumption of your android device and extend its life.</p>
+- Access Recent Apps by tapping the square button at the bottom of your screen to access Recent Apps.
+- Swipe left or right to view the list of apps.
+- Swipe up or press **X** on the app you want to close to remove it from the list.
+- Repeat these steps for any other apps you want to close.
+- You can remove all at once by pressing the clear all button
 
-<p>Remember to sync your data manually when you need to update it across your devices.</p>
 
-<h2>7. Uninstall Unused Apps</h2>
 
-<p>Did you know that some of the apps on your Android phone could be killing your battery life?</p>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Click-square-to-open-Recent-Apps-461x1024.jpg)
 
-<p>Even if you don't use them often, they can still run in the background and drain your precious juice.</p>
 
-<p>That's why you should get rid of the apps that you don't need anymore.</p>
 
-<p>Here's how to do it in a few easy steps:</p>
 
-<ul>
-<li>Go to <strong>Settings</strong> &gt; <strong>Apps &amp; notifications</strong> &gt; <strong>SEE ALL XX APPS</strong>.</li>
-</ul>
 
-<ul>
-<li>Find the app that you want to delete and tap on it.</li>
-</ul>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Android-Recent-Apps-461x1024.jpg)
 
-<ul>
-<li>Tap <strong>Uninstall</strong> and then <strong>OK</strong> to confirm.</li>
-</ul>
 
-<ul>
-<li>Do this for any other apps that you don't use.</li>
-</ul>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-Apps-and-Notifications-461x1024.jpg" alt="" class="wp-image-8851"/></figure>
+By following these steps, you can easily close background apps and free up system resources, which can help improve your device's performance and battery life.
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/See-all-Android-Apps-461x1024.jpg" alt="" class="wp-image-8852"/></figure>
+## 5. Use Battery Saver Mode
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Click-AccuBattery-App-461x1024.jpg" alt="" class="wp-image-8854"/></figure>
+One of the many easy and most effective ways to increase battery life on your Android device is to use the built-in battery saver mode.
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Uninstall-Android-App-461x1024.jpg" alt="" class="wp-image-8850"/></figure>
+Battery Saver reduces the performance and functionality of your device to conserve power when you need it most.
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Click-ok-to-Uninstall-461x1024.jpg" alt="" class="wp-image-8853"/></figure>
+When you activate battery saver mode, your device will:
 
-<p>By uninstalling unused apps, you can boost your battery life and make more room for the apps that you love.</p>
+- Limit background activity and data usage of apps
+- Turn off location services and Bluetooth
+- Reduce screen brightness and timeout
+- Disable animations and vibrations
 
-<h2>8. Use Dark Mode</h2>
+By using battery saver mode, you can extend your battery life by up to 15% or more, depending on your device and usage.
 
-<p>If you want to save battery life on your Android phone, one of the best things you can do is to use dark mode.</p>
+To activate battery saver mode, follow these steps:
 
-<p>Dark mode is a feature that turns your phone's interface into a dark or black color. This lowers the brightness of your screen, which can save energy and protect your eyes.</p>
+- Swipe down from the top of your screen to access the notification panel
+- Press and hold the battery icon to open the battery settings
+- Tap on the battery saver option and toggle it on
+- You can also set a schedule for battery saver mode to turn on automatically when your battery level reaches a certain percentage
 
-<p>Dark mode can also give your phone a cool and elegant look.</p>
 
-<p>Here's how to turn it on:</p>
 
-<ul>
-<li>Go to <strong>Settings</strong> &gt; <strong>Display</strong> &gt; <strong>Dark theme</strong>.</li>
-</ul>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Android-Battery-Saver-Quick-Access-461x1024.jpg)
 
-<ul>
-<li>Slide the switch to the right to enable dark mode.</li>
-</ul>
 
-<ul>
-<li>Enjoy your new appearance and longer battery life.</li>
-</ul>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Activate-Darkmode-Android-461x1024.jpg" alt="" class="wp-image-8856"/></figure>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-Darkmode-Activated-461x1024.jpg" alt="" class="wp-image-8855"/></figure>
 
-<p>Dark mode is a simple and effective way to enhance your Android experience and save battery power. However, not all Android phones have this feature.</p>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Android-Battery-Saver-461x1024.jpg)
 
-<p>If your phone doesn't have dark mode, you may want to consider upgrading to a newer model that does.</p>
 
-<p>Check out my <a href="https://androidscroll.com/category/buying-guides/best-phones/">phone reviews</a> for some of the latest Android phones with dark mode.</p>
 
-<h2>9. Turn off Wi-Fi and Bluetooth When you are not using them </h2>
 
-<p>Another simple way to extend your battery life is by turning off Wi-Fi and Bluetooth when you're not using them.</p>
 
-<p>Wi-Fi and Bluetooth are great features that allow us to connect to the internet and other devices. However, they can also use up a lot of battery power. When your phone is constantly searching for Wi-Fi or Bluetooth signals, it uses more energy.</p>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Turn-on-Battery-Saver-461x1024.jpg)
 
-<p>But don't worry, it's easy to turn these features off and save battery life.</p>
 
-<p>Here's how:</p>
 
-<ul>
-<li>Swipe down from the top of your screen to open the Quick Settings panel.</li>
-</ul>
+Alternatively, you can add a battery saver shortcut to your quick settings panel for easier access.
 
-<ul>
-<li>Look for the Wi-Fi and Bluetooth icons.</li>
-</ul>
+To do this:
 
-<ul>
-<li>Tap on each icon to turn them off.</li>
-</ul>
+- Swipe down from the top of your screen twice to expand the quick settings panel
+- Tap on the pencil icon to edit the panel
+- Drag and drop the battery saver icon to your desired position
+- Tap on the back button to save your changes
 
-<p>That's it!</p>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-Bluetooth-and-WiFi-quick-access-461x1024.jpg" alt="" class="wp-image-8859"/></figure>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Turn-off-Bluetooth-and-WiFi-461x1024.jpg" alt="" class="wp-image-8858"/></figure>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Click-Pencil-icon-to-add-quick-settings-461x1024.jpg)
 
-<p>By turning off Wi-Fi and Bluetooth when you're not using them, you can help your battery last longer. And when you need to use these features again, just follow the same steps to turn them back on.</p>
 
-<p>Remember, small changes can make a big difference in extending your battery life.</p>
 
-<h2>10. <strong>Use a Black Wallpaper on AMOLED Screens</strong></h2>
 
-<p>If your Android device has an <a href="https://en.wikipedia.org/wiki/AMOLED?wprov=sfla1" target="_blank" rel="noreferrer noopener">AMOLED Screen,</a> using a black wallpaper can help to increase its battery life.</p>
 
-<p>This is because AMOLED screens display the color black by turning off individual pixels, which reduces power consumption. The more black pixels on the screen, the less power is consumed.</p>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Add-quick-settings-461x1024.jpg)
 
-<p>To set a black wallpaper on your Android device, follow these steps:</p>
 
-<ul>
-<li>Open the Settings app on your device.</li>
-</ul>
 
-<ul>
-<li>Tap on <strong>Display</strong>.</li>
-</ul>
 
-<ul>
-<li>Tap on <strong>Wallpaper</strong>.</li>
-</ul>
 
-<ul>
-<li>Select a black wallpaper from the available options or download one from the internet.</li>
-</ul>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Android-Battery-Saver-Quick-Access-461x1024.jpg)
 
-<ul>
-<li>Tap on Set Wallpaper to apply the change.</li>
-</ul>
 
-<p>By using a black wallpaper on an AMOLED screen, you can reduce the power consumption of your device and extend its battery life.</p>
 
-<h2>11. <strong>Update Your Android Software</strong></h2>
+Now you can turn on battery saver mode with a single tap whenever you need it.
 
-<p>Updating your Android software can help your phone's battery last longer. New updates often have improvements that help your phone use less power.</p>
+## 6. Turn Off Auto-Sync
 
-<p>By keeping your software up to date, you can make sure your phone is working as well as it can and that your battery lasts as long as possible.</p>
+Auto-sync is a feature that automatically synchronizes your data and settings across your android devices.
 
-<p>Here's how to update your Android software:</p>
+While this can be convenient, it can also drain your battery life by constantly running in the background.
 
-<ul>
-<li>Open the <strong>Settings</strong> app on your phone.</li>
-</ul>
+If you don't need to sync your data frequently, you can turn off auto-sync and save some juice.
 
-<ul>
-<li>Scroll down and tap on <strong>System</strong>.</li>
-</ul>
+To turn off auto-sync, follow these steps:
 
-<ul>
-<li>Tap on <strong>System update</strong>.</li>
-</ul>
+- Go to **Settings** > **Accounts**.
+- Scroll to the bottom.
+- Tap on the slider to disable auto-sync.
 
-<ul>
-<li>If there's an update available, follow the instructions to download and install it.</li>
-</ul>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-System-Settings-461x1024.jpg" alt="" class="wp-image-8863"/></figure>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-System-Update-461x1024.jpg" alt="" class="wp-image-8862"/></figure>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Android-Auto-sync-Accounts-461x1024.jpg)
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Checking-for-Android-System-Update-461x1024.jpg" alt="" class="wp-image-8860"/></figure>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Android-is-up-to-date-461x1024.jpg" alt="" class="wp-image-8861"/></figure>
 
-<p>Updating your Android software regularly can help your phone's battery last longer.</p>
 
-<h2>12. Use a Good Charger</h2>
 
-<p>Using a good charger is essential for maintaining the health and longevity of your Android phone’s battery. A good charger will provide the right amount of power to your phone, preventing overcharging and damage to the battery.</p>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Turning-off-Android-Auto-Sync-461x1024.jpg)
 
-<p>On the other hand, using a low-quality or incompatible charger can cause harm to your phone and reduce its battery life.</p>
 
-<p>When choosing a charger for your Android phone, make sure to select one that is compatible with your device and provides the correct amount of power.</p>
 
-<p>Look for chargers from reputable brands and avoid cheap knock-offs. Additionally, it’s important to avoid common charging mistakes that can damage your phone’s battery.</p>
+By turning off auto-sync, you can reduce the battery consumption of your android device and extend its life.
 
-<p>For more information on this topic, check out this article “<a href="https://androidscroll.com/6-charging-mistakes-that-damage-your-phone-battery/">7 Charging Mistakes That Are Damaging Your Phone Battery</a>.”</p>
+Remember to sync your data manually when you need to update it across your devices.
 
-<h2>13. Use a Battery Monitoring App</h2>
+## 7. Uninstall Unused Apps
 
-<p>One effective way to increase the battery life on your Android device is to use a battery monitoring app.</p>
+Did you know that some of the apps on your Android phone could be killing your battery life?
 
-<p>These apps can help you identify which apps and settings are draining your battery the most, allowing you to make changes that can significantly extend your battery life.</p>
+Even if you don't use them often, they can still run in the background and drain your precious juice.
 
-<p>For example, a battery monitoring app can show you which apps are running in the background and using up your battery even when you're not actively using them. You can then close these apps or adjust their settings to reduce their battery usage.</p>
+That's why you should get rid of the apps that you don't need anymore.
 
-<p>There are many battery monitoring apps available on the Google Play Store. One highly recommended app is <a href="https://play.google.com/store/apps/details?id=com.digibites.accubattery" target="_blank" rel="noreferrer noopener">AccuBattery</a>. This app provides detailed information on your battery usage and offers suggestions for improving your battery life.</p>
+Here's how to do it in a few easy steps:
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/AccuBattery-Dashboard-461x1024.jpg" alt="" class="wp-image-8864"/><figcaption class="wp-element-caption">AccuBattery Dashboard</figcaption></figure>
+- Go to **Settings** > **Apps & notifications** > **SEE ALL XX APPS**.
+- Find the app that you want to delete and tap on it.
+- Tap **Uninstall** and then **OK** to confirm.
+- Do this for any other apps that you don't use.
 
-<p>By using a battery monitoring app, you can take control of your battery usage and make sure your Android device lasts as long as possible between charges.</p>
 
-<h2>14. Using Airplane Mode in Low Signal Areas</h2>
 
-<p>When you're in an area with low signal strength, your Android phone will constantly search for a better connection, which can quickly drain your battery.</p>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Android-Apps-and-Notifications-461x1024.jpg)
 
-<p>One way to conserve battery life in these situations is to switch your phone to airplane mode. This will turn off all wireless connections, including cellular, Wi-Fi, and Bluetooth, preventing your phone from searching for a signal.</p>
 
-<p>To determine if you're in a low signal area, you can check the signal strength indicator on your phone. If you are constantly at one bar or no signal at all and you can't connect to the internet or make a call, you may be in a low signal area.</p>
 
-<p>To turn on airplane mode on an Android phone, swipe down from the top of the screen to open the Quick Settings panel. Then, tap on the airplane icon to turn on airplane mode.</p>
 
-<p>You can also access this setting by going to "Settings" and then "Network &amp; internet" and selecting "Airplane mode."</p>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Turn-on-Airplane-Mode-461x1024.jpg" alt="" class="wp-image-8867"/></figure>
+![](https://androidscroll.com/wp-content/uploads/2023/05/See-all-Android-Apps-461x1024.jpg)
 
-<p>By using airplane mode in low signal areas, you can help extend the battery life of your Android device.</p>
 
-<h2>15. Reducing the Number of Widgets on Your Home Screen</h2>
 
-<p>Widgets are small applications that display information and provide quick access to certain features on your Android phone.</p>
 
-<p>While they can be convenient, having too many widgets on your home screen can drain your battery. This is because widgets are constantly updating and using resources, even when you're not actively using your phone.</p>
 
-<p>To improve battery life, consider reducing the number of widgets on your home screen.</p>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Click-AccuBattery-App-461x1024.jpg)
 
-<p>To remove unwanted widgets, tap and hold on the widget until a menu appears. Then, select "<strong>Remove</strong>" or "<strong>Delete</strong>" to remove the widget from your home screen.</p>
 
-<figure class="wp-block-image size-large"><img src="https://androidscroll.com/wp-content/uploads/2023/05/Remove-Android-Widget-461x1024.jpg" alt="" class="wp-image-8868"/></figure>
 
-<p>By reducing the number of widgets on your home screen, you can help extend the battery life of your Android device.</p>
 
-<h2>Conclusion</h2>
 
-<p>I hope you found some helpful tips to improve battery life on your Android device.</p>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Uninstall-Android-App-461x1024.jpg)
 
-<p>As you can see, there are a number of things you can do to extend your battery life, even if you're not a tech expert. So don't be afraid to experiment with the different tips and see what works best for you.</p>
 
-<p>With a little effort, you can easily improve battery life on your Android device and enjoy longer use between charges. So what are you waiting for? Start using these tips today and see the difference they make!</p>
 
-<p>If you found this blog post helpful, please share it with your friends and leave a comment below. I love hearing from my readers as I'm always looking for ways to improve my content.</p>
 
-<p>And if you have any other tips for improving battery life on Android devices, please share them in the comments below!</p>
 
-<p></p>
+![](https://androidscroll.com/wp-content/uploads/2023/05/Click-ok-to-Uninstall-461x1024.jpg)
+
+
+
+By uninstalling unused apps, you can boost your battery life and make more room for the apps that you love.
+
+## 8. Use Dark Mode
+
+If you want to save battery life on your Android phone, one of the best things you can do is to use dark mode.
+
+Dark mode is a feature that turns your phone's interface into a dark or black color. This lowers the brightness of your screen, which can save energy and protect your eyes.
+
+Dark mode can also give your phone a cool and elegant look.
+
+Here's how to turn it on:
+
+- Go to **Settings** > **Display** > **Dark theme**.
+- Slide the switch to the right to enable dark mode.
+- Enjoy your new appearance and longer battery life.
+
+
+
+![](https://androidscroll.com/wp-content/uploads/2023/05/Activate-Darkmode-Android-461x1024.jpg)
+
+
+
+
+
+![](https://androidscroll.com/wp-content/uploads/2023/05/Android-Darkmode-Activated-461x1024.jpg)
+
+
+
+Dark mode is a simple and effective way to enhance your Android experience and save battery power. However, not all Android phones have this feature.
+
+If your phone doesn't have dark mode, you may want to consider upgrading to a newer model that does.
+
+Check out my [phone reviews](https://androidscroll.com/category/buying-guides/best-phones/) for some of the latest Android phones with dark mode.
+
+## 9. Turn off Wi-Fi and Bluetooth When you are not using them
+
+Another simple way to extend your battery life is by turning off Wi-Fi and Bluetooth when you're not using them.
+
+Wi-Fi and Bluetooth are great features that allow us to connect to the internet and other devices. However, they can also use up a lot of battery power. When your phone is constantly searching for Wi-Fi or Bluetooth signals, it uses more energy.
+
+But don't worry, it's easy to turn these features off and save battery life.
+
+Here's how:
+
+- Swipe down from the top of your screen to open the Quick Settings panel.
+- Look for the Wi-Fi and Bluetooth icons.
+- Tap on each icon to turn them off.
+
+That's it!
+
+
+
+![](https://androidscroll.com/wp-content/uploads/2023/05/Android-Bluetooth-and-WiFi-quick-access-461x1024.jpg)
+
+
+
+
+
+![](https://androidscroll.com/wp-content/uploads/2023/05/Turn-off-Bluetooth-and-WiFi-461x1024.jpg)
+
+
+
+By turning off Wi-Fi and Bluetooth when you're not using them, you can help your battery last longer. And when you need to use these features again, just follow the same steps to turn them back on.
+
+Remember, small changes can make a big difference in extending your battery life.
+
+## 10. **Use a Black Wallpaper on AMOLED Screens**
+
+If your Android device has an [AMOLED Screen,](https://en.wikipedia.org/wiki/AMOLED?wprov=sfla1) using a black wallpaper can help to increase its battery life.
+
+This is because AMOLED screens display the color black by turning off individual pixels, which reduces power consumption. The more black pixels on the screen, the less power is consumed.
+
+To set a black wallpaper on your Android device, follow these steps:
+
+- Open the Settings app on your device.
+- Tap on **Display**.
+- Tap on **Wallpaper**.
+- Select a black wallpaper from the available options or download one from the internet.
+- Tap on Set Wallpaper to apply the change.
+
+By using a black wallpaper on an AMOLED screen, you can reduce the power consumption of your device and extend its battery life.
+
+## 11. **Update Your Android Software**
+
+Updating your Android software can help your phone's battery last longer. New updates often have improvements that help your phone use less power.
+
+By keeping your software up to date, you can make sure your phone is working as well as it can and that your battery lasts as long as possible.
+
+Here's how to update your Android software:
+
+- Open the **Settings** app on your phone.
+- Scroll down and tap on **System**.
+- Tap on **System update**.
+- If there's an update available, follow the instructions to download and install it.
+
+
+
+![](https://androidscroll.com/wp-content/uploads/2023/05/Android-System-Settings-461x1024.jpg)
+
+
+
+
+
+![](https://androidscroll.com/wp-content/uploads/2023/05/Android-System-Update-461x1024.jpg)
+
+
+
+
+
+![](https://androidscroll.com/wp-content/uploads/2023/05/Checking-for-Android-System-Update-461x1024.jpg)
+
+
+
+
+
+![](https://androidscroll.com/wp-content/uploads/2023/05/Android-is-up-to-date-461x1024.jpg)
+
+
+
+Updating your Android software regularly can help your phone's battery last longer.
+
+## 12. Use a Good Charger
+
+Using a good charger is essential for maintaining the health and longevity of your Android phone's battery. A good charger will provide the right amount of power to your phone, preventing overcharging and damage to the battery.
+
+On the other hand, using a low-quality or incompatible charger can cause harm to your phone and reduce its battery life.
+
+When choosing a charger for your Android phone, make sure to select one that is compatible with your device and provides the correct amount of power.
+
+Look for chargers from reputable brands and avoid cheap knock-offs. Additionally, it's important to avoid common charging mistakes that can damage your phone's battery.
+
+For more information on this topic, check out this article "[7 Charging Mistakes That Are Damaging Your Phone Battery](https://androidscroll.com/6-charging-mistakes-that-damage-your-phone-battery/)."
+
+## 13. Use a Battery Monitoring App
+
+One effective way to increase the battery life on your Android device is to use a battery monitoring app.
+
+These apps can help you identify which apps and settings are draining your battery the most, allowing you to make changes that can significantly extend your battery life.
+
+For example, a battery monitoring app can show you which apps are running in the background and using up your battery even when you're not actively using them. You can then close these apps or adjust their settings to reduce their battery usage.
+
+There are many battery monitoring apps available on the Google Play Store. One highly recommended app is [AccuBattery](https://play.google.com/store/apps/details?id=com.digibites.accubattery). This app provides detailed information on your battery usage and offers suggestions for improving your battery life.
+
+
+
+![AccuBattery Dashboard](https://androidscroll.com/wp-content/uploads/2023/05/AccuBattery-Dashboard-461x1024.jpg)
+
+
+
+By using a battery monitoring app, you can take control of your battery usage and make sure your Android device lasts as long as possible between charges.
+
+## 14. Using Airplane Mode in Low Signal Areas
+
+When you're in an area with low signal strength, your Android phone will constantly search for a better connection, which can quickly drain your battery.
+
+One way to conserve battery life in these situations is to switch your phone to airplane mode. This will turn off all wireless connections, including cellular, Wi-Fi, and Bluetooth, preventing your phone from searching for a signal.
+
+To determine if you're in a low signal area, you can check the signal strength indicator on your phone. If you are constantly at one bar or no signal at all and you can't connect to the internet or make a call, you may be in a low signal area.
+
+To turn on airplane mode on an Android phone, swipe down from the top of the screen to open the Quick Settings panel. Then, tap on the airplane icon to turn on airplane mode.
+
+You can also access this setting by going to "Settings" and then "Network & internet" and selecting "Airplane mode."
+
+
+
+![](https://androidscroll.com/wp-content/uploads/2023/05/Turn-on-Airplane-Mode-461x1024.jpg)
+
+
+
+By using airplane mode in low signal areas, you can help extend the battery life of your Android device.
+
+## 15. Reducing the Number of Widgets on Your Home Screen
+
+Widgets are small applications that display information and provide quick access to certain features on your Android phone.
+
+While they can be convenient, having too many widgets on your home screen can drain your battery. This is because widgets are constantly updating and using resources, even when you're not actively using your phone.
+
+To improve battery life, consider reducing the number of widgets on your home screen.
+
+To remove unwanted widgets, tap and hold on the widget until a menu appears. Then, select "**Remove**" or "**Delete**" to remove the widget from your home screen.
+
+
+
+![](https://androidscroll.com/wp-content/uploads/2023/05/Remove-Android-Widget-461x1024.jpg)
+
+
+
+By reducing the number of widgets on your home screen, you can help extend the battery life of your Android device.
+
+## Conclusion
+
+I hope you found some helpful tips to improve battery life on your Android device.
+
+As you can see, there are a number of things you can do to extend your battery life, even if you're not a tech expert. So don't be afraid to experiment with the different tips and see what works best for you.
+
+With a little effort, you can easily improve battery life on your Android device and enjoy longer use between charges. So what are you waiting for? Start using these tips today and see the difference they make!
+
+If you found this blog post helpful, please share it with your friends and leave a comment below. I love hearing from my readers as I'm always looking for ways to improve my content.
+
+And if you have any other tips for improving battery life on Android devices, please share them in the comments below!

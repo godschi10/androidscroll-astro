@@ -7,22 +7,35 @@ const posts = (await getCollection('posts', ({ data }) => !data.draft))
 ---
 
 <Layout title="All Posts">
-  <h1 class="text-3xl font-bold mb-8">All Posts</h1>
+  <h1 class="text-3xl font-bold mb-8 text-neutral-900 dark:text-neutral-100">All Posts</h1>
+  
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     {posts.map(post => (
-      <a href={`/posts/${post.id}`} class="group flex flex-col rounded-xl overflow-hidden bg-white border border-neutral-200 hover:border-[#00A88F] hover:shadow-md transition-all duration-300">
+      <a 
+        href={`/posts/${post.id}`} 
+        class="group flex flex-col rounded-xl overflow-hidden bg-surface-2 border border-neutral-200 dark:border-neutral-700 hover:border-[#00A88F] dark:hover:border-[#00A88F] hover:shadow-md transition-all duration-300"
+      >
         {post.data.cover && (
           <div class="w-full h-44 overflow-hidden">
-            <img src={post.data.cover} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+            <img 
+              src={post.data.cover} 
+              alt={post.data.title} 
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
+              loading="lazy" 
+            />
           </div>
         )}
         <div class="p-5">
-          <h2 class="font-bold text-neutral-900 group-hover:text-[#00A88F] transition-colors">{post.data.title}</h2>
-          <p class="mt-1 text-xs text-neutral-400">
+          <h2 class="font-bold text-neutral-900 dark:text-neutral-100 group-hover:text-[#00A88F] dark:group-hover:text-[#00A88F] transition-colors">
+            {post.data.title}
+          </h2>
+          <p class="mt-1 text-xs text-neutral-400 dark:text-neutral-500">
             {post.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
           </p>
           {post.data.description && (
-            <p class="mt-2 text-sm text-neutral-600 line-clamp-2">{post.data.description}</p>
+            <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-400 line-clamp-2">
+              {post.data.description}
+            </p>
           )}
         </div>
       </a>

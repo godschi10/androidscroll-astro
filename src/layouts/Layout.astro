@@ -59,7 +59,7 @@ const isSinglePost = pathname.startsWith('/posts/') && pathname.split('/').filte
     @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/inter-v20-latin-regular.woff2') format('woff2'); }
     @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url('/fonts/inter-v20-latin-600.woff2') format('woff2'); }
   </style>
-  <!-- Matomo -->
+  <!-- Matomo --
   <script>
     var _paq = window._paq = window._paq || [];
     _paq.push(["setExcludedReferrers", ["androidscroll.com","analytics.androidscroll.com"]]);
@@ -73,19 +73,16 @@ const isSinglePost = pathname.startsWith('/posts/') && pathname.split('/').filte
       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
       g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
     })();
-  </script>
+  </script> -->
 </head>
 
 <body>
-  <!-- Reading Progress -->
-  <div class="as-progress-container">
-    <div class="as-progress-bar" id="as-progress-bar"></div>
-  </div>
 
   <!-- Header -->
-  <header style="background:var(--bg-header); border-bottom:1px solid var(--border-light); position:sticky; top:0; z-index:50;">
+  <header style="background:var(--bg-header); border-bottom:1px solid var(--border-light); position:sticky; top:0; z-index:50;padding:5px 0">
     <nav style="max-width:1180px; margin:auto; padding:0 var(--container-side-padding); height:56px; display:flex; align-items:center; justify-content:space-between;">
-      <a href="/" style="font-family:var(--font-heading); font-weight:700; font-size:1.2rem; color:var(--brand-primary); text-decoration:none;">AndroidScroll</a>
+      <a href="/" style="font-family:var(--font-heading); font-weight:700; font-size:1.2rem; color:var(--brand-primary); text-decoration:none;"><img src="https://images.androidscroll.com/Androidscroll-Logo.png" alt="AndroidScroll Logo" width="165" height="40">
+</a>
 
       <div style="display:flex; align-items:center; gap:16px;">
         <!-- Search bar -->
@@ -119,21 +116,18 @@ const isSinglePost = pathname.startsWith('/posts/') && pathname.split('/').filte
     </div>
   </header>
 
-<main style={isSinglePost ? "" : "padding:5px var(--container-side-padding)"}>
+<main style={isSinglePost ? "" : "padding:5px var(--container-side-padding);margin: 30px 0"}>
   <slot />
 </main>
 
 
-  <footer style="background:var(--text-dark); border-top:20px solid var(--brand-primary); padding:30px var(--container-side-padding); text-align:center; color:#fff; font-size:14px;">
+  <footer style="background:var (--bg-footer); border-top:20px solid var(--brand-primary); padding:30px var(--container-side-padding); text-align:center; color:#fff; font-size:14px;">
     <p style="margin:0;">© 2019–{new Date().getFullYear()} AndroidScroll.com</p>
   </footer>
 
-  <!-- Back to top --
-  <button id="as-back-to-top" aria-label="Back to top">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6"/></svg>
-  </button> -->
 
-  <!-- Sticky footer ad -->
+
+  <!-- Sticky footer ad --
   <div class="as-sticky-footer" id="asStickyFooter">
     <button class="as-sf-close" id="asSfClose" aria-label="Close">✕</button>
     <a href="https://androidscroll.com/offer/anker-chargers/" class="as-sf-inner" target="_blank" rel="noopener sponsored">
@@ -147,7 +141,7 @@ const isSinglePost = pathname.startsWith('/posts/') && pathname.split('/').filte
       </div>
       <span class="as-sf-cta">Shop Now</span>
     </a>
-  </div>
+  </div> -->
 
   <script>
     // Desktop nav show on md+
@@ -171,27 +165,7 @@ const isSinglePost = pathname.startsWith('/posts/') && pathname.split('/').filte
     });
 
 
-    // Reading progress
-    const progressBar = document.getElementById('as-progress-bar');
-    if (progressBar) {
-      window.addEventListener('scroll', () => {
-        const scrollTop = window.scrollY;
-        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-        const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
-        progressBar.style.width = pct + '%';
-      });
-    }
 
-    // Back to top
-    const backToTop = document.getElementById('as-back-to-top');
-    if (backToTop) {
-      window.addEventListener('scroll', () => {
-        backToTop.classList.toggle('show', window.scrollY > 600);
-      });
-      backToTop.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-    }
 
     // Sticky footer ad
     const stickyFooter = document.getElementById('asStickyFooter');

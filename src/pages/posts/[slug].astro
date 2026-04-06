@@ -27,6 +27,10 @@ const related = allPosts
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0, 3);
 ---
+  <!-- Reading Progress -->
+  <div class="as-progress-container">
+    <div class="as-progress-bar" id="as-progress-bar"></div>
+  </div>
 
 <Layout
   title={post.data.title}
@@ -181,8 +185,33 @@ const related = allPosts
   </article>
 </Layout>
 
-<script>
+  <!-- Back to top -->
+  <button id="as-back-to-top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6"/></svg>
+  </button> -
 
+<script>
+    // Reading progress
+    const progressBar = document.getElementById('as-progress-bar');
+    if (progressBar) {
+      window.addEventListener('scroll', () => {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+        progressBar.style.width = pct + '%';
+      });
+    }
+
+    // Back to top
+    const backToTop = document.getElementById('as-back-to-top');
+    if (backToTop) {
+      window.addEventListener('scroll', () => {
+        backToTop.classList.toggle('show', window.scrollY > 600);
+      });
+      backToTop.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
 
 // TOC toggle with localStorage
 const toc = document.getElementById('as-toc');
