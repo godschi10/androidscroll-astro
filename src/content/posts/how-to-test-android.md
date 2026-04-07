@@ -8,810 +8,635 @@ categories: ["basics-setup","guides-how-tos"]
 parentCategory: "guides-how-tos"
 ---
 
-<p>Unboxing a brand-new Android phone is exciting. The shiny screen, fast performance, and that “new device” feeling. But here’s the reality: <strong>even new phones can ship with hidden defects</strong> like dead pixels, faulty sensors, overheating issues, or poor battery health.</p>
+Unboxing a brand-new Android phone is exciting. The shiny screen, fast performance, and that "new device" feeling. But here's the reality: **even new phones can ship with hidden defects** like dead pixels, faulty sensors, overheating issues, or poor battery health.
 
-<p>The good news is that most retailers give you a <strong>7 to 14-day return window</strong>. That short period is your chance to run a proper <strong>Android hardware diagnostic check</strong> and make sure everything works exactly as it should.</p>
+The good news is that most retailers give you a **7 to 14-day return window**. That short period is your chance to run a proper **Android hardware diagnostic check** and make sure everything works exactly as it should.
 
-<p>This checklist will show you <strong>how to test a new Android phone step by step,</strong> including a <strong>dead pixel test on Android, checking new phone battery health, and using Android secret codes</strong> to uncover hidden hardware issues. Spend a few minutes running these checks now; it could save you from getting stuck with a defective device later.</p>
+This checklist will show you **how to test a new Android phone step by step,** including a **dead pixel test on Android, checking new phone battery health, and using Android secret codes** to uncover hidden hardware issues. Spend a few minutes running these checks now; it could save you from getting stuck with a defective device later.
 
-<p><strong>⚡ Quick Android Phone Test Checklist (5 Minutes)</strong></p>
+<div class="quick_summary">
 
-<p>If you're in a hurry, test these first:</p>
+<p>⚡ Quick Android Phone Test Checklist (5 Minutes)</p>
 
-<ul>
-<li>Screen &amp; touch response</li>
-</ul>
+If you're in a hurry, test these first:
 
-<ul>
-<li>Buttons &amp; fingerprint sensor</li>
-</ul>
+- Screen & touch response
+- Buttons & fingerprint sensor
+- Verify IMEI number with *#06#
+- SIM card detection & mobile network
+- Speaker, mic & call quality
+- Wi-Fi, Bluetooth & GPS
+- Camera
+- Battery drain & charging
+- Test app compatibility
 
-<ul>
-<li>Verify IMEI number with *#06#</li>
-</ul>
-
-<ul>
-<li>SIM card detection &amp; mobile network</li>
-</ul>
-
-<ul>
-<li>Speaker, mic &amp; call quality</li>
-</ul>
-
-<ul>
-<li>Wi-Fi, Bluetooth &amp; GPS</li>
-</ul>
-
-<ul>
-<li>Camera</li>
-</ul>
-
-<ul>
-<li>Battery drain &amp; charging</li>
-</ul>
-
-<ul>
-<li>Test app compatibility</li>
-</ul>
 
 <p class="first-p">If any of these fail, stop the setup and return the phone.</p>
 
-<h2>Phase 1: Out-of-the-Box Physical Inspection</h2>
+</div>
 
-<p>Before you even power the phone on, start with a <strong>careful physical inspection</strong>. Some hardware defects are easier to spot when the device is still completely unused.</p>
+## Phase 1: Out-of-the-Box Physical Inspection
 
-<p>Hold the phone under <strong>bright direct light</strong> and slowly examine the entire chassis. Look for scratches on the screen, dents on the frame, uneven glass edges, or gaps between the display and the body.</p>
+Before you even power the phone on, start with a **careful physical inspection**. Some hardware defects are easier to spot when the device is still completely unused.
 
-<p>Next, check the <strong>buttons and ports</strong>. Press the power and volume buttons to confirm they feel firm and click properly. Inspect the charging port, SIM tray, and speaker grills to make sure nothing looks misaligned or poorly finished.</p>
+Hold the phone under **bright direct light** and slowly examine the entire chassis. Look for scratches on the screen, dents on the frame, uneven glass edges, or gaps between the display and the body.
 
-<p>Finally, examine the <strong>camera housing</strong> closely. The camera glass should be perfectly clean with no dust, scratches, or uneven placement.</p>
+Next, check the **buttons and ports**. Press the power and volume buttons to confirm they feel firm and click properly. Inspect the charging port, SIM tray, and speaker grills to make sure nothing looks misaligned or poorly finished.
 
-<p>Think of this step like the careful inspection done in <a href="https://youtube.com/@jerryrigeverything" target="_blank" rel="noreferrer noopener nofollow">JerryRigEverything</a>'s videos(but without destroying your phone lol 😆), looking for early signs of structural issues such as slight frame bends, loose components, or screen gaps. Catching these problems now makes returning the device much easier within the store’s return window.</p>
+Finally, examine the **camera housing** closely. The camera glass should be perfectly clean with no dust, scratches, or uneven placement.
 
-<h2>Phase 2: The Initial Quick Setup (Pre-Test Readiness)</h2>
+Think of this step like the careful inspection done in [JerryRigEverything](https://youtube.com/@jerryrigeverything)'s videos(but without destroying your phone lol 😆), looking for early signs of structural issues such as slight frame bends, loose components, or screen gaps. Catching these problems now makes returning the device much easier within the store's return window.
 
-<p>Before running any <strong>Android hardware diagnostic check</strong>, avoid doing a full setup immediately. Spending hours transferring apps and files only to discover a <strong>dead pixel on Android</strong> or a faulty sensor can waste valuable time within your return window.</p>
+## Phase 2: The Initial Quick Setup (Pre-Test Readiness)
 
-<p>The goal here is a <strong>Minimum Viable Setup</strong>. Just enough configuration to run proper tests without background processes interfering with results.</p>
+Before running any **Android hardware diagnostic check**, avoid doing a full setup immediately. Spending hours transferring apps and files only to discover a **dead pixel on Android** or a faulty sensor can waste valuable time within your return window.
 
-<p>Follow this quick setup protocol before installing your regular apps:</p>
+The goal here is a **Minimum Viable Setup**. Just enough configuration to run proper tests without background processes interfering with results.
 
-<h3>Skip Data Migration</h3>
+Follow this quick setup protocol before installing your regular apps:
 
-<p>When the setup wizard asks you to <strong>“Copy apps &amp; data,” select “Don’t copy.”</strong></p>
+### Skip Data Migration
 
-<p>Testing the phone in a clean state helps you confirm that any lag, heating, or glitches are <strong>hardware-related</strong> and <span style="box-sizing: border-box; margin: 0px; padding: 0px;">are<strong>&nbsp;not</strong></span><strong> caused by old apps or corrupted backups.</strong></p>
+When the setup wizard asks you to **"Copy apps & data," select "Don't copy."**
 
-<h3>Connect to Wi-Fi Only</h3>
+Testing the phone in a clean state helps you confirm that any lag, heating, or glitches are **hardware-related** and are **not caused by old apps or corrupted backups.**
 
-<p>Skip inserting your SIM card for the first few minutes.</p>
+### Connect to Wi-Fi Only
 
-<p>This prevents <strong>carrier activation processes, background downloads, and network pings</strong> from interfering while you check the device hardware.</p>
+Skip inserting your SIM card for the first few minutes.
 
-<h3>Sign in to Google (Play Store Access)</h3>
+This prevents **carrier activation processes, background downloads, and network pings** from interfering while you check the device hardware.
 
-<p>Log in to your <strong>Google account</strong> so you can access the Play Store and download diagnostic apps.</p>
+### Sign in to Google (Play Store Access)
 
-<p>Avoid adding secondary email accounts or syncing services for now. The objective is to keep the phone running in its <strong>cleanest testing state</strong>.</p>
+Log in to your **Google account** so you can access the Play Store and download diagnostic apps.
 
-<h3>Postpone Biometrics</h3>
+Avoid adding secondary email accounts or syncing services for now. The objective is to keep the phone running in its **cleanest testing state**.
 
-<p>Skip <strong>Fingerprint</strong> and <strong>Face Unlock</strong> during the setup wizard.</p>
+### Postpone Biometrics
 
-<p>You’ll test these sensors later as part of a dedicated <strong>diagnostic step</strong> at <strong>Phase 9</strong>, which makes it easier to detect if recognition is slow or inaccurate.</p>
+Skip **Fingerprint** and **Face Unlock** during the setup wizard.
 
-<h3>Disable Auto-Brightness</h3>
+You'll test these sensors later as part of a dedicated **diagnostic step** at **Phase 9**, which makes it easier to detect if recognition is slow or inaccurate.
 
-<p>Go to:</p>
+### Disable Auto-Brightness
 
-<pre class="wp-block-code"><code>Settings → Display → Adaptive Brightness</code></pre>
+Go to:
+Settings → Display → Adaptive Brightness
+and turn it off.
 
-<p>and turn it off.</p>
+Then manually set the brightness to **100%** so you can properly inspect the display for **screen bleeding, color inconsistencies, or brightness unevenness**.
 
-<p>Then manually set the brightness to <strong>100%</strong> so you can properly inspect the display for <strong>screen bleeding, color inconsistencies, or brightness unevenness</strong>.</p>
+### Set Screen Timeout to 5 Minutes
 
-<h3>Set Screen Timeout to 5 Minutes</h3>
+Navigate to:
+Settings → Display → Screen Timeout
+and set it to **5 minutes**.
 
-<p>Navigate to:</p>
+This prevents the screen from turning off while you perform detailed checks like the **dead pixel test on Android**.
 
-<pre class="wp-block-code"><code>Settings → Display → Screen Timeout</code></pre>
+### Check for System Updates Immediately
 
-<p>and set it to <strong>5 minutes</strong>.</p>
+Go to:
+Settings → System → System Update
+and check for updates.
 
-<p>This prevents the screen from turning off while you perform detailed checks like the <strong>dead pixel test on Android</strong>.</p>
+Manufacturers often release **"Day 1" patches** that fix known issues such as **camera bugs, battery optimization problems, or touch sensitivity glitches**. Installing these ensures your upcoming tests reflect the phone's **latest stable performance**.
 
-<h3>Check for System Updates Immediately</h3>
+## Phase 3: Display and Touchscreen Diagnostics
 
-<p>Go to:</p>
+The display is the part of your phone you interact with the most, so this test is critical. Even premium devices can occasionally ship with **dead pixels, uneven brightness, or touchscreen dead zones**.
 
-<pre class="wp-block-code"><code>Settings → System → System Update</code></pre>
+This phase helps you run a simple **Android hardware diagnostic check** to confirm that the screen panel and touch layer are working perfectly.
 
-<p> and check for updates. </p>
+### Step 1: Run a Dead Pixel Test
 
-<p>Manufacturers often release <strong>“Day 1” patches</strong> that fix known issues such as <strong>camera bugs, battery optimization problems, or touch sensitivity glitches</strong>. Installing these ensures your upcoming tests reflect the phone’s <strong>latest stable performance</strong>.</p>
+To perform a **dead pixel test on Android**, you need to display solid colors across the entire screen.
 
-<h2>Phase 3: Display and Touchscreen Diagnostics</h2>
+You can do this in two ways:
 
-<p>The display is the part of your phone you interact with the most, so this test is critical. Even premium devices can occasionally ship with <strong>dead pixels, uneven brightness, or touchscreen dead zones</strong>.</p>
+#### Option 1: Use a Screen Test App
 
-<p>This phase helps you run a simple <strong>Android hardware diagnostic check</strong> to confirm that the screen panel and touch layer are working perfectly.</p>
+- Open the Play Store.
+- Search for "**screen test**" or "**dead pixel test.**"
+- Install a simple display test app.
+- Cycle through solid colors like **white, black, red, green, and blue.**
 
-<h3>Step 1: Run a Dead Pixel Test</h3>
+#### Option 2: Use a YouTube Video
 
-<p>To perform a <strong>dead pixel test on Android</strong>, you need to display solid colors across the entire screen.</p>
+- Open YouTube.
+- Search for "**dead pixel test full screen.**"
+- Play the video and switch to **full-screen mode**.
 
-<p>You can do this in two ways:</p>
+While the colors change, carefully scan the display for:
 
-<h4>Option 1: Use a Screen Test App</h4>
+- **Dead pixels** (tiny black dots that never light up)
+- **Stuck pixels** (pixels stuck on a single color)
+- **Uneven brightness or discoloration**
 
-<ul>
-<li>Open the Play Store.</li>
-</ul>
+### Step 2: Check for Screen Bleeding
 
-<ul>
-<li>Search for “<strong>screen test</strong>” or “<strong>dead pixel test.</strong>”</li>
-</ul>
+Play a **full black screen** and increase the brightness to **100%**.
 
-<ul>
-<li>Install a simple display test app.</li>
-</ul>
+Look around the edges and corners for **light leaks or glowing patches**. This is known as **backlight bleed**, and it's easier to see in a dark room.
 
-<ul>
-<li>Cycle through solid colors like <strong>white, black, red, green, and blue.</strong></li>
-</ul>
+A small amount can be normal, but large, bright patches may indicate a defective display panel.
 
-<h4>Option 2: Use a YouTube Video</h4>
+### Step 3: Test Touchscreen Accuracy
 
-<ul>
-<li>Open YouTube.</li>
-</ul>
+Next, test the touchscreen to ensure there are **no dead zones or laggy areas**.
 
-<ul>
-<li>Search for “<strong>dead pixel test full screen.</strong>”</li>
-</ul>
+- Long-press any app icon on the home screen.
+- Slowly drag the icon across **every edge and corner** of the display.
+- Move it along the **top edge, the bottom edge, and all four corners**.
 
-<ul>
-<li>Play the video and switch to <strong>full-screen mode</strong>.</li>
-</ul>
+If the icon drops unexpectedly or stops moving, the phone may have a **touchscreen detection problem**.
 
-<p>While the colors change, carefully scan the display for:</p>
+Running these checks early ensures your display passes a full **Android hardware diagnostic check** before you move on to testing sensors, battery health, and hidden **Android secret codes** in the next phases.
 
-<ul>
-<li><strong>Dead pixels</strong> (tiny black dots that never light up)</li>
-</ul>
+## Phase 4: The Secret Hardware Diagnostic Codes
 
-<ul>
-<li><strong>Stuck pixels</strong> (pixels stuck on a single color)</li>
-</ul>
+Most Android phones include hidden **USSD diagnostic codes** (sometimes called Android secret codes). These codes bypass the normal settings interface and open **low-level hardware testing menus** built by the manufacturer.
 
-<ul>
-<li><strong>Uneven brightness or discoloration</strong></li>
-</ul>
+They're one of the fastest ways to run an **Android hardware diagnostic check** for sensors, display panels, vibration motors, and touch input. Simply open the **Phone Dialer**, enter the code, and the diagnostic menu should launch automatically.
 
-<h3>Step 2: Check for Screen Bleeding</h3>
+Keep in mind that some codes **may not work on carrier-locked models** or heavily customized Android skins. If that happens, you can still run similar tests using diagnostic apps from the Play Store.
 
-<p>Play a <strong>full black screen</strong> and increase the brightness to <strong>100%</strong>.</p>
+### Common Android Diagnostic Codes by Brand
 
-<p>Look around the edges and corners for <strong>light leaks or glowing patches</strong>. This is known as <strong>backlight bleed</strong>, and it’s easier to see in a dark room.</p>
+| Brand | Diagnostic Code | What It Tests/Opens |
+|---|---|---|
+| Universal (Most Androids) | *#06# | Displays IMEI (Essential for warranty checks) |
+| Universal (Most Androids) | *#*#4636#*#* | Battery info, Wi-Fi status, and usage stats |
+| Samsung | *#0*# | Full hardware diagnostic menu (screen colors, vibration, touch, sensors) |
+| Samsung | *#0228# | Battery status and voltage information |
+| Xiaomi / Redmi / Poco | *#*#64663#*#* | QC Test (CIT) Menu for hardware components |
+| Google Pixel | *#*#4636#*#* | Testing menu for network, battery, and phone info |
+| OnePlus | *#808# | Engineering Mode (Advanced hardware diagnostics) |
+| Tecno / Infinix / Itel | *#*#4636#*#* | Phone information and battery diagnostics |
+| Motorola | *#*#2486#*#* | CQA Test Mode |
 
-<p>A small amount can be normal, but large, bright patches may indicate a defective display panel.</p>
+### The Samsung "Master Key" Diagnostic
 
-<h3>Step 3: Test Touchscreen Accuracy</h3>
+On Samsung devices, the code ***#0*#*** opens a powerful diagnostic dashboard with multiple testing tiles.
 
-<p>Next, test the touchscreen to ensure there are <strong>no dead zones or laggy areas</strong>.</p>
+One of the most important buttons here is "Sensor." This screen displays **live graphs for the accelerometer, gyroscope, and magnetic sensor**.
 
-<ul>
-<li>Long-press any app icon on the home screen.</li>
-</ul>
+If you tilt or rotate the phone, the graphs should respond instantly. This confirms the device's internal motion sensors, essential for **auto-rotation, gaming, navigation apps, and compass accuracy**.
 
-<ul>
-<li>Slowly drag the icon across <strong>every edge and corner</strong> of the display.</li>
-</ul>
+### Troubleshooting Tip
 
-<ul>
-<li>Move it along the <strong>top edge, the bottom edge, and all four corners</strong>.</li>
-</ul>
+If a code doesn't work on your device, don't worry; some manufacturers disable them.
 
-<p>If the icon drops unexpectedly or stops moving, the phone may have a <strong>touchscreen detection problem</strong>.</p>
+You can run similar tests using diagnostic apps like "**[Test Your Android](https://play.google.com/store/apps/details?id=hibernate.v2.testyourandroid)**", "**[Phone Doctor Plus](https://play.google.com/store/apps/details?id=com.idea.PhoneDoctorPlus2)**", or "[Device Info](https://play.google.com/store/apps/details?id=com.ytheekshana.deviceinfo)" from the Play Store. These tools perform checks for sensors, screen health, speakers, vibration, and more.
 
-<p>Running these checks early ensures your display passes a full <strong>Android hardware diagnostic check</strong> before you move on to testing sensors, battery health, and hidden <strong>Android secret codes</strong> in the next phases.</p>
+## Phase 5: Audio, Microphone, and Haptics (The "Vibe" Test)
 
-<h2>Phase 4: The Secret Hardware Diagnostic Codes</h2>
+This phase isn't just about confirming that the speakers or vibration motor **works**; it's about how they **feel and sound**. A well-built phone should deliver **clean audio and tight haptic feedback**. Flagship devices usually feel sharp and precise, while cheaper hardware can feel **buzzy, loose, or distorted**.
 
-<p>Most Android phones include hidden <strong>USSD diagnostic codes</strong> (sometimes called Android secret codes). These codes bypass the normal settings interface and open <strong>low-level hardware testing menus</strong> built by the manufacturer.</p>
+Run these quick tests to evaluate the full **audio and vibration experience** of your new device.
 
-<p>They’re one of the fastest ways to run an <strong>Android hardware diagnostic check</strong> for sensors, display panels, vibration motors, and touch input. Simply open the <strong>Phone Dialer</strong>, enter the code, and the diagnostic menu should launch automatically.</p>
+### 1. The Afrobeats Speaker Stress Test
 
-<p>Keep in mind that some codes <strong>may not work on carrier-locked models</strong> or heavily customized Android skins. If that happens, you can still run similar tests using diagnostic apps from the Play Store.</p>
+Don't rely on a simple ringtone. To properly test the speakers, play music with **strong bass and layered production**.
 
-<h3>Common Android Diagnostic Codes by Brand</h3>
+#### The Bass & Clarity Check
 
-<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Brand</th><th>Diagnostic Code</th><th>What It Tests/Opens</th></tr></thead><tbody><tr><td>Universal (Most Androids)</td><td>*#06#</td><td>Displays IMEI (Essential for warranty checks)</td></tr><tr><td>Universal (Most Androids)</td><td>*#*#4636#*#*</td><td>Battery info, Wi-Fi status, and usage stats</td></tr><tr><td>Samsung</td><td>*#0*#</td><td>Full hardware diagnostic menu (screen colors, vibration, touch, sensors)</td></tr><tr><td>Samsung</td><td>*#0228#</td><td>Battery status and voltage information</td></tr><tr><td>Xiaomi / Redmi / Poco</td><td>*#*#64663#*#*</td><td>QC Test (CIT) Menu for hardware components</td></tr><tr><td>Google Pixel</td><td>*#*#4636#*#*</td><td>Testing menu for network, battery, and phone info</td></tr><tr><td>OnePlus</td><td>*#808#</td><td>Engineering Mode (Advanced hardware diagnostics)</td></tr><tr><td>Tecno / Infinix / Itel</td><td>*#*#4636#*#*</td><td>Phone information and battery diagnostics</td></tr><tr><td>Motorola</td><td>*#*#2486#*#*</td><td>CQA Test Mode</td></tr></tbody></table></figure>
+Play a bass-heavy track such as **[SNOKONOKO II](https://open.spotify.com/track/0dkKNeKgwkOP1boIvGYQuW)** by Shallipopi or **[Tested, Approved & Trusted](https://open.spotify.com/track/6Z7X86HZWODk0KPVmOsCKR)** by Burna Boy at around **80% volume**.
 
-<h3>The Samsung “Master Key” Diagnostic</h3>
+Listen carefully for:
 
-<p>On Samsung devices, the code <strong><em>*#0*#</em></strong> opens a powerful diagnostic dashboard with multiple testing tiles.</p>
+- Rattling sounds in the phone's chassis
+- Crackling during high notes
+- Weak bass response
 
-<p>One of the most important buttons here is “Sensor.” This screen displays <strong>live graphs for the accelerometer, gyroscope, and magnetic sensor</strong>.</p>
+If your phone has **dual speakers**, cover the bottom speaker with your thumb. You should still hear sound from the **top earpiece speaker**, confirming proper stereo output.
 
-<p>If you tilt or rotate the phone, the graphs should respond instantly. This confirms the device’s internal motion sensors, essential for <strong>auto-rotation, gaming, navigation apps, and compass accuracy</strong>.</p>
+#### The Distortion Limit
 
-<h3>Troubleshooting Tip</h3>
+Now increase the volume to **100%**.
 
-<p>If a code doesn’t work on your device, don’t worry; some manufacturers disable them.</p>
+If vocals start sounding muddy or percussion becomes "crunchy," the **speaker driver or internal DAC quality** might be below expectations for that phone's price.
 
-<p>You can run similar tests using diagnostic apps like “<strong><a href="https://play.google.com/store/apps/details?id=hibernate.v2.testyourandroid">Test Your Android</a></strong>”, “<strong><a href="https://play.google.com/store/apps/details?id=com.idea.PhoneDoctorPlus2">Phone Doctor Plus</a></strong>”, or "<a href="https://play.google.com/store/apps/details?id=com.ytheekshana.deviceinfo">Device Info</a>" from the Play Store. These tools perform checks for sensors, screen health, speakers, vibration, and more.</p>
+In noisy environments like a busy street in Lagos, a **loudspeaker helps**, but a **clear speaker** ensures you don't miss details in voice notes or calls.
 
-<h2>Phase 5: Audio, Microphone, and Haptics (The “Vibe” Test)</h2>
+### 2. The "Crisp" Haptics Audit
 
-<p>This phase isn’t just about confirming that the speakers or vibration motor <strong>works</strong>; it’s about how they <strong>feel and sound</strong>. A well-built phone should deliver <strong>clean audio and tight haptic feedback</strong>. Flagship devices usually feel sharp and precise, while cheaper hardware can feel <strong>buzzy, loose, or distorted</strong>.</p>
+Good haptic feedback makes your phone feel **premium and responsive**. Poor haptics make even an expensive device feel cheap.
 
-<p>Run these quick tests to evaluate the full <strong>audio and vibration experience</strong> of your new device.</p>
+#### The Keyboard Test
 
-<h3>1. The Afrobeats Speaker Stress Test</h3>
+Open the **Google search bar** and start typing quickly.
 
-<p>Don’t rely on a simple ringtone. To properly test the speakers, play music with <strong>strong bass and layered production</strong>.</p>
+You should feel **short, sharp taps** for each key press, not a long, dragging vibration.
 
-<h4>The Bass &amp; Clarity Check</h4>
+#### Pro Tip: Amplitude Check
 
-<p>Play a bass-heavy track such as <strong><a href="https://open.spotify.com/track/0dkKNeKgwkOP1boIvGYQuW">SNOKONOKO II</a></strong> by Shallipopi or <strong><a href="https://open.spotify.com/track/6Z7X86HZWODk0KPVmOsCKR">Tested, Approved &amp; Trusted</a></strong> by Burna Boy at around <strong>80% volume</strong>.</p>
+Go to:
+Settings → Sound & Vibration → Vibration & Haptics
+Toggle between different vibration intensity levels. A quality phone should **respond instantly** and clearly change vibration strength.
 
-<p>Listen carefully for:</p>
+If you want to get more technical, download a **haptic testing app** like *Custom Vibrator / Haptic Test*. Premium Android devices support **amplitude control**, meaning vibration strength can vary across patterns.
 
-<ul>
-<li>Rattling sounds in the phone’s chassis</li>
-</ul>
+If every vibration feels identical, the phone may be using a **cheaper vibration motor**.
 
-<ul>
-<li>Crackling during high notes</li>
-</ul>
+### 3. The 3-Way Microphone Verification
 
-<ul>
-<li>Weak bass response</li>
-</ul>
+Modern Android phones usually have **multiple microphones** for voice calls, recording, and noise cancellation.
 
-<p>If your phone has <strong>dual speakers</strong>, cover the bottom speaker with your thumb. You should still hear sound from the <strong>top earpiece speaker</strong>, confirming proper stereo output.</p>
+Run these three quick checks:
 
-<h4>The Distortion Limit</h4>
+#### Standard Call
 
-<p>Now increase the volume to <strong>100%</strong>.</p>
+Make a quick phone call and speak normally.
 
-<p>If vocals start sounding muddy or percussion becomes “crunchy,” the <strong>speaker driver or internal DAC quality</strong> might be below expectations for that phone’s price.</p>
+Listen for robotic audio, echo, or sudden volume drops.
 
-<p>In noisy environments like a busy street in Lagos, a <strong>loudspeaker helps</strong>, but a <strong>clear speaker</strong> ensures you don’t miss details in voice notes or calls.</p>
+#### Voice Memo Test
 
-<h3>2. The “Crisp” Haptics Audit</h3>
+Open the **Recorder app** and record yourself speaking:
 
-<p>Good haptic feedback makes your phone feel <strong>premium and responsive</strong>. Poor haptics make even an expensive device feel cheap.</p>
+- First in a **whisper**
+- Then, at a **normal speaking volume**
 
-<h4>The Keyboard Test</h4>
+Playback should sound clear and balanced without distortion.
 
-<p>Open the <strong>Google search bar</strong> and start typing quickly.</p>
+#### Noise Cancellation Test
 
-<p>You should feel <strong>short, sharp taps</strong> for each key press, not a long, dragging vibration.</p>
+Stand near a **fan, traffic, or an open window** and record a short video.
 
-<h4>Pro Tip: Amplitude Check</h4>
+Play it back and check whether the phone's **secondary noise-canceling microphone** reduces background noise while keeping your voice clear.
 
-<p>Go to:</p>
+By the end of this phase, you'll know whether your phone's **speakers, microphones, and vibration motor** meet expectations, or if something feels off before your return window closes.
 
-<pre class="wp-block-code"><code><strong>Settings → Sound &amp; Vibration → Vibration &amp; Haptics</strong></code></pre>
+## Phase 6: Camera Array and Sensor Verification
 
-<p>Toggle between different vibration intensity levels. A quality phone should <strong>respond instantly</strong> and clearly change vibration strength.</p>
+Most people open the camera app, take one photo, and assume everything works. But modern Android phones have **multiple lenses and hidden sensors** that power features like autofocus, auto-brightness, and screen rotation.
 
-<p>If you want to get more technical, download a <strong>haptic testing app</strong> like <em>Custom Vibrator / Haptic Test</em>. Premium Android devices support <strong>amplitude control</strong>, meaning vibration strength can vary across patterns.</p>
+Think of this phase like a **mini photoshoot and sensor audit**. The goal is to verify that **every lens and sensor** works exactly as it should.
 
-<p>If every vibration feels identical, the phone may be using a <strong>cheaper vibration motor</strong>.</p>
+### 1. The "Every Lens" Audit
 
-<h3>3. The 3-Way Microphone Verification</h3>
+Don't assume all cameras work just because the main one does. Test each lens individually.
 
-<p>Modern Android phones usually have <strong>multiple microphones</strong> for voice calls, recording, and noise cancellation.</p>
+#### The Main Sensor
 
-<p>Run these three quick checks:</p>
+Take a photo of something with **fine details**, such as a textured fabric, leaf, or printed text.
 
-<h4>Standard Call</h4>
+Zoom into the photo at **100%** in the gallery. The details should look **sharp and defined**, not soft or "mushy."
 
-<p>Make a quick phone call and speak normally.</p>
+#### The Ultrawide Lens
 
-<p>Listen for robotic audio, echo, or sudden volume drops.</p>
+Switch to the **0.5x or 0.6x ultrawide mode** and take a landscape photo.
 
-<h4>Voice Memo Test</h4>
+Inspect the **corners of the image**. Excessive blur, color fringing, or purple edges (known as **Chromatic Aberration**) may indicate a poor or defective lens.
 
-<p>Open the <strong>Recorder app</strong> and record yourself speaking:</p>
+#### Macro or Telephoto
 
-<ul>
-<li>First in a <strong>whisper</strong></li>
-</ul>
+If your phone has a **macro camera**, move the lens about **3–4 cm** from a small object and see if it locks focus properly.
 
-<ul>
-<li>Then, at a <strong>normal speaking volume</strong></li>
-</ul>
+For phones with a telephoto lens, zoom to the **maximum optical zoom level** (often 3× or 5×). Watch the preview carefully; there should be a noticeable switch from the main sensor to the telephoto camera.
 
-<p>Playback should sound clear and balanced without distortion.</p>
+#### The Video Stability Check
 
-<h4>Noise Cancellation Test</h4>
+Record a **30-second video while walking**.
 
-<p>Stand near a <strong>fan, traffic, or an open window</strong> and record a short video.</p>
+If the footage appears shaky or jittery, the phone's **Optical Image Stabilization** may not be functioning correctly.
 
-<p>Play it back and check whether the phone’s <strong>secondary noise-canceling microphone</strong> reduces background noise while keeping your voice clear.</p>
+### 2. The "Hidden" Sensor Stress Test
 
-<p>By the end of this phase, you’ll know whether your phone’s <strong>speakers, microphones, and vibration motor</strong> meet expectations, or if something feels off before your return window closes.</p>
+Sensors are the **invisible systems** that make your Android phone feel smart. If one fails, everyday tasks become frustrating.
 
-<h2>Phase 6: Camera Array and Sensor Verification</h2>
+Use this checklist to test them quickly:
 
-<p>Most people open the camera app, take one photo, and assume everything works. But modern Android phones have <strong>multiple lenses and hidden sensors</strong> that power features like autofocus, auto-brightness, and screen rotation.</p>
+#### **Proximity Sensor (The "Ear" Test)**
 
-<p>Think of this phase like a <strong>mini photoshoot and sensor audit</strong>. The goal is to verify that <strong>every lens and sensor</strong> works exactly as it should.</p>
+Make a phone call or play a voice note and place your hand over the **top part of the screen**.
+The display should turn **black immediately**. If it stays on, you may accidentally press buttons with your ear during calls.
 
-<h3>1. The “Every Lens” Audit</h3>
+#### **Light Sensor**
 
-<p>Don’t assume all cameras work just because the main one does. Test each lens individually.</p>
+Enable **Auto-Brightness**, then shine a flashlight near the front camera area.
+The screen should quickly increase brightness.
 
-<h4>The Main Sensor</h4>
+#### **Gyroscope (The 360° Test)**
 
-<p>Take a photo of something with <strong>fine details</strong>, such as a textured fabric, leaf, or printed text.</p>
+Open a compass app or a 360° video on YouTube.
 
-<p>Zoom into the photo at <strong>100%</strong> in the gallery. The details should look <strong>sharp and defined</strong>, not soft or “mushy.”</p>
+Move the phone in a **figure-eight motion**. The on-screen movement should feel **smooth and fluid**. If it stutters, the gyroscope may need calibration or could be faulty.
 
-<h4>The Ultrawide Lens</h4>
+### Pro Tip
 
-<p>Switch to the <strong>0.5x or 0.6x ultrawide mode</strong> and take a landscape photo.</p>
+Before finishing this phase, inspect the **camera glass carefully under bright light**.
 
-<p>Inspect the <strong>corners of the image</strong>. Excessive blur, color fringing, or purple edges (known as <strong>Chromatic Aberration</strong>) may indicate a poor or defective lens.</p>
+Look for **internal dust particles or moisture inside the lens housing**. Even a speck trapped inside the camera module is a **manufacturing defect** and usually qualifies for an immediate replacement within your return window.
 
-<h4>Macro or Telephoto</h4>
+By the end of this phase, you'll know whether your phone's **camera array, autofocus system, stabilization, and smart sensors** are all working correctly, something many buyers never test until it's too late.
 
-<p>If your phone has a <strong>macro camera</strong>, move the lens about <strong>3–4 cm</strong> from a small object and see if it locks focus properly.</p>
+## Phase 7: Battery Health and Thermal Performance (The Stress Test)
 
-<p>For phones with a telephoto lens, zoom to the <strong>maximum optical zoom level</strong> (often 3× or 5×). Watch the preview carefully; there should be a noticeable switch from the main sensor to the telephoto camera.</p>
+This is where many **"lemon" phones reveal themselves**. While every smartphone gets warm during heavy use, a **brand-new device should not overheat, throttle performance, or drain battery unusually fast** during normal high-performance tasks.
 
-<h4>The Video Stability Check</h4>
+To properly **check a new phone battery's health**, you need to simulate real-world stress on the processor and cooling system.
 
-<p>Record a <strong>30-second video while walking</strong>.</p>
+### The 15-Minute "Next-Gen" Stress Test
 
-<p>If the footage appears shaky or jittery, the phone’s <strong>Optical Image Stabilization</strong> may not be functioning correctly.</p>
+This quick test pushes the phone's CPU and GPU to see how well it handles **heat and power draw**.
 
-<h3>2. The “Hidden” Sensor Stress Test</h3>
+#### 1. Download a Benchmark Game
 
-<p>Sensors are the <strong>invisible systems</strong> that make your Android phone feel smart. If one fails, everyday tasks become frustrating.</p>
+Install a demanding mobile game such as:
 
-<p>Use this checklist to test them quickly:</p>
+- Genshin Impact
+- Honkai: Star Rail
+- Arena Breakout
 
-<h4><strong>Proximity Sensor (The “Ear” Test)</strong></h4>
+These games use advanced graphics and heavy processing, making them ideal for stress testing.
 
-<p>Make a phone call or play a voice note and place your hand over the <strong>top part of the screen</strong>.<br>The display should turn <strong>black immediately</strong>. If it stays on, you may accidentally press buttons with your ear during calls.</p>
+#### 2. Monitor the Temperature
 
-<h4><strong>Light Sensor</strong></h4>
+Before starting the test, install a monitoring app like **AccuBattery** or **Thermal Monitor**.
 
-<p>Enable <strong>Auto-Brightness</strong>, then shine a flashlight near the front camera area.<br>The screen should quickly increase brightness.</p>
+Check the **idle temperature** first. Most phones should sit between **28°C and 34°C** when idle.
 
-<h4><strong>Gyroscope (The 360° Test)</strong></h4>
+#### 3. The Playtest
 
-<p>Open a compass app or a 360° video on YouTube.</p>
+Launch the game and play for **exactly 15 minutes** using **High or Ultra graphics settings**.
 
-<p>Move the phone in a <strong>figure-eight motion</strong>. The on-screen movement should feel <strong>smooth and fluid</strong>. If it stutters, the gyroscope may need calibration or could be faulty.</p>
+This sustained load helps reveal issues with **cooling systems and battery stability**.
 
-<h3>Pro Tip</h3>
+#### 4. The Battery Drop Audit
 
-<p>Before finishing this phase, inspect the <strong>camera glass carefully under bright light</strong>.</p>
+After 15 minutes, check your battery percentage.
 
-<p>Look for <strong>internal dust particles or moisture inside the lens housing</strong>. Even a speck trapped inside the camera module is a <strong>manufacturing defect</strong> and usually qualifies for an immediate replacement within your return window.</p>
+- **Normal:** 3–5% battery drop
+- **Suspicious:** More than 10% drop in just 15 minutes
 
-<p>By the end of this phase, you’ll know whether your phone’s <strong>camera array, autofocus system, stabilization, and smart sensors</strong> are all working correctly, something many buyers never test until it’s too late.</p>
+Large drops may indicate a **battery capacity defect** or poor power management.
 
-<h2>Phase 7: Battery Health and Thermal Performance (The Stress Test)</h2>
+#### 5. Check for Performance Throttling
 
-<p>This is where many <strong>“lemon” phones reveal themselves</strong>. While every smartphone gets warm during heavy use, a <strong>brand-new device should not overheat, throttle performance, or drain battery unusually fast</strong> during normal high-performance tasks.</p>
+Pay attention to gameplay performance.
 
-<p>To properly <strong>check a new phone battery's health</strong>, you need to simulate real-world stress on the processor and cooling system.</p>
+If the game becomes **choppy or the frame rate suddenly drops after about 10 minutes**, the phone may be experiencing **thermal throttling**, meaning the cooling system cannot keep up with the processor.
 
-<h3>The 15-Minute “Next-Gen” Stress Test</h3>
+### Thermal Red Flags to Watch For
 
-<p>This quick test pushes the phone’s CPU and GPU to see how well it handles <strong>heat and power draw</strong>.</p>
+| Test Result | Normal Range | Danger Zone |
+|---|---|---|
+| Idle Temperature | 28–34°C | Above 38°C |
+| Gaming Temperature | 38–44°C | Above 45°C |
+| Battery Drop (15 min gaming) | 3–5% | 10% or more |
+| Frame Stability | Smooth gameplay | Sudden frame drops or stuttering |
 
-<h4>1. Download a Benchmark Game</h4>
+If the phone exceeds **45°C (113°F)** during the test, it's running hotter than it should for long-term health.
 
-<p>Install a demanding mobile game such as:</p>
+### Additional Warning Signs
 
-<ul>
-<li>Genshin Impact</li>
-</ul>
+**The "Oven" Effect**
+If the back of the phone becomes **uncomfortably hot to hold**, especially near the camera or processor area, the cooling system may be inadequate.
 
-<ul>
-<li>Honkai: Star Rail</li>
-</ul>
+**Erratic Battery Percentage Jumps**
+If the battery suddenly drops from **80% to 72%**, then jumps back to **75%** after stopping the test, the battery calibration may be faulty.
 
-<ul>
-<li>Arena Breakout</li>
-</ul>
+**Charging Stability Check**
+Plug the phone into its charger immediately after the gaming session.
 
-<p>These games use advanced graphics and heavy processing, making them ideal for stress testing.</p>
+A healthy phone should **still accept fast charging even when warm**. If it refuses to charge until the device cools completely, the thermal sensors may be overly sensitive.
 
-<h4>2. Monitor the Temperature</h4>
+### Tech Tip: Check Built-in Battery Health Tools
 
-<p>Before starting the test, install a monitoring app like <strong>AccuBattery</strong> or <strong>Thermal Monitor</strong>.</p>
+Some manufacturers include battery health diagnostics:
 
-<p>Check the <strong>idle temperature</strong> first. Most phones should sit between <strong>28°C and 34°C</strong> when idle.</p>
+- On Samsung phones, open the **Samsung Members** app and check the **Battery Status** section.
+- On Google Pixel devices, battery health information may appear in the **Battery settings panel**.
 
-<h4>3. The Playtest</h4>
+If the status shows anything other than **"Normal"** or **"Good"** on a brand-new device, it's a strong signal to **request a replacement immediately**.
 
-<p>Launch the game and play for <strong>exactly 15 minutes</strong> using <strong>High or Ultra graphics settings</strong>.</p>
+This stress test gives you **real performance data** about your phone's cooling system and battery, something most quick checklists skip but tech enthusiasts always look for when evaluating a new device.
 
-<p>This sustained load helps reveal issues with <strong>cooling systems and battery stability</strong>.</p>
+## Phase 8: Connectivity, Network, and Storage (The "Ghost Data" Audit)
 
-<h4>4. The Battery Drop Audit</h4>
+The final phase verifies that your phone's **connectivity hardware, SIM system, and storage performance** actually match the specs advertised. A device might connect to Wi-Fi or show 5G bars, but that doesn't always mean it's using the **full hardware capability you paid for**.
 
-<p>After 15 minutes, check your battery percentage.</p>
+This phase also checks for the **"Ghost Data" problem**, where system storage quietly consumes a large chunk of space on a brand-new device.
 
-<ul>
-<li><strong>Normal:</strong> 3–5% battery drop</li>
-</ul>
+### 1. The 2026 Connectivity Checklist (Wi-Fi 7 & Bluetooth 5.4)
 
-<ul>
-<li><strong>Suspicious:</strong> More than 10% drop in just 15 minutes</li>
-</ul>
+Your phone may connect to Wi-Fi easily, but the real question is whether it's using the **latest wireless standards**.
 
-<p>Large drops may indicate a <strong>battery capacity defect</strong> or poor power management.</p>
+#### Wi-Fi 7 / 6E Verification
 
-<h4>5. Check for Performance Throttling</h4>
+Go to:
+Settings → Network & Internet → Internet
+Tap your connected Wi-Fi network and look for the **protocol or frequency band**.
 
-<p>Pay attention to gameplay performance.</p>
+If you have a modern router and the phone only connects to **Wi-Fi 5 or 2.4GHz**, it could indicate:
 
-<p>If the game becomes <strong>choppy or the frame rate suddenly drops after about 10 minutes</strong>, the phone may be experiencing <strong>thermal throttling</strong>, meaning the cooling system cannot keep up with the processor.</p>
+- A firmware bug
+- A disabled feature
+- A defective antenna
 
-<h3>Thermal Red Flags to Watch For</h3>
+Modern flagship phones should support **Wi‑Fi 7** or at least **Wi‑Fi 6E**.
 
-<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Test Result</th><th>Normal Range</th><th>Danger Zone</th></tr></thead><tbody><tr><td>Idle Temperature</td><td>28–34°C</td><td>Above 38°C</td></tr><tr><td>Gaming Temperature</td><td>38–44°C</td><td>Above 45°C</td></tr><tr><td>Battery Drop (15 min gaming)</td><td>3–5%</td><td>10% or more</td></tr><tr><td>Frame Stability</td><td>Smooth gameplay</td><td>Sudden frame drops or stuttering</td></tr></tbody></table></figure>
+#### Bluetooth "Auracast" Test
 
-<p>If the phone exceeds <strong>45°C (113°F)</strong> during the test, it’s running hotter than it should for long-term health.</p>
+Open **Bluetooth Settings** and check if options like **Audio Sharing** or **Auracast** appear.
 
-<h3>Additional Warning Signs</h3>
+These features confirm your phone supports **Bluetooth LE Audio**, which allows multiple devices to listen to the same audio broadcast.
 
-<p><strong>The “Oven” Effect</strong><br>If the back of the phone becomes <strong>uncomfortably hot to hold</strong>, especially near the camera or processor area, the cooling system may be inadequate.</p>
+#### NFC Sweet Spot Test
 
-<p><strong>Erratic Battery Percentage Jumps</strong><br>If the battery suddenly drops from <strong>80% to 72%</strong>, then jumps back to <strong>75%</strong> after stopping the test, the battery calibration may be faulty.</p>
+Enable **NFC** and bring a contactless card or another phone close to the back of your device.
 
-<p><strong>Charging Stability Check</strong><br>Plug the phone into its charger immediately after the gaming session.</p>
+The phone should detect the tag from about **2–3 cm away**. If you must press the phone directly against the card, the **NFC coil may be misaligned**.
 
-<p>A healthy phone should <strong>still accept fast charging even when warm</strong>. If it refuses to charge until the device cools completely, the thermal sensors may be overly sensitive.</p>
+### 2. SIM Card and eSIM Verification
 
-<h3>Tech Tip: Check Built-in Battery Health Tools</h3>
+Many buyers forget to test the **SIM system**, but a defective SIM tray or modem can make a phone unusable for calls and data.
 
-<p>Some manufacturers include battery health diagnostics:</p>
+#### Physical SIM Card Test
 
-<ul>
-<li>On Samsung phones, open the <strong>Samsung Members</strong> app and check the <strong>Battery Status</strong> section.</li>
-</ul>
+Insert your SIM card and check the following:
 
-<ul>
-<li>On Google Pixel devices, battery health information may appear in the <strong>Battery settings panel</strong>.</li>
-</ul>
+- **Network detection**: The phone should detect the carrier within a few seconds.
+- **Call test**: Make a quick phone call to confirm clear audio and a stable connection.
+- **Mobile data test**: Turn on mobile data and load a webpage or run a speed test.
 
-<p>If the status shows anything other than <strong>“Normal”</strong> or <strong>“Good”</strong> on a brand-new device, it’s a strong signal to <strong>request a replacement immediately</strong>.</p>
+If the SIM frequently disconnects or shows **"No Service"** in areas where other phones have signal, the **modem or antenna may be defective**.
 
-<p>This stress test gives you <strong>real performance data</strong> about your phone’s cooling system and battery, something most quick checklists skip but tech enthusiasts always look for when evaluating a new device.</p>
+#### Dual SIM Check
 
-<h2>Phase 8: Connectivity, Network, and Storage (The “Ghost Data” Audit)</h2>
+If your phone supports **dual SIM**, insert a second SIM card or enable SIM 2 in settings.
 
-<p>The final phase verifies that your phone’s <strong>connectivity hardware, SIM system, and storage performance</strong> actually match the specs advertised. A device might connect to Wi-Fi or show 5G bars, but that doesn’t always mean it’s using the <strong>full hardware capability you paid for</strong>.</p>
+Confirm that:
 
-<p>This phase also checks for the <strong>“Ghost Data” problem</strong>, where system storage quietly consumes a large chunk of space on a brand-new device.</p>
+- Both SIMs appear in **SIM Manager**
+- You can switch the **default data and calling SIMs**
+- Both lines receive calls
 
-<h3>1. The 2026 Connectivity Checklist (Wi-Fi 7 &amp; Bluetooth 5.4)</h3>
+#### eSIM Activation Test
 
-<p>Your phone may connect to Wi-Fi easily, but the real question is whether it’s using the <strong>latest wireless standards</strong>.</p>
+Many 2026 Android phones support **eSIM**, which replaces physical SIM cards.
 
-<h4>Wi-Fi 7 / 6E Verification</h4>
+To test eSIM functionality:
 
-<p>Go to:</p>
+- Go to **Settings → Network → SIM Manager**
+- Tap **Add eSIM**
+- Scan your carrier's QR code or try the **test eSIM setup option** if available.
 
-<pre class="wp-block-code"><code>Settings → Network &amp; Internet → Internet</code></pre>
+If the phone **fails to detect or activate the eSIM**, it may indicate a firmware issue or a defective modem chip.
 
-<p>Tap your connected Wi-Fi network and look for the <strong>protocol or frequency band</strong>.</p>
+Testing this early is important because some return policies **do not cover activation problems discovered later**.
 
-<p>If you have a modern router and the phone only connects to <strong>Wi-Fi 5 or 2.4GHz</strong>, it could indicate:</p>
+### 3. The 5G & Signal Stability Audit (The "dBm" Rule)
 
-<ul>
-<li>A firmware bug</li>
-</ul>
+Signal bars can be misleading. To measure real signal strength, you need to check **dBm values**.
 
-<ul>
-<li>A disabled feature</li>
-</ul>
+Go to:
+Settings → About Phone → Phone Information → Status → SIM Status
+Look for **Signal Strength**.
 
-<ul>
-<li>A defective antenna</li>
-</ul>
+| Signal Strength | Meaning |
+|---|---|
+| -50 to -80 dBm | Excellent signal |
+| -81 to -95 dBm | Good signal |
+| -96 to -100 dBm | Average signal |
+| -100 to -110 dBm | Weak signal / possible antenna issue |
 
-<p>Modern flagship phones should support <strong>Wi‑Fi 7</strong> or at least <strong>Wi‑Fi 6E</strong>.</p>
+#### The 5G Band Check
 
-<h4>Bluetooth “Auracast” Test</h4>
+Install a network analyzer app such as **NetMonster** or **LTE Discovery**.
 
-<p>Open <strong>Bluetooth Settings</strong> and check if options like <strong>Audio Sharing</strong> or <strong>Auracast</strong> appear.</p>
+These apps show whether your phone connects to:
 
-<p>These features confirm your phone supports <strong>Bluetooth LE Audio</strong>, which allows multiple devices to listen to the same audio broadcast.</p>
+- **5G Standalone**
+- **5G Non‑Standalone**
 
-<h4>NFC Sweet Spot Test</h4>
+In regions like Nigeria, modern networks commonly use bands such as **n78** and **n28**. Confirming band support ensures your phone's **modem and antenna are functioning correctly**.
 
-<p>Enable <strong>NFC</strong> and bring a contactless card or another phone close to the back of your device.</p>
+### 4. The Storage Audit: Speeds & "Ghost Data."
 
-<p>The phone should detect the tag from about <strong>2–3 cm away</strong>. If you must press the phone directly against the card, the <strong>NFC coil may be misaligned</strong>.</p>
+New phones sometimes arrive with **hidden system files or preinstalled apps** already consuming storage. This phenomenon is commonly called **"Ghost Data."**
 
-<h3>2. SIM Card and eSIM Verification</h3>
+#### Storage Speed Benchmark
 
-<p>Many buyers forget to test the <strong>SIM system</strong>, but a defective SIM tray or modem can make a phone unusable for calls and data.</p>
+Install a benchmarking app like **AndroBench** or run the storage test in **PCMark**.
 
-<h4>Physical SIM Card Test</h4>
+Compare your results with common storage standards:
 
-<p>Insert your SIM card and check the following:</p>
+| Storage Type | Expected Sequential Read Speed |
+|---|---|
+| UFS 3.1 | ~1,500 MB/s |
+| UFS 4.0 | ~4,000 MB/s |
+| UFS 5.0 | Up to ~10,000 MB/s |
 
-<ul>
-<li><strong>Network detection</strong>: The phone should detect the carrier within a few seconds.</li>
-</ul>
+If a phone marketed as "premium" scores **below 1,500 MB/s**, it may be using **UFS 3.1** instead of faster **UFS 4.0** or **UFS 5.0**.
 
-<ul>
-<li><strong>Call test</strong>: Make a quick phone call to confirm clear audio and a stable connection.</li>
-</ul>
+That's a major red flag.
 
-<ul>
-<li><strong>Mobile data test</strong>: Turn on mobile data and load a webpage or run a speed test.</li>
-</ul>
+#### The Ghost Data Deep-Dive
 
-<p>If the SIM frequently disconnects or shows <strong>“No Service”</strong> in areas where other phones have signal, the <strong>modem or antenna may be defective</strong>.</p>
+Open:
+Settings → Storage → System
+On a clean device, **System storage should usually stay below 15–20% of total storage**.
 
-<h4>Dual SIM Check</h4>
+If it's significantly higher, the phone may contain **pending updates or hidden system packages**.
 
-<p>If your phone supports <strong>dual SIM</strong>, insert a second SIM card or enable SIM 2 in settings.</p>
+Possible fix:
 
-<p>Confirm that:</p>
+- Install **System Updates**
+- Install **Google Play System Updates**
 
-<ul>
-<li>Both SIMs appear in <strong>SIM Manager</strong></li>
-</ul>
+These sometimes download silently and occupy storage until installed.
 
-<ul>
-<li>You can switch the <strong>default data and calling SIMs</strong></li>
-</ul>
+#### Bloatware Verification
 
-<ul>
-<li>Both lines receive calls</li>
-</ul>
+Open your **App Drawer** and scroll through every app.
 
-<h4>eSIM Activation Test</h4>
+If you see apps you didn't install that **cannot be uninstalled (only disabled)**, they are considered **bloatware**.
 
-<p>Many 2026 Android phones support <strong>eSIM</strong>, which replaces physical SIM cards.</p>
+On some brands, especially heavily customized Android skins, these apps may also run **background services that drain battery or mobile data**.
 
-<p>To test eSIM functionality:</p>
+⚠️ **Note About Clearing Ghost Data**
+Clearing system cache only provides temporary relief. If system storage remains unusually high even after updates, performing a factory reset from the Recovery Menu is often the only way to properly re-partition system storage.
 
-<ul>
-<li>Go to <strong>Settings → Network → SIM Manager</strong></li>
-</ul>
+After completing this final phase, you'll know that your phone's Wi-Fi, SIM system, 5G connectivity, and storage performance are all functioning correctly, ensuring your new device truly meets modern Android hardware standards for 2026.
 
-<ul>
-<li>Tap <strong>Add eSIM</strong></li>
-</ul>
+## Phase 9: Biometric Sensor Testing (Fingerprint & Face Unlock)
 
-<ul>
-<li>Scan your carrier’s QR code or try the <strong>test eSIM setup option</strong> if available.</li>
-</ul>
+This phase ensures that your **fingerprint scanner and face recognition systems** work reliably, something many users skip until it's too late. Since you postponed biometrics during setup, now we'll test them in a controlled, step-by-step way.
 
-<p>If the phone <strong>fails to detect or activate the eSIM</strong>, it may indicate a firmware issue or a defective modem chip.</p>
+### 1. Fingerprint Scanner Test
 
-<p>Testing this early is important because some return policies <strong>do not cover activation problems discovered later</strong>.</p>
+#### Step 1: Register Fingerprints
 
-<h3>3. The 5G &amp; Signal Stability Audit (The “dBm” Rule)</h3>
+- Go to **Settings → Security → Fingerprint** (or Biometrics).
+- Register your **primary finger**, ideally your index finger, on your dominant hand.
+- Add **2–3 additional fingers** for convenience.
 
-<p>Signal bars can be misleading. To measure real signal strength, you need to check <strong>dBm values</strong>.</p>
+#### Step 2: Multi-Angle Unlock Test
 
-<p>Go to:</p>
+- Place your registered finger on the sensor **from different angles**: straight, slightly tilted, or rotated.
+- Repeat **10–15 unlock attempts** for each angle.
 
-<pre class="wp-block-code"><code>Settings → About Phone → Phone Information → Status → SIM Status</code></pre>
+#### Step 3: Speed and Accuracy Check
 
-<p>Look for <strong>Signal Strength</strong>.</p>
+- Observe the unlock **speed** (should be near-instant on modern Androids).
+- Note any **false rejections** or repeated failures.
+- If the sensor struggles with slight misalignment, it may indicate **a low-quality or misaligned fingerprint module**.
 
-<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Signal Strength</th><th>Meaning</th></tr></thead><tbody><tr><td>-50 to -80 dBm</td><td>Excellent signal</td></tr><tr><td>-81 to -95 dBm</td><td>Good signal</td></tr><tr><td>-96 to -100 dBm</td><td>Average signal</td></tr><tr><td>-100 to -110 dBm</td><td>Weak signal / possible antenna issue</td></tr></tbody></table></figure>
+#### Step 4: Wet/Dry Test (Optional)
 
-<h4>The 5G Band Check</h4>
+- Lightly dampen your fingertip and try unlocking again.
+- A premium sensor should still recognize your fingerprint reliably; failure may indicate a **budget-grade scanner**.
 
-<p>Install a network analyzer app such as <strong>NetMonster</strong> or <strong>LTE Discovery</strong>.</p>
+### 2. Face Unlock Test
 
-<p>These apps show whether your phone connects to:</p>
+#### Step 1: Register Your Face
 
-<ul>
-<li><strong>5G Standalone</strong></li>
-</ul>
+- Go to **Settings → Security → Face Unlock** (or Biometrics).
+- Position your face in **good, even lighting** and follow the on-screen registration.
+- Some phones allow an **alternate appearance**. Use it if you wear glasses or masks regularly.
 
-<ul>
-<li><strong>5G Non‑Standalone</strong></li>
-</ul>
+#### Step 2: Light Condition Verification
 
-<p>In regions like Nigeria, modern networks commonly use bands such as <strong>n78</strong> and <strong>n28</strong>. Confirming band support ensures your phone’s <strong>modem and antenna are functioning correctly</strong>.</p>
+- Test face unlock in **bright daylight**, **indoor lighting**, and **low-light conditions**.
+- Modern sensors should recognize your face quickly and consistently in all common scenarios.
 
-<h3>4. The Storage Audit: Speeds &amp; “Ghost Data.”</h3>
+#### Step 3: Angle & Distance Variation
 
-<p>New phones sometimes arrive with <strong>hidden system files or preinstalled apps</strong> already consuming storage. This phenomenon is commonly called <strong>“Ghost Data.”</strong></p>
+- Try unlocking at **slightly different angles** (tilted head, looking down, looking up) and from a **20–50 cm distance**.
+- The unlock should succeed without requiring perfect alignment.
 
-<h4>Storage Speed Benchmark</h4>
+#### Step 4: Speed and Reliability Assessment
 
-<p>Install a benchmarking app like <strong>AndroBench</strong> or run the storage test in <strong>PCMark</strong>.</p>
+- Record any **delays or failed unlock attempts**.
+- Premium devices unlock in **<1 second**.
+- Multiple failed attempts or slow recognition could indicate **hardware miscalibration or software issues**.
 
-<p>Compare your results with common storage standards:</p>
+### Final Result
 
-<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Storage Type</th><th>Expected Sequential Read Speed</th></tr></thead><tbody><tr><td>UFS 3.1</td><td>~1,500 MB/s</td></tr><tr><td>UFS 4.0</td><td>~4,000 MB/s</td></tr><tr><td>UFS 5.0</td><td>Up to ~10,000 MB/s</td></tr></tbody></table></figure>
+Your phone **passes the biometric phase** if:
 
-<p>If a phone marketed as “premium” scores <strong>below 1,500 MB/s</strong>, it may be using <strong>UFS 3.1</strong> instead of faster <strong>UFS 4.0</strong> or <strong>UFS 5.0</strong>.</p>
+- Fingerprint scanner works **consistently from multiple angles**, with near-instant unlocks and minimal false rejections.
+- Face unlock is **fast, accurate, and reliable** in **varied lighting conditions and angles**.
+- No hardware anomalies (slow unlocks, repeated failures, or inability to register fingerprints/faces).
 
-<p>That’s a major red flag.</p>
+This ensures that both **primary biometric security methods** are fully functional and ready for daily use.
 
-<h4>The Ghost Data Deep-Dive</h4>
+## Conclusion & Next Steps
 
-<p>Open:</p>
+If your phone successfully passed all the tests in this checklist, congratulations, your device is **ready for daily use**. By running these checks early, you've confirmed that the display, sensors, battery, connectivity, and storage are all functioning as expected.
 
-<pre class="wp-block-code"><code>Settings → Storage → System</code></pre>
+More importantly, you completed these tests **within the typical 7–14 day return window**, which means any hidden defects would have been caught before it was too late to request a replacement.
 
-<p>On a clean device, <strong>System storage should usually stay below 15–20% of total storage</strong>.</p>
+Now you can confidently proceed with the **full setup**, transfer your data, install your favorite apps, enable biometrics, and personalize the device.
 
-<p>If it’s significantly higher, the phone may contain <strong>pending updates or hidden system packages</strong>.</p>
+### Your Turn
 
-<p>Possible fix:</p>
+What phone are you currently testing?
 
-<ul>
-<li>Install <strong>System Updates</strong></li>
-</ul>
+Drop a comment below and share the **exact model you just checked**. It helps other readers see real-world results and builds a helpful community checklist for devices from brands like Samsung, Xiaomi, Pixel, Tecno, and more.
 
-<ul>
-<li>Install <strong>Google Play System Updates</strong></li>
-</ul>
-
-<p>These sometimes download silently and occupy storage until installed.</p>
-
-<h4>Bloatware Verification</h4>
-
-<p>Open your <strong>App Drawer</strong> and scroll through every app.</p>
-
-<p>If you see apps you didn’t install that <strong>cannot be uninstalled (only disabled)</strong>, they are considered <strong>bloatware</strong>.</p>
-
-<p>On some brands, especially heavily customized Android skins, these apps may also run <strong>background services that drain battery or mobile data</strong>.</p>
-
-<p>⚠️ <strong>Note About Clearing Ghost Data</strong><br>Clearing system cache only provides temporary relief. If system storage remains unusually high even after updates, performing a factory reset from the Recovery Menu is often the only way to properly re-partition system storage.</p>
-
-<p>After completing this final phase, you’ll know that your phone’s Wi-Fi, SIM system, 5G connectivity, and storage performance are all functioning correctly, ensuring your new device truly meets modern Android hardware standards for 2026.</p>
-
-<h2>Phase 9: Biometric Sensor Testing (Fingerprint &amp; Face Unlock)</h2>
-
-<p>This phase ensures that your <strong>fingerprint scanner and face recognition systems</strong> work reliably, something many users skip until it’s too late. Since you postponed biometrics during setup, now we’ll test them in a controlled, step-by-step way.</p>
-
-<h3>1. Fingerprint Scanner Test</h3>
-
-<h4>Step 1: Register Fingerprints</h4>
-
-<ul>
-<li>Go to <strong>Settings → Security → Fingerprint</strong> (or Biometrics).</li>
-</ul>
-
-<ul>
-<li>Register your <strong>primary finger</strong>, ideally your index finger, on your dominant hand.</li>
-</ul>
-
-<ul>
-<li>Add <strong>2–3 additional fingers</strong> for convenience.</li>
-</ul>
-
-<h4>Step 2: Multi-Angle Unlock Test</h4>
-
-<ul>
-<li>Place your registered finger on the sensor <strong>from different angles</strong>: straight, slightly tilted, or rotated.</li>
-</ul>
-
-<ul>
-<li>Repeat <strong>10–15 unlock attempts</strong> for each angle.</li>
-</ul>
-
-<h4>Step 3: Speed and Accuracy Check</h4>
-
-<ul>
-<li>Observe the unlock <strong>speed</strong> (should be near-instant on modern Androids).</li>
-</ul>
-
-<ul>
-<li>Note any <strong>false rejections</strong> or repeated failures.</li>
-</ul>
-
-<ul>
-<li>If the sensor struggles with slight misalignment, it may indicate <strong>a low-quality or misaligned fingerprint module</strong>.</li>
-</ul>
-
-<h4>Step 4: Wet/Dry Test (Optional)</h4>
-
-<ul>
-<li>Lightly dampen your fingertip and try unlocking again.</li>
-</ul>
-
-<ul>
-<li>A premium sensor should still recognize your fingerprint reliably; failure may indicate a <strong>budget-grade scanner</strong>.</li>
-</ul>
-
-<h3>2. Face Unlock Test</h3>
-
-<h4>Step 1: Register Your Face</h4>
-
-<ul>
-<li>Go to <strong>Settings → Security → Face Unlock</strong> (or Biometrics).</li>
-</ul>
-
-<ul>
-<li>Position your face in <strong>good, even lighting</strong> and follow the on-screen registration.</li>
-</ul>
-
-<ul>
-<li>Some phones allow an <strong>alternate appearance</strong>. Use it if you wear glasses or masks regularly.</li>
-</ul>
-
-<h4>Step 2: Light Condition Verification</h4>
-
-<ul>
-<li>Test face unlock in <strong>bright daylight</strong>, <strong>indoor lighting</strong>, and <strong>low-light conditions</strong>.</li>
-</ul>
-
-<ul>
-<li>Modern sensors should recognize your face quickly and consistently in all common scenarios.</li>
-</ul>
-
-<h4>Step 3: Angle &amp; Distance Variation</h4>
-
-<ul>
-<li>Try unlocking at <strong>slightly different angles</strong> (tilted head, looking down, looking up) and from a <strong>20–50 cm distance</strong>.</li>
-</ul>
-
-<ul>
-<li>The unlock should succeed without requiring perfect alignment.</li>
-</ul>
-
-<h4>Step 4: Speed and Reliability Assessment</h4>
-
-<ul>
-<li>Record any <strong>delays or failed unlock attempts</strong>.</li>
-</ul>
-
-<ul>
-<li>Premium devices unlock in <strong>&lt;1 second</strong>.</li>
-</ul>
-
-<ul>
-<li>Multiple failed attempts or slow recognition could indicate <strong>hardware miscalibration or software issues</strong>.</li>
-</ul>
-
-<h3>Final Result</h3>
-
-<p>Your phone <strong>passes the biometric phase</strong> if:</p>
-
-<ul>
-<li>Fingerprint scanner works <strong>consistently from multiple angles</strong>, with near-instant unlocks and minimal false rejections.</li>
-</ul>
-
-<ul>
-<li>Face unlock is <strong>fast, accurate, and reliable</strong> in <strong>varied lighting conditions and angles</strong>.</li>
-</ul>
-
-<ul>
-<li>No hardware anomalies (slow unlocks, repeated failures, or inability to register fingerprints/faces).</li>
-</ul>
-
-<p>This ensures that both <strong>primary biometric security methods</strong> are fully functional and ready for daily use.</p>
-
-<h2>Conclusion &amp; Next Steps</h2>
-
-<p>If your phone successfully passed all the tests in this checklist, congratulations, your device is <strong>ready for daily use</strong>. By running these checks early, you’ve confirmed that the display, sensors, battery, connectivity, and storage are all functioning as expected.</p>
-
-<p>More importantly, you completed these tests <strong>within the typical 7–14 day return window</strong>, which means any hidden defects would have been caught before it was too late to request a replacement.</p>
-
-<p>Now you can confidently proceed with the <strong>full setup</strong>, transfer your data, install your favorite apps, enable biometrics, and personalize the device.</p>
-
-<h3>Your Turn</h3>
-
-<p>What phone are you currently testing?</p>
-
-<p>Drop a comment below and share the <strong>exact model you just checked</strong>. It helps other readers see real-world results and builds a helpful community checklist for devices from brands like Samsung, Xiaomi, Pixel, Tecno, and more.</p>
-
-<p>If you discovered something unusual during your tests, like overheating, strange battery drops, or hidden system storage, share that too. Your experience could help someone else <strong>avoid ending up with a defective phone</strong>.</p>
-
-<p></p>
+If you discovered something unusual during your tests, like overheating, strange battery drops, or hidden system storage, share that too. Your experience could help someone else **avoid ending up with a defective phone**.
