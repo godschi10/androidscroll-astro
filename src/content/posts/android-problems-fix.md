@@ -112,7 +112,8 @@ Most Android problems are software, not hardware damage. They are fixable at hom
 
 **Key fact:** Most post-update lag resolves completely on its own within 3 days. Do not factory reset within the first 72 hours.
 
-*[Full guide: Android phone lagging after update: speed it up] Add link to /android-phone-lagging-after-update/ when Post #5 is live*
+<!--
+*[Full guide: Android phone lagging after update: speed it up] Add link to /android-phone-lagging-after-update/ when Post #5 is live* -->
 
 ### Android Wi-Fi Keeps Disconnecting
 
@@ -128,7 +129,8 @@ Most Android problems are software, not hardware damage. They are fixable at hom
 
 **Key fact:** Android 16 QPR3 (early 2026) splits Adaptive Connectivity into two separate toggles. Pixel users on the beta can now disable just the auto-switch component.
 
-*[Full guide: Android Wi-Fi keeps disconnecting: step-by-step fix] Add link to /android-wifi-keeps-disconnecting-step-by-step-fix/ when Post #6 is live*
+<!--
+*[Full guide: Android Wi-Fi keeps disconnecting: step-by-step fix] Add link to /android-wifi-keeps-disconnecting-step-by-step-fix/ when Post #6 is live* -->
 
 ### Android Apps Crashing Repeatedly
 
@@ -144,7 +146,8 @@ Most Android problems are software, not hardware damage. They are fixable at hom
 
 **Key fact:** If the phone is stable in Safe Mode, the crash is caused by a third-party app, not hardware. This narrows the problem down to whatever you installed recently.
 
-*[Full guide: Android apps crashing repeatedly: how to stop it] Add link to /android-apps-crashing-repeatedly-how-to-stop-it/ when Post #7 is live*
+<!--
+*[Full guide: Android apps crashing repeatedly: how to stop it] Add link to /android-apps-crashing-repeatedly-how-to-stop-it/ when Post #7 is live* -->
 
 ### Android Mobile Data Draining Too Fast
 
@@ -160,7 +163,8 @@ Most Android problems are software, not hardware damage. They are fixable at hom
 
 **Key fact:** Set a monthly data usage warning in Settings > Network and Internet > Data Usage. Android alerts you before you exceed your limit.
 
-*[Full guide: Android mobile data draining too fast] Add link to /android-mobile-data-draining-too-fast/ when Post #8 is live*
+<!--
+*[Full guide: Android mobile data draining too fast] Add link to /android-mobile-data-draining-too-fast/ when Post #8 is live* -->
 
 ### Android Phone Slow After an Update
 
@@ -176,7 +180,8 @@ Most Android problems are software, not hardware damage. They are fixable at hom
 
 **Key fact:** Reducing animation speed from 1x to 0.5x in Developer Options makes every phone feel faster. You are reducing the time Android makes you wait for animations, not changing hardware speed.
 
-*[Full guide: Android phone slow after update: full fix guide] Add link to /android-phone-slow-after-update-full-fix-guide/ when Post #9 is live*
+<!--
+*[Full guide: Android phone slow after update: full fix guide] Add link to /android-phone-slow-after-update-full-fix-guide/ when Post #9 is live* -->
 
 ### Android Bluetooth Not Connecting
 
@@ -192,7 +197,8 @@ Most Android problems are software, not hardware damage. They are fixable at hom
 
 **Key fact:** Samsung tip: if Bluetooth pairing repeatedly fails on a Galaxy device, a full network settings reset often resolves it faster than clearing the Bluetooth cache individually.
 
-*[Full guide: Android Bluetooth not connecting: fix guide] Add link to /android-bluetooth-not-connecting-fix-guide/ when Post #10 is live*
+<!--
+*[Full guide: Android Bluetooth not connecting: fix guide] Add link to /android-bluetooth-not-connecting-fix-guide/ when Post #10 is live* -->
 
 ### Android Touchscreen Not Responding
 
@@ -208,7 +214,8 @@ Most Android problems are software, not hardware damage. They are fixable at hom
 
 **Key fact:** Partial unresponsiveness that works in some areas but not others is almost always physical digitizer damage. Full unresponsiveness on a phone that is on is almost always software.
 
-*[Full guide: Android touchscreen not responding: what to do] Add link to /android-touchscreen-not-responding-what-to-do/ when Post #11 is live*
+<!--
+*[Full guide: Android touchscreen not responding: what to do] Add link to /android-touchscreen-not-responding-what-to-do/ when Post #11 is live* -->
 
 ### Android Phone Stuck in Boot Loop
 
@@ -224,7 +231,8 @@ Most Android problems are software, not hardware damage. They are fixable at hom
 
 **Key fact:** Do not mistake a boot loop for a dead phone. A loop that shows the manufacturer logo repeating is recoverable in most cases.
 
-*[Full guide: Android phone stuck in boot loop: how to exit] Add link to /android-phone-stuck-in-boot-loop-how-to-exit/ when Post #12 is live*
+<!--
+*[Full guide: Android phone stuck in boot loop: how to exit] Add link to /android-phone-stuck-in-boot-loop-how-to-exit/ when Post #12 is live* -->
 
 ### Android GPS Not Working Accurately
 
@@ -240,7 +248,8 @@ Most Android problems are software, not hardware damage. They are fixable at hom
 
 **Key fact:** The figure-8 calibration motion prompted by Google Maps updates the compass and improves location accuracy. Most users have never done this.
 
-*[Full guide: Android GPS not working accurately: fixes] Add link to /android-gps-not-working-accurately-fixes/ when Post #13 is live*
+<!--
+*[Full guide: Android GPS not working accurately: fixes] Add link to /android-gps-not-working-accurately-fixes/ when Post #13 is live* -->
 
 ### Android Hotspot Not Working
 
@@ -256,7 +265,8 @@ Most Android problems are software, not hardware damage. They are fixable at hom
 
 **Key fact:** Pixel tip: if connected devices show no internet despite joining the hotspot, incorrect APN settings are the cause. Go to Settings > Network and Internet > SIMs > Access Point Names.
 
-*[Full guide: Android hotspot not working: troubleshooting guide] Add link to /android-hotspot-not-working-troubleshooting-guide/ when Post #14 is live*
+<!--
+*[Full guide: Android hotspot not working: troubleshooting guide] Add link to /android-hotspot-not-working-troubleshooting-guide/ when Post #14 is live* -->
 
 ### Android Microphone Not Working
 
@@ -272,7 +282,8 @@ Most Android problems are software, not hardware damage. They are fixable at hom
 
 **Key fact:** The microphone on most Android phones is at the bottom of the device, next to the USB-C port. A case that covers this area even partially is a surprisingly common cause of muffled calls.
 
-*[Full guide: Android microphone not working: fixes] Add link to /android-microphone-not-working-fixes/ when Post #15 is live*
+<!--
+*[Full guide: Android microphone not working: fixes] Add link to /android-microphone-not-working-fixes/ when Post #15 is live* -->
 
 ### Android Speaker Crackling or No Sound
 
@@ -288,7 +299,8 @@ Most Android problems are software, not hardware damage. They are fixable at hom
 
 **Key fact:** Crackling at maximum volume is normal for most smartphone speakers. They distort above 80 to 85 percent volume. Crackling at mid-volume is the sign of a real software or hardware issue.
 
-*[Full guide: Android speaker crackling or no sound: fix guide] Add link to /android-speaker-crackling-no-sound-fix-guide/ when Post #16 is live*
+<!--
+*[Full guide: Android speaker crackling or no sound: fix guide] Add link to /android-speaker-crackling-no-sound-fix-guide/ when Post #16 is live* -->
 
 ### Android Notifications Not Showing
 
@@ -304,7 +316,8 @@ Most Android problems are software, not hardware damage. They are fixable at hom
 
 **Key fact:** Notification channels let apps have multiple categories. Check Settings > Apps > [App] > Notifications. A specific channel may be disabled even if the main toggle is on.
 
-*[Full guide: Android notifications not showing: fix guide] Add link to /android-notifications-not-showing-fix-guide/ when Post #17 is live*
+<!--
+*[Full guide: Android notifications not showing: fix guide] Add link to /android-notifications-not-showing-fix-guide/ when Post #17 is live* -->
 
 ## All 16 Android Problems at a Glance
 
