@@ -16,22 +16,22 @@ This guide covers all 16 most common Android problems. Each section gives you th
 
 <p>Quick Summary: 16 Android Problems and the Fastest Fix for Each</p>
 
-- **Overheating**: Close background apps. Remove the case. [Full guide→](https://androidscroll.com/android-phone-overheating/)
-- **Battery draining fast**: Settings > Battery > Battery Usage > restrict culprit app. [Full guide→](https://androidscroll.com/android-battery-draining-fast/)
-- **Storage full after deleting**: App cache, WhatsApp hidden media, and ghost files are the real cause. [Full guide→](https://androidscroll.com/android-storage-full-after-deleting-files/)
-- **Lagging after update**: Normal for 24 to 72 hours. ART cache rebuild is running.
-- **Wi-Fi keeps disconnecting**: Disable Adaptive Connectivity. Check DNS and band settings.
-- **Apps crashing**: Clear app cache and data. Boot Safe Mode to isolate the culprit.
-- **Mobile data draining**: Settings > Network > Data Usage > restrict background data per app.
-- **Phone slow after update**: Wipe cache partition. Reduce animation speed in Developer Options.
-- **Bluetooth not connecting**: Clear Bluetooth cache. Forget and re-pair the device.
-- **Touchscreen not responding**: Remove the screen protector first. Check the Touch Sensitivity setting.
-- **Stuck in boot loop**: Boot into Safe Mode, then wipe the cache partition, and then perform a factory reset as a last resort.
-- **GPS not accurate**: Enable High Accuracy mode. Refresh A-GPS data.
-- Hotspot not working: Check carrier plan. Switch to LTE-only network mode.
-- **Microphone not working**: Multi-app permission test. Check the mic port for debris.
-- **Speaker crackling or no sound**: Toggle Bluetooth off. Test in Safe Mode.
-- **Notifications not showing**: Settings > Apps > Battery > remove app from optimization list.
+1. **Overheating**: Close background apps. Remove the case. [Full guide→](https://androidscroll.com/android-phone-overheating/)
+2. **Battery draining fast**: Settings > Battery > Battery Usage > restrict culprit app. [Full guide→](https://androidscroll.com/android-battery-draining-fast/)
+3. **Storage full after deleting**: App cache, WhatsApp hidden media, and ghost files are the real cause. [Full guide→](https://androidscroll.com/android-storage-full-after-deleting-files/)
+4. **Lagging after update**: Normal for 24 to 72 hours. ART cache rebuild is running.
+5. **Wi-Fi keeps disconnecting**: Disable Adaptive Connectivity. Check DNS and band settings.
+6. **Apps crashing**: Clear app cache and data. Boot Safe Mode to isolate the culprit.
+7. **Mobile data draining**: Settings > Network > Data Usage > restrict background data per app.
+8. **Phone slow after update**: Wipe cache partition. Reduce animation speed in Developer Options.
+9. **Bluetooth not connecting**: Clear Bluetooth cache. Forget and re-pair the device.
+10. **Touchscreen not responding**: Remove the screen protector first. Check the Touch Sensitivity setting.
+11. **Stuck in boot loop**: Boot into Safe Mode, then wipe the cache partition, and then perform a factory reset as a last resort.
+12. **GPS not accurate**: Enable High Accuracy mode. Refresh A-GPS data.
+13. Hotspot not working: Check carrier plan. Switch to LTE-only network mode.
+14. **Microphone not working**: Multi-app permission test. Check the mic port for debris.
+15. **Speaker crackling or no sound**: Toggle Bluetooth off. Test in Safe Mode.
+16. **Notifications not showing**: Settings > Apps > Battery > remove app from optimization list.
 
 </div>
 
